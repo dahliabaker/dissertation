@@ -1,0 +1,14 @@
+\contentsline {part} {\chapternameToC }{\relax }{}
+\contentsline {chapter}{\numberline {\th@ChapterStyle 1}\normalsize \normalfont Introduction and Motivation}{1}{chapter.1}%
+\contentsline {section}{\numberline {\th@SectionStyle 1.1}\normalsize \normalfont Asteroid Surfaces}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 1.1.1}\normalsize \normalfont Shape Modeling}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 1.1.2}\normalsize \normalfont Dynamics and the YORP Effect}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 1.1.3}\normalsize \normalfont Thesis Statement}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 1.1.4}\normalsize \normalfont Thesis Overview}{2}{subsection.1.1.4}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 2}\normalsize \normalfont Optical-Based Shape Modeling}{3}{chapter.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.0.1}\normalsize \normalfont Observing the Limb}{3}{subsection.2.0.1}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.1}\normalsize \normalfont Constraining Convexity}{3}{section.2.1}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.2}\normalsize \normalfont Shape Model Result}{3}{section.2.2}%
+\contentsline {part} {\appendixnameToC }{\relax }{}
+\contentsline {chapter}{\numberline {\th@ChapterStyle A}\normalsize \normalfont Weird Exam Answers}{4}{appendix.A}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle B}\normalsize \normalfont Ode to Spot}{6}{appendix.B}%

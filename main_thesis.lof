@@ -1,0 +1,25 @@
+\contentsline {part} {\figurenameToC }{\relax }{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example Images\relax }}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 25 Examples of Canny Parameters and Impact on Edge Detection\relax }}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Four Edge Results Overlaid in Image Space\relax }}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Limb and Terminator in Bennu Mission Image\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Geometry of Two Intersecting Planes\relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Geometric Depiction of Patch Crossing Calculations\relax }}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Intersection Ray from Two Patches - Ten Sampled Points and Associated Ray Normals\relax }}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Ball-Pivoting Surface Reconstruction Results of Itokawa and Bennu Point Clouds\relax }}{19}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Pre- and Post-Processed Point Cloud of Itokawa Limb-Trimmed Shape\relax }}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Limb-based Itokawa shape compared to SPC, with surface error in units of kilometers\relax }}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Pre- and Post-Processed Point Cloud of Bennu Limb-Trimmed Shape\relax }}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Limb-based Bennu shape compared to SPC, with surface error in units of kilometers\relax }}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Bennu Shape Model from Real Images, compared to SPC, surface error in kilometers\relax }}{23}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Test image and Library Image, Expected Match Pair\relax }}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Test image and Library image, Actual Match Pair\relax }}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces 2D Correlation scores between all library images and all test images, based on longitude\relax }}{28}{figure.caption.22}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

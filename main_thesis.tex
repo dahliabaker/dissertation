@@ -1,0 +1,92 @@
+\documentclass[defaultstyle,11pt]{thesis}
+
+\usepackage{amssymb}		% to get all AMS symbols
+\usepackage{graphicx}		% to insert figures
+\usepackage{hyperref}		% PDF hyperreferences??
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+
+%%%%%%%%%%%%   All the preamble material:   %%%%%%%%%%%%
+
+\title{The Influence of Asteroid Surface Features on the YORP Effect and Dynamical Evolution}
+
+\author{Dahlia A.}{Baker}
+
+\otherdegrees{B.A., Coe College, 2018 \\
+	      M.S., University of Colorado Boulder, 2021}
+
+\degree{Doctor of Philosophy}		%  #1 {long descr.}
+	{Ph.D., Aerospace Engineering Sciences}		%  #2 {short descr.}
+
+\dept{Ann and H.J. Smead Department}			%  #1 {designation}
+	{of Aerospace Engineering Sciences}		%  #2 {name}
+
+\advisor{Dr.}				%  #1 {title}
+	{Jay W. McMahon}			%  #2 {name}
+
+\reader{Dr. Daniel J. Scheeres}		%  2nd person to sign thesis
+\readerThree{Dr. Paul Sanchez}		%  3rd person to sign thesis
+\readerFour{Dr. Paul Hayne}
+\readerFive{Dr. William Bottke}
+
+\abstract{  \OnePageChapter	% because it is very short
+
+	Often the abstract will be long enough to require
+	more than one page, in which case the macro
+	``$\backslash$OnePageChapter'' should {\it not}
+	be used.
+
+	But this one isn't, so it should.
+	}
+
+\dedication[Dedication]{	% NEVER use \OnePageChapter here.
+	I dedicate this manuscript to my family. Thank you for your endless support.
+	}
+
+\acknowledgements{	\OnePageChapter	% *MUST* BE ONLY ONE PAGE!
+	I'd like to acknowledge my tireless advisor, Jay McMahon, for accepting me to the ORCCA Lab six years ago and letting me do whatever I wanted with my research while supporting me at every step along the way. I have many exciting opportunities ahead of me thanks to you. 
+	I thank my colleagues in the ORCCA Lab and CCAR whose advice, help, and kindness made this all possible. Lyss, you deserve the most recognition for your compassion and brilliance and without your friendship, I would not have made it through.
+	I will also honorably mention my professors from the Coe College physics department, who pushed me to continue with my education and became my family in Iowa. Thank you Ugur, Mario, Doc, and Firdevs for your help and friendship. Your committment to student success and excellence in research is why I am at CU Boulder today. 
+	Thank you to my partner, Nicholas, for your patience and understanding as I approach graduation and hesitate to ask for your help with the math. I know that you'd be very helpful but I refuse to add my boyfriend as a co-author. I can't wait to support you through your own journey to your Ph.D. 
+	Lastly, I am grateful to my committee members for their guidance and expertise which shapes this work. I hope to continue working on exploring asteroids and staying in this field with you.
+	}
+
+% \IRBprotocol{E927F29.001X}	% optional!
+
+\ToCisShort	% use this only for 1-page Table of Contents
+
+\LoFisShort	% use this only for 1-page Table of Figures
+% \emptyLoF	% use this if there is no List of Figures
+
+\LoTisShort	% use this only for 1-page Table of Tables
+% \emptyLoT	% use this if there is no List of Tables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%       BEGIN DOCUMENT...         %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\input macros.tex
+\input chapter1.tex
+\input chapter2.tex
+\input chapter3.tex
+\input chapter4.tex
+\input chapter5.tex
+\input chapter6.tex
+
+%%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
+\bibliographystyle{plain}	% or "siam", or "alpha", etc.
+\nocite{*}		% list all refs in database, cited or not
+\bibliography{refs}		% Bib database in "refs.bib"
+
+%%%%%%%%%   then the Appendices, if any   %%%%%%%%%
+\appendix
+\input appendixA.tex
+\input appendixB.tex
+
+
+\end{document}
+
