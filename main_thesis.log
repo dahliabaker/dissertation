@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  21 MAY 2024 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  22 MAY 2024 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,10 +423,151 @@ Short Chapter (page numbered)
 ) (./chapter1.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
 centered
+
+LaTeX Warning: Citation `Scheeres2018' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Walsh2018' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Scheeres2019' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Hergenrother2019' on page 1 undefined on input line 5.
+
+
+
+LaTeX Warning: Citation `Lauretta2023' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Watanabe2019' on page 1 undefined on input line 5.
+
 [1
 
 
-] [2] [3] [4] [5]) (./chapter2.tex [6]
+]
+
+LaTeX Warning: Citation `Berry2013' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Owen2011' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `DellaGiustina2018' on page 2 undefined on input line 1
+2.
+
+
+LaTeX Warning: Citation `Gaskell2008' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Hartley2000' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Lowe2004' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Christian2017' on page 2 undefined on input line 12.
+
+[2]
+
+LaTeX Warning: Citation `Franco2009' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Matusik2000' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Boyer2003' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Panicucci2020' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Liounis' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Palmer2019' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Bandyonadhyay2019' on page 3 undefined on input line 1
+5.
+
+
+LaTeX Warning: Citation `Li2013' on page 3 undefined on input line 15.
+
+
+LaTeX Warning: Citation `Pesce2018' on page 3 undefined on input line 15.
+
+[3]
+
+LaTeX Warning: Citation `Jones2016' on page 4 undefined on input line 20.
+
+
+LaTeX Warning: Citation `Mainzer2011' on page 4 undefined on input line 20.
+
+
+LaTeX Warning: Citation `Vokrouhlicky2000' on page 4 undefined on input line 22
+.
+
+
+LaTeX Warning: Citation `Durech2023' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Statler2009' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Rozitis2011' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Rozitis2013' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Walsh2019' on page 4 undefined on input line 22.
+
+[4]
+
+LaTeX Warning: Citation `Murdoch2015' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Delbo2022' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Barnouin2022' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Kuppers2012' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Golubov2022' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Molaro2020' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Scheeres2015' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Scheeres2018' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Zhang2022' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Holsapple2010' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Citation `Bennett2021' on page 5 undefined on input line 26.
+
+
+LaTeX Warning: Citation `DellaGiustina2019' on page 5 undefined on input line 2
+6.
+
+
+LaTeX Warning: Citation `Fujiwara2006' on page 5 undefined on input line 26.
+
+
+LaTeX Warning: Citation `Watanabe2019' on page 5 undefined on input line 26.
+
+[5]) (./chapter2.tex [6]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
 centered
 [7
@@ -645,35 +786,51 @@ centered
 ]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 6.
 centered
+) (./main_thesis.bbl [32
+
+]
+centered
 )
-No file main_thesis.bbl.
-(./appendixA.tex [32
+! Undefined control sequence.
+l.84 \printbibliography
+                       
+? 
+(./appendixA.tex [33
 
 ]
  \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle A.
 centered
-[33
+[34
 
-]) (./appendixB.tex [34]
+]) (./appendixB.tex [35]
  \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle B.
 centered
-) [35
+) [36
 
 ] (./main_thesis.aux)
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1B6B7692E00464B7255BE0D910FAD9C3;5666.
+
+Package rerunfilecheck Warning: File `main_thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main_thesis.out':
+(rerunfilecheck)             Before: 1B6B7692E00464B7255BE0D910FAD9C3;5666
+(rerunfilecheck)             After:  6AA98125BB7F50E059B93D8218EFFF6F;5803.
  ) 
 Here is how much of TeX's memory you used:
- 11045 strings out of 476025
- 180052 string characters out of 5790016
- 1860388 words of memory out of 5000000
- 31193 multiletter control sequences out of 15000+600000
+ 11080 strings out of 476025
+ 180407 string characters out of 5790016
+ 1866388 words of memory out of 5000000
+ 31209 multiletter control sequences out of 15000+600000
  520470 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,76p,2128b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,76p,2145b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -684,10 +841,10 @@ local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
 al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main_thesis.pdf (43 pages, 3493269 bytes).
+Output written on main_thesis.pdf (44 pages, 3497589 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 441 compressed objects within 5 object streams
- 122 named destinations out of 1000 (max. 500000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 139 named destinations out of 1000 (max. 500000)
  406 words of extra memory for PDF output out of 10000 (max. 10000000)
 

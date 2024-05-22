@@ -32,6 +32,7 @@
 \contentsline {chapter}{\numberline {\th@ChapterStyle 4}\normalsize \normalfont Pole Stability and Obliquity Evolution under YORP Torques}{30}{chapter.4}%
 \contentsline {chapter}{\numberline {\th@ChapterStyle 5}\normalsize \normalfont Estimates of YORP for Ground-Based Observing}{31}{chapter.5}%
 \contentsline {chapter}{\numberline {\th@ChapterStyle 6}\normalsize \normalfont Future Work}{32}{chapter.6}%
+\contentsline {part}{ \normalsize \normalfont \bfseries Bibliography\normalfont }{33}{chapter*.23}%
 \contentsline {part} {\appendixnameToC }{\relax }{}
-\contentsline {chapter}{\numberline {\th@ChapterStyle A}\normalsize \normalfont Weird Exam Answers}{33}{appendix.A}%
-\contentsline {chapter}{\numberline {\th@ChapterStyle B}\normalsize \normalfont Ode to Spot}{35}{appendix.B}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle A}\normalsize \normalfont Weird Exam Answers}{34}{appendix.A}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle B}\normalsize \normalfont Ode to Spot}{36}{appendix.B}%
