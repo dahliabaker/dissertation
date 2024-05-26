@@ -2,45 +2,188 @@ This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main_thesis.aux
 The style file: plain.bst
-Database file #1: refs.bib
-You've used 15 entries,
+Database file #1: dissertation.bib
+Repeated entry---line 319 of file dissertation.bib
+ : @article{Breiter2011
+ :                     ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1276 of file dissertation.bib
+ : 
+ : @article{Barnouin2019,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1292 of file dissertation.bib
+ : @article{DellaGiustina2018
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1352 of file dissertation.bib
+ : @article{Barnouin2019
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1388 of file dissertation.bib
+ : @article{Pesce2018
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1412 of file dissertation.bib
+ : @article{Li2013
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1515 of file dissertation.bib
+ : @article{Boyer2003
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1583 of file dissertation.bib
+ : @article{Matusik2000
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1595 of file dissertation.bib
+ : @article{Bandyonadhyay2019
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1608 of file dissertation.bib
+ : @article{Franco2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1616 of file dissertation.bib
+ : @article{Christian2017
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1652 of file dissertation.bib
+ : @article{Gaskell2008
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1667 of file dissertation.bib
+ : @article{Fujiwara2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1676 of file dissertation.bib
+ : @inproceedings{Liounis
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1740 of file dissertation.bib
+ : @inproceedings{Owen2011
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1846 of file dissertation.bib
+ : @inproceedings{Berry2013
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1858 of file dissertation.bib
+ : @article{Lauretta2019
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1897 of file dissertation.bib
+ : @article{Lowe2004
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1909 of file dissertation.bib
+ : @article{Boyer2003
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1965 of file dissertation.bib
+ : @article{E.E.PalmerJ.R.Weirich2019
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1974 of file dissertation.bib
+ : @book{Hartley2000
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1983 of file dissertation.bib
+ : @article{Scheeres2018
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2001 of file dissertation.bib
+ : @article{Lauretta2023
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Palmer2019"
+Warning--I didn't find a database entry for "Mainzer2011"
+Warning--I didn't find a database entry for "Vokrouhlicky2000"
+Warning--I didn't find a database entry for "Durech2023"
+Warning--I didn't find a database entry for "Murdoch2015"
+Warning--I didn't find a database entry for "Barnouin2022"
+Warning--I didn't find a database entry for "Kuppers2012"
+Warning--I didn't find a database entry for "Zhang2022"
+Warning--I didn't find a database entry for "Holsapple2010"
+Warning--I didn't find a database entry for "Bennett2021"
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--empty journal in Baldini2018
+Warning--there's a number but no volume in Baldini2018
+Warning--empty journal in Bhaskaran2011
+Warning--empty journal in Canny1986
+Warning--there's a number but no volume in Canny1986
+Warning--there's a number but no volume in Christian2010
+Warning--empty journal in Dietrich2017
+Warning--empty booktitle in Driver
+Warning--empty year in Driver
+Warning--empty journal in E.E.PalmerJ.R.Weirich2019
+Warning--empty journal in Franco2009
+Warning--can't use both volume and number fields in Gaskell2006
+Warning--empty journal in gaskell_ito
+Warning--empty journal in Gaskell2008a
+Warning--empty journal in Gaskell2004
+Warning--empty journal in Golubov2022
+Warning--there's a number but no volume in Golubov2022
+Warning--empty journal in Lauretta2023
+Warning--there's a number but no volume in Lauretta2023
+Warning--there's a number but no series in Liounis
+Warning--empty journal in Lowe2004
+Warning--there's a number but no series in Majji2020
+Warning--empty journal in Mcmahon2018
+Warning--empty journal in Nister2004
+Warning--empty journal in Pike2011
+Warning--empty journal in Rivera2020
+Warning--there's a number but no volume in Rivera2020
+Warning--empty journal in Roberts
+Warning--there's a number but no volume in Roberts
+Warning--empty year in Roberts
+Warning--can't use both volume and number fields in Savarese2007
+Warning--empty publisher in Savarese2007
+Warning--empty journal in Scheeres2014
+Warning--there's a number but no volume in Scheeres2014
+Warning--empty journal in Scheeres2006
+Warning--there's a number but no volume in Scheeres2006
+Warning--there's a number but no volume in Tanimoto2013
+Warning--empty journal in Zhou2022
+You've used 136 entries,
             2118 wiz_defined-function locations,
-            587 strings with 5594 characters,
-and the built_in function-call counts, 4428 in all, are:
-= -- 461
-> -- 161
-< -- 2
-+ -- 65
-- -- 50
-* -- 288
-:= -- 761
-add.period$ -- 48
-call.type$ -- 15
-change.case$ -- 68
+            1324 strings with 64173 characters,
+and the built_in function-call counts, 115594 in all, are:
+= -- 9074
+> -- 13392
+< -- 27
++ -- 5340
+- -- 5204
+* -- 12390
+:= -- 21171
+add.period$ -- 410
+call.type$ -- 136
+change.case$ -- 3006
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 166
-empty$ -- 374
-format.name$ -- 50
-if$ -- 913
+cite$ -- 174
+duplicate$ -- 1665
+empty$ -- 3492
+format.name$ -- 5204
+if$ -- 20659
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 14
-newline$ -- 79
-num.names$ -- 30
-pop$ -- 61
+int.to.str$ -- 136
+missing$ -- 137
+newline$ -- 683
+num.names$ -- 274
+pop$ -- 2911
 preamble$ -- 1
-purify$ -- 55
+purify$ -- 2872
 quote$ -- 0
-skip$ -- 99
+skip$ -- 1173
 stack$ -- 0
-substring$ -- 322
-swap$ -- 19
-text.length$ -- 2
+substring$ -- 3075
+swap$ -- 284
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 58
-warning$ -- 0
-while$ -- 50
-width$ -- 17
-write$ -- 169
+type$ -- 540
+warning$ -- 38
+while$ -- 489
+width$ -- 139
+write$ -- 1471
+(There were 23 error messages)

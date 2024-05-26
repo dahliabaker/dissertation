@@ -11,7 +11,7 @@ In our simulation and analysis, we find a minimum boulder size and ideal boulder
 The YORP effect was first named by Rubincam, however it had been recognized as a secular component of small body dynamics for many years previous \cite{Rubincam2000}. Today it is observed on many bodies where we are capable of taking high precision measurements of spin rate change over time \cite{Lowry2007}. The general mechanism of YORP is the absorption and re-emission of thermal energy of the surface, dependent on the thermal inertia of the material, incident angle of sunlight, the body's orbit, and the current rotational velocity. The direction of this re-emission is the direction of the YORP force. As this is a force acting on the surface, the force is then translated to a torque about the central spin pole. In Fig.\ref{fig:surface_diagram}, the incident angle of photons is shown by $\alpha$, the angle between the surface normal $\hat{n}$ and the sun direction $\hat{u}$. The force is decomposed into it's normal and transverse components, $d\textbf{F}_{\hat{n}}$ and $d\textbf{F}_t$ respectively. The direction $\hat{s}$ corresponds to the direction of radiation, while $p_{sr}$ and $p_{\hat{u}}$ are the directions of torque due to solar re-radiation and incident solar energy. 
 \begin{figure}
     \centering
-    \includegraphics[width=0.45\textwidth]{yorp.jpeg}
+    \includegraphics[width=0.45\textwidth]{fig/yorp.jpeg}
     \caption{Diagram of solar radiation, absorption, and YORP re-radiation}
     \label{fig:surface_diagram}
 \end{figure}
@@ -83,7 +83,7 @@ In this model, there is variation in both YORP re-radiation torque magnitude and
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.25\textwidth,height=0.4\textwidth]{prism.png}
+    \includegraphics[width=0.25\textwidth,height=0.4\textwidth]{fig/prism.png}
     \caption{Boulder model with frame}
     \label{fig:prism}
 \end{figure}
@@ -98,7 +98,7 @@ Secondly we examine the asteroid Itokawa, which is another member of the Apollo 
 Findings from the simulation of these population can be compared to the measured YORP parameters for these bodies, presented in Table \ref{table:asteroid_values}. While we have implemented the current simulations using a low-resolution surface models for modeling speed (5898 and 5714 facets for Bennu and Itokawa respectively), they exhibit the desired characteristics of general convexity and near-symmetry, or ellipsoidal non-convexity, which allows us to generalize the findings here for other bodies similar to either or somewhere between the two.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{overlaid_shape_symmetry.png}
+    \includegraphics[width=0.4\textwidth]{fig/overlaid_shape_symmetry.png}
     \caption{Difference of per-facet distance from body center of mass and the average radius for three asteroid shape models: Bennu, Ryugu, and Itokawa. Darker points represent equatorial facets. Itokawa exhibits the greatest variation over longitude.}
     \label{fig:symmetry}
 \end{figure}
@@ -140,7 +140,7 @@ Size, location, and dominant re-radiation direction (which will be referred to a
 The spatial distribution of observed boulders is not uniform, depending on topographic valleys and gravitational potential \cite{Jawin2020}. It has also been suggested that since this distribution is highly dependent on the current state of surface evolution and regolith migration, it may be more appropriate to model distributions as fully uniform, or preferring shallower sloped regions or regions of low gravitational potential \cite{Jawin2022}. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{boulder_sizes_power_law.png}
+    \includegraphics[width=0.45\textwidth]{fig/boulder_sizes_power_law.png}
     \caption{Cumulative number of boulders per square km}
     \label{fig:bs}
 \end{figure}
@@ -254,7 +254,7 @@ The dominant re-radiation orientation of a boulder is highly stochastic therefor
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.45\textwidth]{rotation_plot_one_equator_boulder.png}
+    \includegraphics[width=0.45\textwidth]{fig/rotation_plot_one_equator_boulder.png}
     \caption{Sinusoidal relationship of boulder orientation to YORP torque. Asymmetric boulder at equator and perfectly tangent to spin pole}
     \label{fig:sine}
 \end{figure}
@@ -283,7 +283,7 @@ We will show in future sections that this is not be concerning due to the ratio 
 Each individual global simulation case was evaluated for YORP spin contribution per boulder, which included calculating rise and set longitudes as well as shadowing bounds. These boulders were randomized in location, orientation, and size along their individual distributions. In Fig.\ref{fig:cases_w_boulders}, we show the collective results from 500 randomly chosen samples.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.49\textwidth]{bennu_comparison.png}
+    \includegraphics[width=0.49\textwidth]{fig/bennu_comparison.png}
     \caption{Frequency distribution of YORP with 500 random boulder populations for Bennu}
     \label{fig:cases_w_boulders}
 \end{figure}
@@ -293,7 +293,7 @@ The addition of boulders can affect the global YORP up to 135 times the magnitud
 \subsection{Large Influence Boulder Parameters}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{bennu_impact_size_new.png}
+    \includegraphics[width=0.45\textwidth]{fig/bennu_impact_size_new.png}
     \caption{Size distribution and mean diameter of boulders where $C_{0,z,i} > 1\%$ on Bennu}
     \label{fig:percents}
 \end{figure}
@@ -301,14 +301,14 @@ The addition of boulders can affect the global YORP up to 135 times the magnitud
     \centering
     \begin{subfigure}[t]{0.49\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{bennu_impact_location_new.png}
+        \includegraphics[width=\textwidth]{fig/bennu_impact_location_new.png}
         \caption{Latitude distribution of impactful boulders and the entire population set}
         \label{fig:latitudes}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.49\textwidth}
         \centering
-        \includegraphics[width=0.75\textwidth]{bennu_impact_orient_new.png}
+        \includegraphics[width=0.75\textwidth]{fig/bennu_impact_orient_new.png}
         \caption{Frequency of boulder orientation for the impactful boulder population on Bennu}
         \label{fig:orientation}
     \end{subfigure}
@@ -339,7 +339,7 @@ The boulders that point north or south, at angles $\pm \pi/2$ away from local we
 When examining the variation in Itokawa surface simulations with boulders added, a smaller extent of variability is found versus our previous model. Shown in Fig.\ref{fig:itokawa_all_cases}, the strongest variation from Itokawa's natural calculated YORP value is 12 times larger, where Itokawa's base normalized coefficient is $-0.0036$ and the largest magnitude case of difference is $-0.0423$. The variability in this data set arises from the distributions applied to the predetermined boulder factors of size, orientation, and location. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{itokawa_comparison.png}
+    \includegraphics[width=0.45\textwidth]{fig/itokawa_comparison.png}
     \caption{Frequency distribution of total boulder YORP spin coefficients for Itokawa}
     \label{fig:itokawa_all_cases}
 \end{figure}
@@ -349,7 +349,7 @@ When examining the variation in Itokawa surface simulations with boulders added,
 Itokawa has a population of boulders similar to Bennu in this simulation, 10 cm to 50 m and a size power law coefficient of 3.05. In Fig.\ref{fig:ito_percents} is the distribution of boulders that impact Itokawa's YORP spin with more than a 1\% contribution, compared by spin coefficient. The difference in mean size between the resampled data and the filtered impactful data is 16 times larger than the population mean, compared to the 500\% seen for Bennu. The number of boulders that provide more than 1\% of magnitude compared to the global YORP is 29.3\% of the 500 possible sets of 5000 boulders simulated. Note again that we are comparing magnitudes and not signs when considering this data, in order to illustrate the strength of YORP imparted by a single feature in the positive or negative direction. As was discussed in Sec. \ref{analysis}, the sign of YORP is evenly distributed as the orientation changes and therefore a dampening of this effect is seen when considering a large number of boulders in a population. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.42\textwidth]{itokawa_impact_size_new.png}
+    \includegraphics[width=0.42\textwidth]{fig/itokawa_impact_size_new.png}
     \caption{Size distribution and mean diameter of boulders where $C_{0,z,i} > 1\%$ for Itokawa}
     \label{fig:ito_percents}
 \end{figure}
@@ -357,14 +357,14 @@ Itokawa has a population of boulders similar to Bennu in this simulation, 10 cm 
     \centering
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{itokawa_impact_location_new.png}
+        \includegraphics[width=\textwidth]{fig/itokawa_impact_location_new.png}
         \caption{Latitude distribution of impactful boulders and the entire population set on Itokawa}
         \label{fig:ito_latitudes}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.49\textwidth}
         \centering
-        \includegraphics[width=0.75\textwidth]{itokawa_impact_orient_new.png}
+        \includegraphics[width=0.75\textwidth]{fig/itokawa_impact_orient_new.png}
         \caption{Frequency of boulder orientation for the impactful boulder population on Itokawa}
         \label{fig:ito_orientation}
     \end{subfigure}
@@ -391,14 +391,14 @@ The natural size distribution of boulders on a surface follows a steep power law
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.45\textwidth]{bennu_difference_yorps.png}
+    \includegraphics[width=0.45\textwidth]{fig/bennu_difference_yorps.png}
     \caption{Change in Bennu's global YORP spin coefficient with boulders, shown in Fig.\ref{fig:bennu_results}, when removing boulders < 1m, roughly $99\%$ of original population.}
     \label{fig:bennu_diff}
 \end{figure}
 When estimating YORP based on rough shapes, smaller boulders will not be observed or captured in the resolution of the model. In our simulation, the smallest boulder can be 10 cm in diameter, but in most studies, boulders around several meters are analyzed as they are easily observable and characterized. Here we compare the contribution of boulders by size range, binned in ranges of below 50 cm, between 50 cm and 1 m, between 1 m and 10 m, and above 10 m. This captures the size ranges that are both heavily sampled from our power law as well as the most obvious and impactful boulders on rubble-pile surfaces for bodies less than 1 km in diameter.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.42\textwidth]{bennu_comparison_2.png}
+    \includegraphics[width=0.42\textwidth]{fig/bennu_comparison_2.png}
     \caption{Overlaid distribution of normalized YORP with and without 1 m boulders}
     \label{fig:comparison}
 \end{figure}
@@ -407,7 +407,7 @@ When the boulders less than 1 m in diameter are removed from the summation, we d
 We capture the same population statistics when only $1.11\%$ of our original simulated features are considered, with the size bins and their associated YORP distributions given in Fig.\ref{fig:bins}. The result of filtering out boulders less than 1 m in diameter is shown in Fig. \ref{fig:comparison}. The mean of the distribution changes by 3\%. and standard deviation varies by 0.13\%. This is a powerful observation that can limit our further simulations to boulders of significant size and contributions instead of the full realistic size regime. This analysis is focusing on the variation in global YORP spin as it is totaled, versus the previous sections which looked at individual contributors by magnitude. We use a different metric for consideration of impact when considering the global YORP delta versus the individual boulder YORP.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.49\textwidth]{bennu_size_binned_spreads.png}
+    \includegraphics[width=0.49\textwidth]{fig/bennu_size_binned_spreads.png}
     \caption{Boulder spin coefficients for Bennu, separated by size bins. Percentages represent the proportion of boulders in each bin to the size of the sample population.}
     \label{fig:bins}
 \end{figure}
@@ -465,7 +465,7 @@ Craters were observed on the asteroid Bennu with detail due to the hovering imag
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width = 0.49\textwidth]{cyorp.png}
+    \includegraphics[width = 0.49\textwidth]{fig/cyorp.png}
     \caption{Normalized CYORP Contribution scaled by crater diameter frequency}
     \label{fig:three graphs}
 \end{figure}
@@ -479,7 +479,7 @@ According to semi-analytical models, a crater in this capacity is defined as the
 Tangential YORP is the by-product of the thermal inertia of protruding asteroid surface material. As heat is absorbed over a day, it is transferred through the volume at a rate determined by it's mineral properties and geometry, summarized as the heat conductivity length, $L_{cond}$. This length is determined from analysis shown by Golubov \cite{Golubov2012}. 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.48\textwidth]{tyorp_regolith.png}
+    \includegraphics[width=0.48\textwidth]{fig/tyorp_regolith.png}
     \caption{Incorporating the assumption of smooth transitions below and above the ideal thermal inertia length, $L_{cond}$ with a logarithmic scale factor}
     \label{fig:tyorp_regolith}
 \end{figure}
@@ -504,7 +504,7 @@ The aim of this work is to characterize sources of YORP torque from small featur
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.49\textwidth]{all_yorps.png}
+    \includegraphics[width=0.49\textwidth]{fig/all_yorps.png}
     \caption{Comparison of analytical YORP spin components for Bennu as a function of obliquity}
     \label{fig:all_yorps}
 \end{figure}
@@ -521,7 +521,7 @@ The error reported here is taken from the models shown in Fig.\ref{fig:all_yorps
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.49\textwidth]{error_compare.png}
+    \includegraphics[width=0.49\textwidth]{fig/error_compare.png}
     \caption{Comparison of mean and standard deviation from several YORP models}
     \label{fig:err_comp}
 \end{figure}

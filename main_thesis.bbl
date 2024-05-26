@@ -1,83 +1,1202 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
-\bibitem{baylor}
-G.~I. Baylor.
-\newblock Up, up and away.
-\newblock {\em Proc. Roy. Soc., London A}, 294:456--475, 1959.
+\bibitem{Baldini2018}
+Francesca Baldini, Alexei Harvard, and Soon-jo Chung.
+\newblock {Autonomous Small Body Mapping and Spacecraft Navigation}.
+\newblock (October):1--5, 2018.
 
-\bibitem{crow}
-M.~E. Crow.
-\newblock Aerodynamic sound emission as a singular perturbation problem.
-\newblock {\em Stud. Appl. Math.}, 29:21--44, 1968.
+\bibitem{Bandyonadhyay2019}
+Santarshi Bandyonadhyay, Issa Nesnas, Shvam Bhaskaran, Beniamin Hockman, and
+  Benjamin Morrell.
+\newblock {Silhouette-Based 3D Shape Reconstruction of a Small Body from a
+  Spacecraft}.
+\newblock In {\em IEEE Aerospace Conference Proceedings}, volume 2019-March,
+  2019.
 
-\bibitem{dole}
-Julian~D. Dole.
-\newblock {\em Perturbation Methods in Applied Mathematics}.
-\newblock Winsdell Publishing Company, 1967.
+\bibitem{Barnouin2019}
+O.~S. Barnouin.
+\newblock {Shape of (101955) Bennu indicative of a rubble pile with internal
+  stiffness}.
+\newblock {\em Nature Geoscience}, 12(4):247--252, 2019.
 
-\bibitem{fabnis}
-J.~S. Fabnis, H.~J. Giblet, and H.~McDormand.
-\newblock Navier-stokes analysis of solid rocket motor internal flow.
-\newblock {\em J. Prop. and Power}, 2:157--164, 1980.
+\bibitem{Bayard2008}
+David~S. Bayard and Paul~B. Brugarolas.
+\newblock {On-board vision-based spacecraft estimation algorithm for small body
+  exploration}.
+\newblock {\em IEEE Transactions on Aerospace and Electronic Systems},
+  44(1):243--260, 2008.
 
-\bibitem{guillot}
-F.~Guillot and Z.~Javalon.
-\newblock Acoustic boundary layers in propellant rocket motors.
-\newblock {\em J. Prop. and Power}, 5:331--339, 1989.
+\bibitem{Bercovici2019}
+Benjamin Bercovici and Jay~W. McMahon.
+\newblock {Robust autonomous small-body shape reconstruction and relative
+  navigation using range images}.
+\newblock {\em Journal of Guidance, Control, and Dynamics}, 42(7):1473--1488,
+  2019.
 
-\bibitem{softy}
-IBM.
-\newblock {S}{P}{S}{S} {S}tatistics.
-\newblock download from vendor site, 2012.
-\newblock version 21.
+\bibitem{Bernardini1999}
+Fausto Bernardini, Joshua Mittleman, Holly Rushmeier, Claudio Silva, and
+  Gabriel Taubin.
+\newblock {The ball-pivoting algorithm for surface reconstruction}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  5(4):349--359, 1999.
 
-\bibitem{lao:thesis}
-Henry Lao.
-\newblock {\em Linear Acoustic Processes in Rocket Engines}.
-\newblock PhD thesis, University of Colorado at Boulder, 1979.
+\bibitem{Berry2013}
+Kevin Berry, Brian Sutter, Alex May, Ken Williams, Brent~W. Barbee, Mark
+  Beckman, and Bobby Williams.
+\newblock {OSIRIS-REx Touch-and-Go (TAG) Mission Design and Analysis}.
+\newblock In {\em 36th Annual AAS Guidance and Control Conference}, pages
+  1--12, Breckenride, CO, 2013.
 
-\bibitem{lao:paper}
-Q.~Lao, M.~N. Cassoy, and K.~Kirkpatrick.
-\newblock Acoustically generated vorticity from internal flow.
-\newblock {\em J. Fluid Mechanics}, 2:122--133, 1996.
+\bibitem{Bhaskaran2012}
+Shyam Bhaskaran.
+\newblock {Autonomous navigation for deep space missions}.
+\newblock {\em SpaceOps 2012 Conference}, 2012.
 
-\bibitem{lao:97}
-Q.~Lao, D.~R. Kassoy, and K.~Kirkkopru.
-\newblock Nonlinear acoustic processes in rocket engines.
-\newblock {\em J. Fluid Mechanics}, 3:245--261, 1997.
+\bibitem{Bhaskaran2011}
+Shyam Bhaskaran, Sumita Nandi, Stephen Broschart, Mark Wallace, and L~Alberto
+  Cangahuala.
+\newblock {Small Body Landings Using Autonomous Onboard Optical Navigation}.
+\newblock 58(3):409--427, 2011.
 
-\bibitem{mulick}
-F.~C. Mulick.
-\newblock Rotational axisymmetric mean flow and damping of acoustic waves in a
-  solid propellant.
-\newblock {\em AIAA J.}, 3:1062--1063, 1964.
+\bibitem{Bottke2006}
+William~F. Bottke, David Vokrouhlick{\'{y}}, David~P. Rubincam, and David
+  Nesvorn{\'{y}}.
+\newblock {The Yarkovsky and YORP effects: Implications for asteroid dynamics}.
+\newblock {\em Annual Review of Earth and Planetary Sciences}, 34:157--191,
+  2006.
 
-\bibitem{mulick75}
-F.~C. Mulick.
-\newblock Stability of four-dimensional motions in a combustion chamber.
-\newblock {\em Comb. Sci. Tech.}, 19:99--124, 1981.
+\bibitem{Bottke2015}
+William~F. Bottke, David Vokrouhlick{\'{y}}, Kevin~J. Walsh, Marco Delbo,
+  Patrick Michel, Dante~S. Lauretta, Humberto Campins, Harold~C. Connolly,
+  Daniel~J. Scheeres, and Steven~R. Chelsey.
+\newblock {In search of the source of asteroid (101955) Bennu: Applications of
+  the stochastic YORP model}.
+\newblock {\em Icarus}, 247:191--217, 2015.
 
-\bibitem{richards}
-R.~S. Richards and A.~M. Brown.
-\newblock Coupling between acoustic velocity oscillations and solid propellant
-  combustion.
-\newblock {\em J. Prop. and Power}, 5:828--837, 1982.
+\bibitem{Boyer2003}
+Edmond Boyer and Jean~S{\'{e}}bastien Franco.
+\newblock {A hybrid approach for computing visual hulls of complex objects}.
+\newblock {\em Proceedings of the IEEE Computer Society Conference on Computer
+  Vision and Pattern Recognition}, 1, 2003.
 
-\bibitem{smitty}
-T.~M. Smitty, R.~L. Coach, and F.~B. H\"ondra.
-\newblock Unsteady flow in simulated solid rocket motors.
-\newblock In {\em 16st Aerospace Sciences Meeting}, number 0112 in 78. AIAA,
-  1978.
+\bibitem{Brand2004}
+Matthew Brand, Kongbin Kang, and David~B. Cooper.
+\newblock {Algebraic solution for the visual hull}.
+\newblock {\em Proceedings of the IEEE Computer Society Conference on Computer
+  Vision and Pattern Recognition}, 1, 2004.
 
-\bibitem{taum}
-Joseph~D. Taum.
-\newblock Investigation of flow turning phenomenon.
-\newblock In {\em 20th Aerospace Sciences Meeting}, number 0297 in 82. AIAA,
-  1982.
+\bibitem{Breiter2009}
+S.~Breiter, P.~Bartczak, M.~Czekaj, B.~Oczujda, and D.~Vokrouhlick{\'{y}}.
+\newblock {The YORP effect on 25 143 Itokawa}.
+\newblock {\em Astronomy and Astrophysics}, 507(2):1073--1081, 2009.
 
-\bibitem{zeddini}
-Robert~A. Zeddini.
-\newblock Injection-induced flows in porous-walled ducts.
-\newblock {\em AIAA Journal}, 14:766--773, 1981.
+\bibitem{Breiter2015}
+S.~Breiter and M.~Murawiecka.
+\newblock {Tumbling asteroid rotation with the YORP torque and inelastic energy
+  dissipation}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  449(3):2489--2497, 2015.
+
+\bibitem{Breiter2011}
+S.~Breiter and D.~Vokrouhlickỳ.
+\newblock {Yarkovsky-O'Keefe-Radzievskii-Paddack effect with anisotropic
+  radiation}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  410(4):2807--2816, 2011.
+
+\bibitem{Breiter2008}
+S{\l}awomir Breiter and Hanna Michalska.
+\newblock {YORP torque as the function of shape harmonics}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  388(2):927--944, 2008.
+
+\bibitem{Brochard2018}
+R.~Brochard and J.~Lebreton.
+\newblock {Scientific image rendering for space scenes with the SurRender
+  software}.
+\newblock {\em arXiv}, pages 1--11, 2018.
+
+\bibitem{Brown2023}
+Gavin~M. Brown and Daniel~J. Scheeres.
+\newblock {Temporal evolution of the dynamical environment around asteroid
+  (101955) Bennu}.
+\newblock {\em Icarus}, 403(March):115632, 2023.
+
+\bibitem{Broz2018}
+M~Bro{\v{z}} and A~Morbidelli.
+\newblock {A study of 3-dimensional shapes of asteroid families with an
+  application to Eos}.
+\newblock {\em Icarus}, 2018.
+
+\bibitem{Canny1986}
+John Canny.
+\newblock {A Computational Approach to Edge Detection}.
+\newblock (6), 1986.
+
+\bibitem{Capek2004}
+D.~{\v{C}}apek and D.~Vokrouhlick{\'{y}}.
+\newblock {The YORP effect with finite thermal conductivity}.
+\newblock {\em Icarus}, 172(2):526--536, 2004.
+
+\bibitem{Carrera2022}
+Danny Hernan~Zambrano Carrera and Hans~Ingo Weber.
+\newblock {Stability Analysis in Rotational Systems Using the Tumbling
+  Coefficient}.
+\newblock {\em International Journal of Astronautics and Aeronautical
+  Engineering}, 7(1), 2022.
+
+\bibitem{Cheng2021}
+Bin Cheng, Yang Yu, Erik Asphaug, Patrick Michel, Derek~C. Richardson,
+  Masatoshi Hirabayashi, Makoto Yoshikawa, and Hexi Baoyin.
+\newblock {Reconstructing the formation history of top-shaped asteroids from
+  the surface boulder distribution}.
+\newblock {\em Nature Astronomy}, 5(2):134--138, 2021.
+
+\bibitem{Christian2017}
+John~A. Christian.
+\newblock {Accurate planetary limb localization for image-based spacecraft
+  navigation}.
+\newblock {\em Journal of Spacecraft and Rockets}, 54(3):708--730, 2017.
+
+\bibitem{Christian2020}
+John~A Christian.
+\newblock {Image-Based Lunar Terrain Relative Navigation without a Map:
+  Measurements}.
+\newblock {\em Journal of Spacecraft and Rockets}, pages 1--18, 2020.
+
+\bibitem{Christian2010}
+John~A. Christian and E.~{Glenn Lightseyy}.
+\newblock {Integrated performance of an autonomous optical navigation system
+  for space exploration}.
+\newblock {\em AIAA SPACE Conference and Exposition 2010}, (September), 2010.
+
+\bibitem{Christian2012}
+John~A. Christian and E.~Glenn Lightsey.
+\newblock {Onboard image-processing algorithm for a spacecraft optical
+  navigation sensor system}.
+\newblock {\em Journal of Spacecraft and Rockets}, 49(2):337--352, 2012.
+
+\bibitem{Cicalo2010}
+S.~Cical{\`{o}} and D.~J. Scheeres.
+\newblock {Averaged rotational dynamics of an asteroid in tumbling rotation
+  under the YORP torque}.
+\newblock {\em Celestial Mechanics and Dynamical Astronomy}, 106(4):301--337,
+  2010.
+
+\bibitem{blender}
+Blender~Online Community.
+\newblock {\em Blender - a 3D modelling and rendering package}.
+\newblock Blender Foundation, Stichting Blender Foundation, Amsterdam, 2018.
+
+\bibitem{Davidsson2014}
+Bj{\"{o}}rn~J.R. Davidsson and Hans Rickman.
+\newblock {Surface roughness and three-dimensional heat conduction in
+  thermophysical models}.
+\newblock {\em Icarus}, 243:58--77, 2014.
+
+\bibitem{Davidsson2015}
+Bj{\"{o}}rn~J.R. Davidsson, Hans Rickman, Joshua~L. Bandfield, Olivier
+  Groussin, Pedro~J. Guti{\'{e}}rrez, Magdalena Wilska, Maria~Teresa Capria,
+  Joshua~P. Emery, J{\"{o}}rn Helbert, Laurent Jorda, Alessandro Maturilli, and
+  Thomas~G. Mueller.
+\newblock {Interpretation of thermal emission. I. The effect of roughness for
+  spatially resolved atmosphereless bodies}.
+\newblock {\em Icarus}, 252:1--21, 2015.
+
+\bibitem{Delbo2015}
+Marco Delbo, Michael Mueller, Joshua~P. Emery, Ben Rozitis, and Maria~Teresa
+  Capria.
+\newblock {Asteroid thermophysical modeling}.
+\newblock {\em Asteroids IV}, pages 107--128, 2015.
+
+\bibitem{Delbo2022}
+Marco Delbo, Kevin~J. Walsh, Christophe Matonti, Justin Wilkerson, Maurizio
+  Pajola, Manar~M. {Al Asad}, Chrysa Avdellidou, Ronald~Louis Ballouz,
+  Carina~A. Bennett, Harold~C. Connolly, Daniella~N. DellaGiustina, Dathon~R.
+  Golish, Jamie~L. Molaro, Bashar Rizk, Stephen~R. Schwartz, and Dante~S.
+  Lauretta.
+\newblock {Alignment of fractures on Bennu's boulders indicative of rapid
+  asteroid surface evolution}.
+\newblock {\em Nature Geoscience}, 15(6):453--457, 2022.
+
+\bibitem{DellaGiustina2018}
+D.~N. DellaGiustina, C.~A. Bennett, K.~Becker, D.~R. Golish, L.~{Le Corre},
+  D.~A. Cook, K.~L. Edmundson, M.~Chojnacki, S.~S. Sutton, M.~P. Milazzo,
+  B.~Carcich, M.~C. Nolan, N.~Habib, K.~N. Burke, T.~Becker, P.~H. Smith, K.~J.
+  Walsh, K.~Getzandanner, D.~R. Wibben, J.~M. Leonard, M.~M. Westermann, A.~T.
+  Polit, J.~N. Kidd, C.~W. Hergenrother, W.~V. Boynton, J.~Backer, S.~Sides,
+  J.~Mapel, K.~Berry, H.~Roper, C.~Drouet~d'Aubigny, B.~Rizk, M.~K. Crombie,
+  E.~K. Kinney-Spano, J.~de~Le{\'{o}}n, J.~L. Rizos, J.~Licandro, H.~C.
+  Campins, B.~E. Clark, H.~L. Enos, and D.~S. Lauretta.
+\newblock {Overcoming the Challenges Associated with Image-Based Mapping of
+  Small Bodies in Preparation for the OSIRIS-REx Mission to (101955) Bennu}.
+\newblock {\em Earth and Space Science}, 5(12):929--949, 2018.
+
+\bibitem{DellaGiustina2019}
+D.~N. DellaGiustina, J.~P. Emery, D.~R. Golish, B.~Rozitis, C.~A. Bennett,
+  K.~N. Burke, R.~L. Ballouz, K.~J. Becker, P.~R. Christensen, C.~Y.
+  Drouet~d'Aubigny, V.~E. Hamilton, D.~C. Reuter, B.~Rizk, A.~A. Simon,
+  E.~Asphaug, J.~L. Bandfield, O.~S. Barnouin, M.~A. Barucci, E.~B. Bierhaus,
+  R.~P. Binzel, W.~F. Bottke, N.~E. Bowles, H.~Campins, B.~C. Clark, B.~E.
+  Clark, H.~C. Connolly, M.~G. Daly, J.~de~Leon, M.~Delbo', J.~D.P. Deshapriya,
+  C.~M. Elder, S.~Fornasier, C.~W. Hergenrother, E.~S. Howell, E.~R. Jawin,
+  H.~H. Kaplan, T.~R. Kareta, L.~{Le Corre}, J.~Y. Li, J.~Licandro, L.~F. Lim,
+  P.~Michel, J.~Molaro, M.~C. Nolan, M.~Pajola, M.~Popescu, J.~L.Rizos Garcia,
+  A.~Ryan, S.~R. Schwartz, N.~Shultz, M.~A. Siegler, P.~H. Smith, E.~Tatsumi,
+  C.~A. Thomas, K.~J. Walsh, C.~W.V. Wolner, X.~D. Zou, D.~S. Lauretta, D.~E.
+  Highsmith, J.~Small, D.~Vokrouhlick{\'{y}}, E.~Brown, K.~L. {Donaldson
+  Hanna}, T.~Warren, C.~Brunet, R.~A. Chicoine, S.~Desjardins, D.~Gaudreau,
+  T.~Haltigin, S.~Millington-Veloza, A.~Rubi, J.~Aponte, N.~Gorius,
+  A.~Lunsford, B.~Allen, J.~Grindlay, D.~Guevel, D.~Hoak, J.~Hong, D.~L.
+  Schrader, J.~Bayron, O.~Golubov, P.~S{\'{a}}nchez, J.~Stromberg,
+  M.~Hirabayashi, C.~M. Hartzell, S.~Oliver, M.~Rascon, A.~Harch, J.~Joseph,
+  S.~Squyres, D.~Richardson, L.~McGraw, R.~Ghent, M.~M.Al Asad, C.~L. Johnson,
+  L.~Philpott, H.~C.M. Susorney, E.~A. Cloutis, R.~D. Hanna, F.~Ciceri, A.~R.
+  Hildebrand, E.~M. Ibrahim, L.~Breitenfeld, T.~Glotch, A.~D. Rogers,
+  S.~Ferrone, Y.~Fernandez, W.~Chang, A.~Cheuvront, D.~Trang, S.~Tachibana,
+  H.~Yurimoto, J.~R. Brucato, G.~Poggiali, E.~Dotto, E.~Mazzotta Epifani, M.~K.
+  Crombie, C.~Lantz, M.~R.M. Izawa, J.~de~Leon, S.~Clemett, K.~Thomas-Keprta,
+  S.~Van~wal, M.~Yoshikawa, J.~Bellerose, S.~Bhaskaran, C.~Boyles, S.~R.
+  Chesley, D.~Farnocchia, A.~Harbison, B.~Kennedy, A.~Knight,
+  N.~Martinez-Vlasoff, N.~Mastrodemos, T.~McElrath, W.~Owen, R.~Park, B.~Rush,
+  L.~Swanson, Y.~Takahashi, D.~Velez, K.~Yetter, C.~Thayer, C.~Adam,
+  P.~Antreasian, J.~Bauman, C.~Bryan, B.~Carcich, M.~Corvin, J.~Geeraert,
+  J.~Hoffman, J.~M. Leonard, E.~Lessac-Chenen, A.~Levine, J.~McAdams,
+  L.~McCarthy, D.~Nelson, B.~Page, J.~Pelgrift, E.~Sahr, K.~Stakkestad,
+  D.~Stanbridge, D.~Wibben, B.~Williams, K.~Williams, P.~Wolff, P.~Hayne,
+  D.~Kubitschek, M.~Fulchignoni, P.~Hasselmann, F.~Merlin, A.~Praet,
+  O.~Billett, A.~Boggs, B.~Buck, S.~Carlson-Kelly, J.~Cerna, K.~Chaffin,
+  E.~Church, M.~Coltrin, J.~Daly, A.~Deguzman, R.~Dubisher, D.~Eckart,
+  D.~Ellis, P.~Falkenstern, A.~Fisher, M.~E. Fisher, P.~Fleming, K.~Fortney,
+  S.~Francis, S.~Freund, S.~Gonzales, P.~Haas, A.~Hasten, D.~Hauf, A.~Hilbert,
+  D.~Howell, F.~Jaen, N.~Jayakody, M.~Jenkins, K.~Johnson, M.~Lefevre, H.~Ma,
+  C.~Mario, K.~Martin, C.~May, M.~McGee, B.~Miller, C.~Miller, G.~Miller,
+  A.~Mirfakhrai, E.~Muhle, C.~Norman, R.~Olds, C.~Parish, M.~Ryle,
+  M.~Schmitzer, P.~Sherman, M.~Skeen, M.~Susak, B.~Sutter, Q.~Tran, C.~Welch,
+  R.~Witherspoon, J.~Wood, J.~Zareski, M.~Arvizu-Jakubicki, E.~Audi,
+  R.~Bandrowski, T.~L. Becker, S.~Bendall, H.~Bloomenthal, D.~Blum, W.~V.
+  Boynton, J.~Brodbeck, M.~Chojnacki, A.~Colpo, J.~Contreras, J.~Cutts,
+  D.~Dean, B.~Diallo, D.~Drinnon, K.~Drozd, H.~L. Enos, R.~Enos, C.~Fellows,
+  T.~Ferro, M.~R. Fisher, G.~Fitzgibbon, M.~Fitzgibbon, J.~Forelli,
+  T.~Forrester, I.~Galinsky, R.~Garcia, A.~Gardner, N.~Habib, D.~Hamara,
+  D.~Hammond, K.~Hanley, K.~Harshman, K.~Herzog, D.~Hill, C.~Hoekenga,
+  S.~Hooven, E.~Huettner, A.~Janakus, J.~Jones, J.~Kidd, K.~Kingsbury, S.~S.
+  Balram-Knutson, L.~Koelbel, J.~Kreiner, D.~Lambert, C.~Lewin, B.~Lovelace,
+  M.~Loveridge, M.~Lujan, C.~K. Maleszewski, R.~Malhotra, K.~Marchese,
+  E.~McDonough, N.~Mogk, V.~Morrison, E.~Morton, R.~Munoz, J.~Nelson,
+  J.~Padilla, R.~Pennington, A.~Polit, N.~Ramos, V.~Reddy, M.~Riehl, H.~L.
+  Roper, S.~Salazar, S.~Selznick, S.~Stewart, S.~Sutton, T.~Swindle, Y.~H.
+  Tang, M.~Westermann, D.~Worden, T.~Zega, Z.~Zeszut, A.~Bjurstrom,
+  L.~Bloomquist, C.~Dickinson, E.~Keates, J.~Liang, V.~Nifo, A.~Taylor,
+  F.~Teti, M.~Caplinger, H.~Bowles, S.~Carter, S.~Dickenshied, D.~Doerres,
+  T.~Fisher, W.~Hagee, J.~Hill, M.~Miner, D.~Noss, N.~Piacentine, M.~Smith,
+  A.~Toland, P.~Wren, M.~Bernacki, D.~Pino Munoz, S.~I. Watanabe, S.~A.
+  Sandford, A.~Aqueche, B.~Ashman, M.~Barker, A.~Bartels, K.~Berry, B.~Bos,
+  R.~Burns, A.~Calloway, R.~Carpenter, N.~Castro, R.~Cosentino, J.~Donaldson,
+  J.~P. Dworkin, J.~Elsila Cook, C.~Emr, D.~Everett, D.~Fennell, K.~Fleshman,
+  D.~Folta, D.~Gallagher, J.~Garvin, K.~Getzandanner, D.~Glavin, S.~Hull,
+  K.~Hyde, H.~Ido, A.~Ingegneri, N.~Jones, P.~Kaotira, A.~Liounis,
+  C.~Lorentson, D.~Lorenz, J.~Lyzhoft, E.~M. Mazarico, R.~Mink, W.~Moore,
+  M.~Moreau, S.~Mullen, J.~Nagy, G.~Neumann, J.~Nuth, D.~Poland, L.~Rhoads,
+  S.~Rieger, D.~Rowlands, D.~Sallitt, A.~Scroggins, G.~Shaw, J.~Swenson,
+  P.~Vasudeva, M.~Wasser, R.~Zellar, J.~Grossman, G.~Johnston, M.~Morris,
+  J.~Wendel, A.~Burton, L.~P. Keller, L.~McNamara, S.~Messenger,
+  K.~Nakamura-Messenger, A.~Nguyen, K.~Righter, E.~Queen, K.~Bellamy, K.~Dill,
+  S.~Gardner, M.~Giuntini, B.~Key, J.~Kissell, D.~Patterson, D.~Vaughan,
+  B.~Wright, R.~W. Gaskell, J.~L. Molaro, E.~E. Palmer, P.~Tricarico, J.~R.
+  Weirich, T.~Ireland, K.~Tait, P.~Bland, S.~Anwar, N.~Bojorquez-Murphy, C.~W.
+  Haberle, G.~Mehall, K.~Rios, I.~Franchi, C.~B. Beddingfield, J.~Marshall,
+  D.~N. Brack, A.~S. French, J.~W. McMahon, D.~J. Scheeres, T.~J. McCoy,
+  S.~Russell, M.~Killgore, M.~Chodas, M.~Lambert, R.~A. Masterson,
+  J.~Freemantle, J.~A. Seabrook, K.~Craft, R.~T. Daly, C.~Ernst, R.~C.
+  Espiritu, M.~Holdridge, M.~Jones, A.~H. Nair, L.~Nguyen, J.~Peachey, M.~E.
+  Perry, J.~Plescia, J.~H. Roberts, R.~Steele, R.~Turner, J.~Backer,
+  K.~Edmundson, J.~Mapel, M.~Milazzo, S.~Sides, C.~Manzoni, B.~May,
+  G.~Libourel, F.~Thuillet, and B.~Marty.
+\newblock {Properties of rubble-pile asteroid (101955) Bennu from OSIRIS-REx
+  imaging and thermal analysis}.
+\newblock {\em Nature Astronomy}, 3(4):341--351, 2019.
+
+\bibitem{DeMartini2019}
+Joseph~V. DeMartini, Derek~C. Richardson, Olivier~S. Barnouin, Nicholas~C.
+  Schmerr, Jeffrey~B. Plescia, Petr Scheirich, and Petr Pravec.
+\newblock {Using a discrete element method to investigate seismic response and
+  spin change of 99942 Apophis during its 2029 tidal encounter with Earth}.
+\newblock {\em Icarus}, 328(December 2018):93--103, 2019.
+
+\bibitem{DeMeo2023}
+Francesca~E. DeMeo, Micha{\"{e}}l Marsset, David Polishook, Brian~J. Burt,
+  Richard~P. Binzel, Sunao Hasegawa, Mikael Granvik, Nicholas~A. Moskovitz,
+  Alissa Earle, Schelte~J. Bus, Cristina~A. Thomas, Andrew~S. Rivkin, and
+  Stephen~M. Slivan.
+\newblock {Isolating the mechanisms for asteroid surface refreshing}.
+\newblock {\em Icarus}, 389(May 2022):115264, 2023.
+
+\bibitem{DiAngelo2011}
+L.~{Di Angelo} and L.~Giaccari.
+\newblock {A fast algorithm for manifold reconstruction of surfaces}.
+\newblock In {\em IMProVE 2011}, pages 177--186, 2011.
+
+\bibitem{Dietrich2017}
+Ann~B Dietrich.
+\newblock {Supporting Autonomous Navigation with Flash Lidar Images in
+  Proximity to Small Celestial Bodies by}.
+\newblock 2017.
+
+\bibitem{Dietrich2020}
+Ann~B. Dietrich and Jay~W. McMahon.
+\newblock {Filter initialization with three-dimensional Lidar images in
+  proximity to small bodies}.
+\newblock {\em Journal of Guidance, Control, and Dynamics}, 43(2):310--318,
+  2020.
+
+\bibitem{Driver}
+Travis Driver, Mehregan Dor, Katherine~A Skinner, and Panagiotis Tsiotras.
+\newblock { AAS 20-661 SPACE CARVING IN SPACE : A VISUAL-SLAM APPROACH TO 3D
+  SHAPE RECONSTRUCTION OF A SMALL CELESTIAL BODY}.
+\newblock pages 1--20.
+
+\bibitem{E.E.PalmerJ.R.Weirich2019}
+O.S.~Barnouin {E.E. Palmer, J.R. Weirich}.
+\newblock {Stereophotoclinometry Models in Support of the Osiris-Rex Mission}.
+\newblock 2019(2132):4--5, 2019.
+
+\bibitem{Franco2009}
+Jean-s{\'{e}}bastien Franco, Edmond Boyer, Jean-s{\'{e}}bastien Franco, Edmond
+  Boyer, Efficient Polyhedral, and Silhouettes Ieee.
+\newblock {Efficient Polyhedral Modeling from Silhouettes To cite this version
+  : HAL Id : inria-00349103 Efficient Polyhedral Modeling from Silhouettes}.
+\newblock 2009.
+
+\bibitem{Fujiwara2006}
+A.~Fujiwara, J.~Kawaguchi, D.~K. Yeomans, M.~Abe, T.~Mukai, T.~Okada, J.~Saito,
+  H.~Yano, M.~Yoshikawa, D.~J. Scheeres, O.~Barnouin-Jha, A.~F. Cheng,
+  H.~Demura, R.~W. Gaskell, N.~Hirata, H.~Ikeda, T.~Kominato, H.~Miyamoto,
+  A.~M. Nakamura, R.~Nakamura, S.~Sasaki, and K.~Uesugi.
+\newblock {The rubble-pile asteroid Itokawe as observed by Hayabusa}.
+\newblock {\em Science}, 312(5778):1330--1334, 2006.
+
+\bibitem{Gaskell2006}
+R.~Gaskell, O.~Barnouin-Jha, D.~Scheeres, T.~Mukai, N.~Hirata, S.~Abe,
+  J.~Saito, M.~Ishiguro, T.~Kubota, T.~Hashimoto, J.~Kawaguchi, M.~Yoshikawa,
+  K.~Shirakawa, and T.~Kominato.
+\newblock {Landmark navigation studies and target characterization in the
+  hayabusa encounter with itokawa}.
+\newblock In {\em Collection of Technical Papers - AIAA/AAS Astrodynamics
+  Specialist Conference, 2006}, volume~3, pages 1541--1552, 2006.
+
+\bibitem{gaskell_ito}
+R.~Gaskell, J.~Saito, M.~Ishiguro, T.~Kubota, T.~Hashimoto, N.~Hirata, S.~Abe,
+  and O.~Barnouin-Jha.
+\newblock Gaskell itokawa shape model v1.0.
+\newblock 2020.
+
+\bibitem{Gaskell2008}
+R.~W. Gaskell, O.~S. Barnouin-Jha, D.~J. Scheeres, A.~S. Konopliv, T.~Mukai,
+  S.~Abe, J.~Saito, M.~Ishiguro, T.~Kubota, T.~Hashimoto, J.~Kawaguchi,
+  M.~Yoshikawa, K.~Shirakawa, T.~Kominato, N.~Hirata, and H.~Demura.
+\newblock {Characterizing and navigating small bodies with imaging data}.
+\newblock {\em Meteoritics and Planetary Science}, 43(6):1049--1061, 2008.
+
+\bibitem{Gaskell2008a}
+R~W Gaskell, D~J Scheeres, A~S Konopliv, T~Mukai, and S~Abe.
+\newblock {Characterizing and navigating small bodies with imaging data}.
+\newblock 1061(6):1049--1061, 2008.
+
+\bibitem{Gaskell2004}
+Robert~W Gaskell.
+\newblock {Optical Only Determination of Small Body Shape and Topography}.
+\newblock pages 1--28, 2004.
+
+\bibitem{Golubov2016a}
+O.~Golubov, Y.~Kravets, Yu~N. Krugly, and D.~J. Scheeres.
+\newblock {Physical models for the normal YORP and diurnal Yarkovsky effects}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  458(4):3977--3989, 2016.
+
+\bibitem{Golubov2014}
+O.~Golubov, D.~J. Scheeres, and Yu~N. Krugly.
+\newblock {A three-dimensional model of tangential yorp}.
+\newblock {\em Astrophysical Journal}, 794(1), 2014.
+
+\bibitem{Golubov2017}
+Oleksiy Golubov.
+\newblock {Analytic Model for Tangential YORP}.
+\newblock {\em The Astronomical Journal}, 154(6):238, 2017.
+
+\bibitem{Golubov2012}
+Oleksiy Golubov and Yurij~N. Krugly.
+\newblock {Tangential component of the YORP effect}.
+\newblock {\em Astrophysical Journal Letters}, 752(1), 2012.
+
+\bibitem{Golubov2022}
+Oleksiy Golubov and Veronika Lipatova.
+\newblock {Analytic theory for the tangential YORP produced by the asteroid
+  regolith}.
+\newblock (162173):8--15, 2022.
+
+\bibitem{Golubov2019}
+Oleksiy Golubov and Daniel~J. Scheeres.
+\newblock {Systematic Structure and Sinks in the YORP Effect}.
+\newblock {\em The Astronomical Journal}, 157(3):105, 2019.
+
+\bibitem{Golubov2021}
+Oleksiy Golubov, Vladyslav Unukovych, and Daniel~J. Scheeres.
+\newblock {Limiting Behavior of Asteroid Obliquity and Spin Using a
+  Semi-analytic Thermal Model of the YORP Effect}.
+\newblock {\em The Astronomical Journal}, 162(1):8, 2021.
+
+\bibitem{Hanawa1986}
+T.~Hanawa.
+\newblock {A sufficient condition for stability of a rotating body}.
+\newblock {\em Astronomy {\&} Astrophysics}, 179(1):383--385, 1986.
+
+\bibitem{Harris2020}
+Alan~W. Harris and Line Drube.
+\newblock {Asteroid Thermal Inertia Estimates from Remote Infrared
+  Observations: The Effects of Surface Roughness and Rotation Rate}.
+\newblock {\em The Astrophysical Journal}, 901(2):140, 2020.
+
+\bibitem{Hartley2000}
+Richard Hartley and Andrew Zisserman.
+\newblock {\em {Multiple View Geometry in Computer Vision}}.
+\newblock Cambridge University Press, 2nd editio edition, 2000.
+
+\bibitem{Hata2019}
+Kenji Hata and Silvio Savarese.
+\newblock {CS231A Course Notes 3: Epipolar Geometry}.
+\newblock {\em Stanford-CS231A}, page~14, 2019.
+
+\bibitem{Hergenrother2019}
+C.~W. Hergenrother, C.~K. Maleszewski, M.~C. Nolan, J.~Y. Li, C.~Y.
+  Drouet~d'Aubigny, F.~C. Shelly, E.~S. Howell, T.~R. Kareta, M.~R.M. Izawa,
+  M.~A. Barucci, E.~B. Bierhaus, H.~Campins, S.~R. Chesley, B.~E. Clark, E.~J.
+  Christensen, D.~N. DellaGiustina, S.~Fornasier, D.~R. Golish, C.~M. Hartzell,
+  B.~Rizk, D.~J. Scheeres, P.~H. Smith, X.~D. Zou, D.~S. Lauretta, D.~E.
+  Highsmith, J.~Small, D.~Vokrouhlick{\'{y}}, N.~E. Bowles, E.~Brown, K.~L.
+  {Donaldson Hanna}, T.~Warren, C.~Brunet, R.~A. Chicoine, S.~Desjardins,
+  D.~Gaudreau, T.~Haltigin, S.~Millington-Veloza, A.~Rubi, J.~Aponte,
+  N.~Gorius, A.~Lunsford, B.~Allen, J.~Grindlay, D.~Guevel, D.~Hoak, J.~Hong,
+  D.~L. Schrader, J.~Bayron, O.~Golubov, P.~S{\'{a}}nchez, J.~Stromberg,
+  M.~Hirabayashi, S.~Oliver, M.~Rascon, A.~Harch, J.~Joseph, S.~Squyres,
+  D.~Richardson, J.~P. Emery, L.~McGraw, R.~Ghent, R.~P. Binzel, M.~M. {Al
+  Asad}, C.~L. Johnson, L.~Philpott, H.~C.M. Susorney, E.~A. Cloutis, R.~D.
+  Hanna, H.~C. Connolly, F.~Ciceri, A.~R. Hildebrand, E.~M. Ibrahim,
+  L.~Breitenfeld, T.~Glotch, A.~D. Rogers, S.~Ferrone, C.~A. Thomas,
+  Y.~Fernandez, W.~Chang, A.~Cheuvront, D.~Trang, S.~Tachibana, H.~Yurimoto,
+  J.~R. Brucato, G.~Poggiali, M.~Pajola, E.~Dotto, E.~Mazzotta Epifani, M.~K.
+  Crombie, C.~Lantz, J.~de~Leon, J.~Licandro, J.~L.Rizos Garcia, S.~Clemett,
+  K.~Thomas-Keprta, S.~Van~wal, M.~Yoshikawa, J.~Bellerose, S.~Bhaskaran,
+  C.~Boyles, C.~M. Elder, D.~Farnocchia, A.~Harbison, B.~Kennedy, A.~Knight,
+  N.~Martinez-Vlasoff, N.~Mastrodemos, T.~McElrath, W.~Owen, R.~Park, B.~Rush,
+  L.~Swanson, Y.~Takahashi, D.~Velez, K.~Yetter, C.~Thayer, C.~Adam,
+  P.~Antreasian, J.~Bauman, C.~Bryan, B.~Carcich, M.~Corvin, J.~Geeraert,
+  J.~Hoffman, J.~M. Leonard, E.~Lessac-Chenen, A.~Levine, J.~McAdams,
+  L.~McCarthy, D.~Nelson, B.~Page, J.~Pelgrift, E.~Sahr, K.~Stakkestad,
+  D.~Stanbridge, D.~Wibben, B.~Williams, K.~Williams, P.~Wolff, P.~Hayne,
+  D.~Kubitschek, J.~D.P. Deshapriya, M.~Fulchignoni, P.~Hasselmann, F.~Merlin,
+  A.~Praet, O.~Billett, A.~Boggs, B.~Buck, S.~Carlson-Kelly, J.~Cerna,
+  K.~Chaffin, E.~Church, M.~Coltrin, J.~Daly, A.~Deguzman, R.~Dubisher,
+  D.~Eckart, D.~Ellis, P.~Falkenstern, A.~Fisher, M.~E. Fisher, P.~Fleming,
+  K.~Fortney, S.~Francis, S.~Freund, S.~Gonzales, P.~Haas, A.~Hasten, D.~Hauf,
+  A.~Hilbert, D.~Howell, F.~Jaen, N.~Jayakody, M.~Jenkins, K.~Johnson,
+  M.~Lefevre, H.~Ma, C.~Mario, K.~Martin, C.~May, M.~McGee, B.~Miller,
+  C.~Miller, G.~Miller, A.~Mirfakhrai, E.~Muhle, C.~Norman, R.~Olds, C.~Parish,
+  M.~Ryle, M.~Schmitzer, P.~Sherman, M.~Skeen, M.~Susak, B.~Sutter, Q.~Tran,
+  C.~Welch, R.~Witherspoon, J.~Wood, J.~Zareski, M.~Arvizu-Jakubicki,
+  E.~Asphaug, E.~Audi, R.~L. Ballouz, R.~Bandrowski, K.~J. Becker, T.~L.
+  Becker, S.~Bendall, C.~A. Bennett, H.~Bloomenthal, D.~Blum, W.~V. Boynton,
+  J.~Brodbeck, K.~N. Burke, M.~Chojnacki, A.~Colpo, J.~Contreras, J.~Cutts,
+  C.~Y. Drouet d'Aubigny, D.~Dean, B.~Diallo, D.~Drinnon, K.~Drozd, H.~L.
+  Enos, R.~Enos, C.~Fellows, T.~Ferro, M.~R. Fisher, G.~Fitzgibbon,
+  M.~Fitzgibbon, J.~Forelli, T.~Forrester, I.~Galinsky, R.~Garcia, A.~Gardner,
+  N.~Habib, D.~Hamara, D.~Hammond, K.~Hanley, K.~Harshman, K.~Herzog, D.~Hill,
+  C.~Hoekenga, S.~Hooven, E.~Huettner, A.~Janakus, J.~Jones, J.~Kidd,
+  K.~Kingsbury, S.~S. Balram-Knutson, L.~Koelbel, J.~Kreiner, D.~Lambert,
+  C.~Lewin, B.~Lovelace, M.~Loveridge, M.~Lujan, R.~Malhotra, K.~Marchese,
+  E.~McDonough, N.~Mogk, V.~Morrison, E.~Morton, R.~Munoz, J.~Nelson,
+  J.~Padilla, R.~Pennington, A.~Polit, N.~Ramos, V.~Reddy, M.~Riehl, H.~L.
+  Roper, S.~Salazar, S.~R. Schwartz, S.~Selznick, N.~Shultz, S.~Stewart,
+  S.~Sutton, T.~Swindle, Y.~H. Tang, M.~Westermann, C.~W.V. Wolner, D.~Worden,
+  T.~Zega, Z.~Zeszut, A.~Bjurstrom, L.~Bloomquist, C.~Dickinson, E.~Keates,
+  J.~Liang, V.~Nifo, A.~Taylor, F.~Teti, M.~Caplinger, H.~Bowles, S.~Carter,
+  S.~Dickenshied, D.~Doerres, T.~Fisher, W.~Hagee, J.~Hill, M.~Miner, D.~Noss,
+  N.~Piacentine, M.~Smith, A.~Toland, P.~Wren, M.~Bernacki, D.~Pino Munoz,
+  S.~I. Watanabe, S.~A. Sandford, A.~Aqueche, B.~Ashman, M.~Barker, A.~Bartels,
+  K.~Berry, B.~Bos, R.~Burns, A.~Calloway, R.~Carpenter, N.~Castro,
+  R.~Cosentino, J.~Donaldson, J.~P. Dworkin, J.~Elsila Cook, C.~Emr,
+  D.~Everett, D.~Fennell, K.~Fleshman, D.~Folta, D.~Gallagher, J.~Garvin,
+  K.~Getzandanner, D.~Glavin, S.~Hull, K.~Hyde, H.~Ido, A.~Ingegneri, N.~Jones,
+  P.~Kaotira, L.~F. Lim, A.~Liounis, C.~Lorentson, D.~Lorenz, J.~Lyzhoft, E.~M.
+  Mazarico, R.~Mink, W.~Moore, M.~Moreau, S.~Mullen, J.~Nagy, G.~Neumann,
+  J.~Nuth, D.~Poland, D.~C. Reuter, L.~Rhoads, S.~Rieger, D.~Rowlands,
+  D.~Sallitt, A.~Scroggins, G.~Shaw, A.~A. Simon, J.~Swenson, P.~Vasudeva,
+  M.~Wasser, R.~Zellar, J.~Grossman, G.~Johnston, M.~Morris, J.~Wendel,
+  A.~Burton, L.~P. Keller, L.~McNamara, S.~Messenger, K.~Nakamura-Messenger,
+  A.~Nguyen, K.~Righter, E.~Queen, K.~Bellamy, K.~Dill, S.~Gardner,
+  M.~Giuntini, B.~Key, J.~Kissell, D.~Patterson, D.~Vaughan, B.~Wright, R.~W.
+  Gaskell, L.~{Le Corre}, J.~L. Molaro, E.~E. Palmer, M.~A. Siegler,
+  P.~Tricarico, J.~R. Weirich, T.~Ireland, K.~Tait, P.~Bland, S.~Anwar,
+  N.~Bojorquez-Murphy, P.~R. Christensen, C.~W. Haberle, G.~Mehall, K.~Rios,
+  I.~Franchi, B.~Rozitis, C.~B. Beddingfield, J.~Marshall, D.~N. Brack, A.~S.
+  French, J.~W. McMahon, E.~R. Jawin, T.~J. McCoy, S.~Russell, M.~Killgore,
+  W.~F. Bottke, V.~E. Hamilton, H.~H. Kaplan, K.~J. Walsh, J.~L. Bandfield,
+  B.~C. Clark, M.~Chodas, M.~Lambert, R.~A. Masterson, M.~G. Daly,
+  J.~Freemantle, J.~A. Seabrook, O.~S. Barnouin, K.~Craft, R.~T. Daly,
+  C.~Ernst, R.~C. Espiritu, M.~Holdridge, M.~Jones, A.~H. Nair, L.~Nguyen,
+  J.~Peachey, M.~E. Perry, J.~Plescia, J.~H. Roberts, R.~Steele, R.~Turner,
+  J.~Backer, K.~Edmundson, J.~Mapel, M.~Milazzo, S.~Sides, C.~Manzoni, B.~May,
+  M.~Delbo', G.~Libourel, P.~Michel, A.~Ryan, F.~Thuillet, and B.~Marty.
+\newblock {The operational environment and rotational acceleration of asteroid
+  (101955) Bennu from OSIRIS-REx observations}.
+\newblock {\em Nature Communications}, 10(1), 2019.
+
+\bibitem{Hirabayashi2023}
+M.~Hirabayashi.
+\newblock {Dynamics of a deforming planetary body}.
+\newblock {\em Icarus}, 389(June 2022):115258, 2023.
+
+\bibitem{Jawin2022}
+E.~R. Jawin, T.~J. McCoy, K.~J. Walsh, H.~C. Connolly, R.~L. Ballouz, A.~J.
+  Ryan, H.~H. Kaplan, M.~Pajola, V.~E. Hamilton, O.~S. Barnouin, J.~P. Emery,
+  B.~Rozitis, D.~N. DellaGiustina, M.~G. Daly, C.~A. Bennett, D.~R. Golish,
+  M.~E. Perry, R.~T. Daly, E.~B. Bierhaus, M.~C. Nolan, H.~L. Enos, and D.~S.
+  Lauretta.
+\newblock {Global geologic map of asteroid (101955) Bennu indicates
+  heterogeneous resurfacing in the past 500,000 years}.
+\newblock {\em Icarus}, 381(March):114992, 2022.
+
+\bibitem{Jones2016}
+R.~Lynne Jones, Mario Juri{\'{c}}, and {\v{Z}}eljko Ivezi{\'{c}}.
+\newblock {Asteroid Discovery and Characterization with the Large Synoptic
+  Survey Telescope}.
+\newblock {\em Proceedings of the International Astronomical Union},
+  10(318):282--292, 2016.
+
+\bibitem{Kanamaru2021}
+Masanori Kanamaru, Sho Sasaki, Tomokatsu Morota, Yuichiro Cho, Eri Tatsumi,
+  Masatoshi Hirabayashi, Naru Hirata, Hiroki Senshu, Yuri Shimaki, Naoya
+  Sakatani, Satoshi Tanaka, Tatsuaki Okada, Tomohiro Usui, Seiji Sugita, and
+  Sei ichiro Watanabe.
+\newblock {YORP Effect on Asteroid 162173 Ryugu: Implications for the Dynamical
+  History}.
+\newblock {\em Journal of Geophysical Research: Planets}, 126(12):1--23, 2021.
+
+\bibitem{Lauretta2019}
+D.~S. Lauretta, D.~N. DellaGiustina, C.~A. Bennett, D.~R. Golish, K.~J. Becker,
+  S.~S. Balram-Knutson, O.~S. Barnouin, T.~L. Becker, W.~F. Bottke, W.~V.
+  Boynton, H.~Campins, B.~E. Clark, H.~C. Connolly, C.~Y. Drouet~d'Aubigny,
+  J.~P. Dworkin, J.~P. Emery, H.~L. Enos, V.~E. Hamilton, C.~W. Hergenrother,
+  E.~S. Howell, M.~R.M. Izawa, H.~H. Kaplan, M.~C. Nolan, B.~Rizk, H.~L. Roper,
+  D.~J. Scheeres, P.~H. Smith, K.~J. Walsh, C.~W.V. Wolner, D.~E. Highsmith,
+  J.~Small, D.~Vokrouhlick{\'{y}}, N.~E. Bowles, E.~Brown, K.~L. {Donaldson
+  Hanna}, T.~Warren, C.~Brunet, R.~A. Chicoine, S.~Desjardins, D.~Gaudreau,
+  T.~Haltigin, S.~Millington-Veloza, A.~Rubi, J.~Aponte, N.~Gorius,
+  A.~Lunsford, B.~Allen, J.~Grindlay, D.~Guevel, D.~Hoak, J.~Hong, D.~L.
+  Schrader, J.~Bayron, O.~Golubov, P.~S{\'{a}}nchez, J.~Stromberg,
+  M.~Hirabayashi, C.~M. Hartzell, S.~Oliver, M.~Rascon, A.~Harch, J.~Joseph,
+  S.~Squyres, D.~Richardson, L.~McGraw, R.~Ghent, R.~P. Binzel, M.~M.Al Asad,
+  C.~L. Johnson, L.~Philpott, H.~C.M. Susorney, E.~A. Cloutis, R.~D. Hanna,
+  F.~Ciceri, A.~R. Hildebrand, E.~M. Ibrahim, L.~Breitenfeld, T.~Glotch, A.~D.
+  Rogers, S.~Ferrone, C.~A. Thomas, Y.~Fernandez, W.~Chang, A.~Cheuvront,
+  D.~Trang, S.~Tachibana, H.~Yurimoto, J.~R. Brucato, G.~Poggiali, M.~Pajola,
+  E.~Dotto, E.~Mazzotta Epifani, M.~K. Crombie, C.~Lantz, J.~de~Leon,
+  J.~Licandro, J.~L.Rizos Garcia, S.~Clemett, K.~Thomas-Keprta, S.~Van~wal,
+  M.~Yoshikawa, J.~Bellerose, S.~Bhaskaran, C.~Boyles, S.~R. Chesley, C.~M.
+  Elder, D.~Farnocchia, A.~Harbison, B.~Kennedy, A.~Knight,
+  N.~Martinez-Vlasoff, N.~Mastrodemos, T.~McElrath, W.~Owen, R.~Park, B.~Rush,
+  L.~Swanson, Y.~Takahashi, D.~Velez, K.~Yetter, C.~Thayer, C.~Adam,
+  P.~Antreasian, J.~Bauman, C.~Bryan, B.~Carcich, M.~Corvin, J.~Geeraert,
+  J.~Hoffman, J.~M. Leonard, E.~Lessac-Chenen, A.~Levine, J.~McAdams,
+  L.~McCarthy, D.~Nelson, B.~Page, J.~Pelgrift, E.~Sahr, K.~Stakkestad,
+  D.~Stanbridge, D.~Wibben, B.~Williams, K.~Williams, P.~Wolff, P.~Hayne,
+  D.~Kubitschek, M.~A. Barucci, J.~D.P. Deshapriya, S.~Fornasier,
+  M.~Fulchignoni, P.~Hasselmann, F.~Merlin, A.~Praet, E.~B. Bierhaus,
+  O.~Billett, A.~Boggs, B.~Buck, S.~Carlson-Kelly, J.~Cerna, K.~Chaffin,
+  E.~Church, M.~Coltrin, J.~Daly, A.~Deguzman, R.~Dubisher, D.~Eckart,
+  D.~Ellis, P.~Falkenstern, A.~Fisher, M.~E. Fisher, P.~Fleming, K.~Fortney,
+  S.~Francis, S.~Freund, S.~Gonzales, P.~Haas, A.~Hasten, D.~Hauf, A.~Hilbert,
+  D.~Howell, F.~Jaen, N.~Jayakody, M.~Jenkins, K.~Johnson, M.~Lefevre, H.~Ma,
+  C.~Mario, K.~Martin, C.~May, M.~McGee, B.~Miller, C.~Miller, G.~Miller,
+  A.~Mirfakhrai, E.~Muhle, C.~Norman, R.~Olds, C.~Parish, M.~Ryle,
+  M.~Schmitzer, P.~Sherman, M.~Skeen, M.~Susak, B.~Sutter, Q.~Tran, C.~Welch,
+  R.~Witherspoon, J.~Wood, J.~Zareski, M.~Arvizu-Jakubicki, E.~Asphaug,
+  E.~Audi, R.~L. Ballouz, R.~Bandrowski, S.~Bendall, H.~Bloomenthal, D.~Blum,
+  J.~Brodbeck, K.~N. Burke, M.~Chojnacki, A.~Colpo, J.~Contreras, J.~Cutts,
+  D.~Dean, B.~Diallo, D.~Drinnon, K.~Drozd, R.~Enos, C.~Fellows, T.~Ferro,
+  M.~R. Fisher, G.~Fitzgibbon, M.~Fitzgibbon, J.~Forelli, T.~Forrester,
+  I.~Galinsky, R.~Garcia, A.~Gardner, N.~Habib, D.~Hamara, D.~Hammond,
+  K.~Hanley, K.~Harshman, K.~Herzog, D.~Hill, C.~Hoekenga, S.~Hooven,
+  E.~Huettner, A.~Janakus, J.~Jones, T.~R. Kareta, J.~Kidd, K.~Kingsbury,
+  L.~Koelbel, J.~Kreiner, D.~Lambert, C.~Lewin, B.~Lovelace, M.~Loveridge,
+  M.~Lujan, C.~K. Maleszewski, R.~Malhotra, K.~Marchese, E.~McDonough, N.~Mogk,
+  V.~Morrison, E.~Morton, R.~Munoz, J.~Nelson, J.~Padilla, R.~Pennington,
+  A.~Polit, N.~Ramos, V.~Reddy, M.~Riehl, S.~Salazar, S.~R. Schwartz,
+  S.~Selznick, N.~Shultz, S.~Stewart, S.~Sutton, T.~Swindle, Y.~H. Tang,
+  M.~Westermann, D.~Worden, T.~Zega, Z.~Zeszut, A.~Bjurstrom, L.~Bloomquist,
+  C.~Dickinson, E.~Keates, J.~Liang, V.~Nifo, A.~Taylor, F.~Teti, M.~Caplinger,
+  H.~Bowles, S.~Carter, S.~Dickenshied, D.~Doerres, T.~Fisher, W.~Hagee,
+  J.~Hill, M.~Miner, D.~Noss, N.~Piacentine, M.~Smith, A.~Toland, P.~Wren,
+  M.~Bernacki, D.~Pino Munoz, S.~I. Watanabe, S.~A. Sandford, A.~Aqueche,
+  B.~Ashman, M.~Barker, A.~Bartels, K.~Berry, B.~Bos, R.~Burns, A.~Calloway,
+  R.~Carpenter, N.~Castro, R.~Cosentino, J.~Donaldson, J.~Elsila Cook, C.~Emr,
+  D.~Everett, D.~Fennell, K.~Fleshman, D.~Folta, D.~Gallagher, J.~Garvin,
+  K.~Getzandanner, D.~Glavin, S.~Hull, K.~Hyde, H.~Ido, A.~Ingegneri, N.~Jones,
+  P.~Kaotira, L.~F. Lim, A.~Liounis, C.~Lorentson, D.~Lorenz, J.~Lyzhoft, E.~M.
+  Mazarico, R.~Mink, W.~Moore, M.~Moreau, S.~Mullen, J.~Nagy, G.~Neumann,
+  J.~Nuth, D.~Poland, D.~C. Reuter, L.~Rhoads, S.~Rieger, D.~Rowlands,
+  D.~Sallitt, A.~Scroggins, G.~Shaw, A.~A. Simon, J.~Swenson, P.~Vasudeva,
+  M.~Wasser, R.~Zellar, J.~Grossman, G.~Johnston, M.~Morris, J.~Wendel,
+  A.~Burton, L.~P. Keller, L.~McNamara, S.~Messenger, K.~Nakamura-Messenger,
+  A.~Nguyen, K.~Righter, E.~Queen, K.~Bellamy, K.~Dill, S.~Gardner,
+  M.~Giuntini, B.~Key, J.~Kissell, D.~Patterson, D.~Vaughan, B.~Wright, R.~W.
+  Gaskell, L.~{Le Corre}, J.~Y. Li, J.~L. Molaro, E.~E. Palmer, M.~A. Siegler,
+  P.~Tricarico, J.~R. Weirich, X.~D. Zou, T.~Ireland, K.~Tait, P.~Bland,
+  S.~Anwar, N.~Bojorquez-Murphy, P.~R. Christensen, C.~W. Haberle, G.~Mehall,
+  K.~Rios, I.~Franchi, B.~Rozitis, C.~B. Beddingfield, J.~Marshall, D.~N.
+  Brack, A.~S. French, J.~W. McMahon, E.~R. Jawin, T.~J. McCoy, S.~Russell,
+  M.~Killgore, J.~L. Bandfield, B.~C. Clark, M.~Chodas, M.~Lambert, R.~A.
+  Masterson, M.~G. Daly, J.~Freemantle, J.~A. Seabrook, K.~Craft, R.~T. Daly,
+  C.~Ernst, R.~C. Espiritu, M.~Holdridge, M.~Jones, A.~H. Nair, L.~Nguyen,
+  J.~Peachey, M.~E. Perry, J.~Plescia, J.~H. Roberts, R.~Steele, R.~Turner,
+  J.~Backer, K.~Edmundson, J.~Mapel, M.~Milazzo, S.~Sides, C.~Manzoni, B.~May,
+  M.~Delbo', G.~Libourel, P.~Michel, A.~Ryan, F.~Thuillet, and B.~Marty.
+\newblock {The unexpected surface of asteroid (101955) Bennu}.
+\newblock {\em Nature}, 568(7750):55--60, 2019.
+
+\bibitem{Lauretta2023}
+Dante~S Lauretta, Anjani~T Polit, Harold~C Connolly, and Jeff Grossman.
+\newblock {Origins, Spectral Interpretation, Resource Identification, and
+  Security-Regolith Explorer (OSIRIS-REx) Project Sample Analysis Plan}.
+\newblock (June), 2023.
+
+\bibitem{Li2013}
+Jiangeng Li, Rong Zhang, Ruoyan Wei, and Yu~Zhang.
+\newblock {An asteroid landing location algorithm based on image feature}.
+\newblock {\em 2013 25th Chinese Control and Decision Conference, CCDC 2013},
+  pages 951--956, 2013.
+
+\bibitem{Liounis}
+Andrew~J Liounis.
+\newblock {Limb-Based Optical Navigation for Irregular Bodies}.
+\newblock In {\em RPI Space Imaging Workshop}, number Code 595, pages 1--17,
+  2018.
+
+\bibitem{Lorenz2017}
+David~A. Lorenz, Ryan Olds, Alexander May, Courtney Mario, Mark~E. Perry,
+  Eric~E. Palmer, and Michael Daly.
+\newblock {Lessons learned from OSIRIS-REx autonomous navigation using natural
+  feature tracking}.
+\newblock {\em IEEE Aerospace Conference Proceedings}, 2017.
+
+\bibitem{Lowe2004}
+David~G Lowe.
+\newblock {Distinctive Image Features from Scale-Invariant Keypoints}.
+\newblock pages 1--28, 2004.
+
+\bibitem{Lowry2007}
+Stephen~C. Lowry, Alan Fitzsimmons, Petr Pravec, David Vokrouhlick{\'{y}},
+  Hermann Boehnhardt, Patrick~A. Taylor, Jean~Luc Margot, Adrian Gal{\'{a}}d,
+  Mike Irwin, Jonathan Irwin, and Peter Kusnir{\'{a}}k.
+\newblock {Direct detection of the asteroidal YORP effect}.
+\newblock {\em Science}, 316(5822):272--274, 2007.
+
+\bibitem{Lupishko2019}
+D.~F. Lupishko, O.~I. Mikhalchenko, and V.~G. Chiorny.
+\newblock {Influence of the YORP Effect on the Rotation of Small Main-Belt
+  Asteroids}.
+\newblock {\em Solar System Research}, 53(3):208--214, 2019.
+
+\bibitem{Majji2020}
+Manoranjan Majji, Andrew~B. Simon, Carolina~I. Restrepo, and Ronney Lovelace.
+\newblock {A comparison of feature extraction methods for terrain relative
+  navigation}.
+\newblock In {\em AIAA Scitech 2020 Forum}, number January, pages 1--12,
+  Orlando, Fl, 2020.
+
+\bibitem{Marshall2023}
+J~R Marshall, C~Beddingfield, L~K Fenton, K~Walsh, and D~S Lauretta.
+\newblock {Regolith Migration on Asteroid 101955 Bennu Inferred from Boulder
+  Alignment}.
+\newblock {\em Planetary and Space Science}, page 105659, 2023.
+
+\bibitem{Marzari2020}
+Francesco Marzari, Alessandro Rossi, Oleksiy Golubov, and Daniel~J. Scheeres.
+\newblock {Evolution of an Asteroid Family under YORP, Yarkovsky, and
+  Collisions}.
+\newblock {\em The Astronomical Journal}, 160(3):128, 2020.
+
+\bibitem{Marzari2020a}
+Francesco Marzari, Alessandro Rossi, Oleksiy Golubov, and Daniel~J. Scheeres.
+\newblock {Evolution of an Asteroid Family under YORP, Yarkovsky, and
+  Collisions}.
+\newblock {\em The Astronomical Journal}, 160(3):128, 2020.
+
+\bibitem{Matusik2000}
+W.~Matusik, C.~Buehler, R.~Raskar, S.~J. Gortler, and L.~McMillan.
+\newblock {Image-based visual hulls}.
+\newblock {\em Proceedings of the ACM SIGGRAPH Conference on Computer
+  Graphics}, pages 369--374, 2000.
+
+\bibitem{Mcmahon2018}
+Jay McMahon and Daniel Scheeres.
+\newblock {Autonomous Limb-based Shape Modeling ( and Optical Navigation )}.
+\newblock 2018.
+
+\bibitem{Meyer2023}
+Alex~J. Meyer, Daniel~J. Scheeres, Harrison~F. Agrusa, Guillaume Noiset, Jay
+  McMahon, {\"{O}}zg{\"{u}}r Karatekin, Masatoshi Hirabayashi, and Ryota
+  Nakano.
+\newblock {Energy dissipation in synchronous binary asteroids}.
+\newblock {\em Icarus}, 391, 2023.
+
+\bibitem{Michaowski1993}
+Tadeusz Micha{\l}owski.
+\newblock {Poles, Shapes, Senses of Rotation, and Sidereal Periods of
+  Asteroids}.
+\newblock {\em Icarus}, 106:563--572, 1993.
+
+\bibitem{Michikami2021}
+Tatsuhiro Michikami and Axel Hagermann.
+\newblock {Boulder sizes and shapes on asteroids: A comparative study of Eros,
+  Itokawa and Ryugu}.
+\newblock {\em Icarus}, 357:114282, 2021.
+
+\bibitem{Michikami2019}
+Tatsuhiro Michikami, Chikatoshi Honda, Hideaki Miyamoto, Masatoshi Hirabayashi,
+  Axel Hagermann, Terunori Irie, Keita Nomura, Carolyn~M. Ernst, Masaki
+  Kawamura, Kiichi Sugimoto, Eri Tatsumi, Tomokatsu Morota, Naru Hirata,
+  Takaaki Noguchi, Yuichiro Cho, Shingo Kameda, Toru Kouyama, Yasuhiro Yokota,
+  Rina Noguchi, Masahiko Hayakawa, Naoyuki Hirata, Rie Honda, Moe Matsuoka,
+  Naoya Sakatani, Hidehiko Suzuki, Manabu Yamada, Kazuo Yoshioka, Hirotaka
+  Sawada, Ryodo Hemmi, Hiroshi Kikuchi, Kazunori Ogawa, Sei ichiro Watanabe,
+  Satoshi Tanaka, Makoto Yoshikawa, Yuichi Tsuda, and Seiji Sugita.
+\newblock {Boulder size and shape distributions on asteroid Ryugu}.
+\newblock {\em Icarus}, 331(May):179--191, 2019.
+
+\bibitem{Michikami2008}
+Tatsuhiro Michikami, Akiko~M. Nakamura, Naru Hirata, Robert~W. Gaskel, Ryosuke
+  Nakamura, Takayuki Honda, Chikatoshi Honda, Kensuke Hiraoka, Jun Saito,
+  Hirohide Demura, Masateru Ishiguro, and Hideaki Miyamoto.
+\newblock {Size-frequency statistics of boulders on global surface of asteroid
+  25143 Itokawa}.
+\newblock {\em Earth, Planets and Space}, 60(1):13--20, 2008.
+
+\bibitem{Molaro2020a}
+J.~L. Molaro, C.~W. Hergenrother, S.~R. Chesley, K.~J. Walsh, R.~D. Hanna,
+  C.~W. Haberle, S.~R. Schwartz, R.~L. Ballouz, W.~F. Bottke, H.~J. Campins,
+  and D.~S. Lauretta.
+\newblock {Thermal Fatigue as a Driving Mechanism for Activity on Asteroid
+  Bennu}.
+\newblock {\em Journal of Geophysical Research: Planets}, 125(8):1--24, 2020.
+
+\bibitem{Molaro2020}
+J.~L. Molaro, K.~J. Walsh, E.~R. Jawin, R.~L. Ballouz, C.~A. Bennett, D.~N.
+  DellaGiustina, D.~R. Golish, C.~Drouet~d'Aubigny, B.~Rizk, S.~R. Schwartz,
+  R.~D. Hanna, S.~J. Martel, M.~Pajola, H.~Campins, A.~J. Ryan, W.~F. Bottke,
+  and D.~S. Lauretta.
+\newblock {In situ evidence of thermally induced rock breakdown widespread on
+  Bennu's surface}.
+\newblock {\em Nature Communications}, 11(1):1--11, 2020.
+
+\bibitem{Morrell2020}
+Benjamin Morrell, Jacopo Villa, Saptarshi Bandyopadhyay, Daniel Lubey, and
+  Benjamin Hockman.
+\newblock {Automatic Feature Tracking on Small Bodies for Autonomous Approach}.
+\newblock In {\em AIAA Ascend}, 2020.
+
+\bibitem{Nakano2023}
+Ryota Nakano and Masatoshi Hirabayashi.
+\newblock {Finite Element Method approach 3-dimensional thermophysical model
+  for YORP torque computation}.
+\newblock {\em Icarus}, 404(April 2022):115647, 2023.
+
+\bibitem{Nesvorny2008}
+David Nesvorny and David Vokrouhlicky.
+\newblock {Analytic theory for the yarkovsky-O'Keefe-radzievski-paddack effect
+  on obliquity}.
+\newblock {\em Astronomical Journal}, 136(1):291--299, 2008.
+
+\bibitem{Nister2004}
+David Nister.
+\newblock {An Efficient Solution to the Five-Point Relative Pose Problem}.
+\newblock 26(6):756--770, 2004.
+
+\bibitem{Owen2011}
+William~M Owen.
+\newblock {METHODS OF OPTICAL NAVIGATION}.
+\newblock In {\em AAS Spaceflight Mechanics Conference}, pages 1--19, New
+  Orleans, Louisiana, 2011. Pasadena, CA : Jet Propulsion Laboratory, National
+  Aeronautics and Space Administration.
+
+\bibitem{Panicucci2020}
+Paolo Panicucci, Jeremy Lebreton, Jay McMahon, Emmanuel Zenou, and Michel
+  Delpech.
+\newblock {Polyhedral Shape from Silhouettes for Small Body}.
+\newblock In {\em AAS GN{\&}C Conference}, pages 1--12, 2020.
+
+\bibitem{Panicucci}
+Paolo Panicucci, Jeremy Lebreton, Jay McMahon, Emmanuel Zenou, and Michel
+  Delpech.
+\newblock {Polyhedral Shape from Silhouettes for Small Body}.
+\newblock In {\em AAS GN&C Conference}, pages 1--12, 2020.
+
+\bibitem{Pesce2018}
+Vincenzo Pesce, Ali~Akbar Agha-Mohammadi, and Mich{\`{e}}le Lavagna.
+\newblock {Autonomous navigation {\&} mapping of small bodies}.
+\newblock {\em IEEE Aerospace Conference Proceedings}, 2018-March:1--10, 2018.
+
+\bibitem{Pike2011}
+Richard~J Pike, M~S U S~Geological Survey, Middlefield Road, and Menlo Park.
+\newblock {Geomorphometry -diversity in quantitative surface analysis}.
+\newblock 1:2011, 2011.
+
+\bibitem{Richardson2002}
+Dc~Richardson and Zm~Leinhardt.
+\newblock {Gravitational aggregates: Evidence and evolution}.
+\newblock {\em Asteroids III}, pages 501--515, 2002.
+
+\bibitem{Rivera2020}
+Kalani R~Danas Rivera and Mason~A Peck.
+\newblock {Autonomous Navigation Using Novel Sources at Jupiter}.
+\newblock (January):1--14, 2020.
+
+\bibitem{Rizk2017}
+B.~Rizk, C.~{Drouet D'Aubigny}, et~al.
+\newblock {OCAMS: The OSIRIS-REx camera suite}.
+\newblock {\em arXiv}, pages 1--128, 2017.
+
+\bibitem{Roberts}
+James Roberts, Yun Zhang, Olivier Barnouin, Patrick Michel, Derek Richardson,
+  Michael Nolan, Michael Daly, Jeff Seabrook, Eric Palmer, Robert Gaskell,
+  Manar~Al Asad, Catherine Johnson, Lydia Philpott, and Dante Lauretta.
+\newblock {Coupled shape and spin evolution of Bennu due to the YORP effect
+  Coupled shape and spin evolution of Bennu due to the YORP effect}.
+\newblock (2015).
+
+\bibitem{Rozitis2017}
+B.~Rozitis.
+\newblock {The surface roughness of (433) Eros as measured by thermal-infrared
+  beaming}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  464(1):915--923, 2017.
+
+\bibitem{Rozitis2011}
+B.~Rozitis and S.~F. Green.
+\newblock {Directional characteristics of thermal-infrared beaming from
+  atmosphereless planetary surfaces - a new thermophysical model}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  415(3):2042--2062, 2011.
+
+\bibitem{Rozitis2011a}
+B.~Rozitis and S.~F. Green.
+\newblock {Directional characteristics of thermal-infrared beaming from
+  atmosphereless planetary surfaces - a new thermophysical model}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  415(3):2042--2062, 2011.
+
+\bibitem{Rozitis2012}
+B.~Rozitis and S.~F. Green.
+\newblock {The influence of rough surface thermal-infrared beaming on the
+  Yarkovsky and YORP effects}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  423(1):367--388, 2012.
+
+\bibitem{Rozitis2013}
+B.~Rozitis and S.~F. Green.
+\newblock {The strength and detectability of the YORP effect in near-Earth
+  asteroids: A statistical approach}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  430(2):1376--1389, 2013.
+
+\bibitem{Rubincam2000}
+David~Parry Rubincam.
+\newblock {Radiative Spin-up and Spin-down of Small Asteroids}.
+\newblock {\em Icarus}, 148(1):2--11, 2000.
+
+\bibitem{Sanchez2014}
+P.~S{\'{a}}nchez and D.~J. Scheeres.
+\newblock {The strength of regolith and rubble pile asteroids}.
+\newblock {\em Meteoritics and Planetary Science}, 49(5):788--811, 2014.
+
+\bibitem{Savarese2007}
+Silvio Savarese, Marco Andreetto, Holly Rushmeier, Fausto Bernardini, and
+  Pietro Perona.
+\newblock {\em {3D reconstruction by shadow carving: Theory and practical
+  evaluation}}, volume~71.
+\newblock 2007.
+
+\bibitem{Scheeres2007}
+D.~J. Scheeres.
+\newblock {The dynamical evolution of uniformly rotating asteroids subject to
+  YORP}.
+\newblock {\em Icarus}, 188(2):430--450, 2007.
+
+\bibitem{Scheeres2014}
+D~J Scheeres.
+\newblock {Surface Stability of Rapidly Spinning Spheroids}.
+\newblock (November), 2014.
+
+\bibitem{Scheeres2015}
+D.~J. Scheeres.
+\newblock {Landslides and Mass shedding on spinning spheroidal asteroids}.
+\newblock {\em Icarus}, 247:1--17, 2015.
+
+\bibitem{Scheeres2018}
+D.~J. Scheeres.
+\newblock {Disaggregation of small, cohesive rubble pile asteroids due to
+  YORP}.
+\newblock {\em Icarus}, 304:183--191, 2018.
+
+\bibitem{Scheeres2007a}
+D.~J. Scheeres, M.~Abe, M.~Yoshikawa, R.~Nakamura, R.~W. Gaskell, and P.~A.
+  Abell.
+\newblock {The effect of YORP on Itokawa}.
+\newblock {\em Icarus}, 188(2):425--429, 2007.
+
+\bibitem{Scheeres2006}
+D~J Scheeres, R~W Gaskell, Shinsuke Abe, and O~S Barnouin.
+\newblock {The Actual Dynamical Environment About Itokawa}.
+\newblock (October 2014), 2006.
+
+\bibitem{Scheeres2016}
+D.~J. Scheeres, S.~G. Hesar, S.~Tardivel, M.~Hirabayashi, D.~Farnocchia, J.~W.
+  McMahon, S.~R. Chesley, O.~Barnouin, R.~P. Binzel, W.~F. Bottke, M.~G. Daly,
+  J.~P. Emery, C.~W. Hergenrother, D.~S. Lauretta, J.~R. Marshall, P.~Michel,
+  M.~C. Nolan, and K.~J. Walsh.
+\newblock {The geophysical environment of Bennu}.
+\newblock {\em Icarus}, 276:116--140, 2016.
+
+\bibitem{Scheeres2019}
+D.~J. Scheeres, J.~W. McMahon, A.~S. French, D.~N. Brack, S.~R. Chesley,
+  D.~Farnocchia, Y.~Takahashi, J.~M. Leonard, J.~Geeraert, B.~Page,
+  P.~Antreasian, K.~Getzandanner, D.~Rowlands, E.~M. Mazarico, J.~Small, D.~E.
+  Highsmith, M.~Moreau, J.~P. Emery, B.~Rozitis, M.~Hirabayashi,
+  P.~S{\'{a}}nchez, S.~Van~wal, P.~Tricarico, R.~L. Ballouz, C.~L. Johnson,
+  M.~M. {Al Asad}, H.~C.M. Susorney, O.~S. Barnouin, M.~G. Daly, J.~A.
+  Seabrook, R.~W. Gaskell, E.~E. Palmer, J.~R. Weirich, K.~J. Walsh, E.~R.
+  Jawin, E.~B. Bierhaus, P.~Michel, W.~F. Bottke, M.~C. Nolan, H.~C. Connolly,
+  D.~S. Lauretta, D.~Vokrouhlick{\'{y}}, N.~E. Bowles, E.~Brown, K.~L.
+  {Donaldson Hanna}, T.~Warren, C.~Brunet, R.~A. Chicoine, S.~Desjardins,
+  D.~Gaudreau, T.~Haltigin, S.~Millington-Veloza, A.~Rubi, J.~Aponte,
+  N.~Gorius, A.~Lunsford, B.~Allen, J.~Grindlay, D.~Guevel, D.~Hoak, J.~Hong,
+  D.~L. Schrader, J.~Bayron, O.~Golubov, J.~Stromberg, C.~M. Hartzell,
+  S.~Oliver, M.~Rascon, A.~Harch, J.~Joseph, S.~Squyres, D.~Richardson,
+  L.~McGraw, R.~Ghent, R.~P. Binzel, L.~Philpott, E.~A. Cloutis, R.~D. Hanna,
+  F.~Ciceri, A.~R. Hildebrand, E.~M. Ibrahim, L.~Breitenfeld, T.~Glotch, A.~D.
+  Rogers, B.~E. Clark, S.~Ferrone, C.~A. Thomas, H.~Campins, Y.~Fernandez,
+  W.~Chang, A.~Cheuvront, D.~Trang, S.~Tachibana, H.~Yurimoto, J.~R. Brucato,
+  G.~Poggiali, M.~Pajola, E.~Dotto, E.~Mazzotta Epifani, M.~K. Crombie,
+  C.~Lantz, M.~R.M. Izawa, J.~de~Leon, J.~Licandro, J.~L.Rizos Garcia,
+  S.~Clemett, K.~Thomas-Keprta, M.~Yoshikawa, J.~Bellerose, S.~Bhaskaran,
+  C.~Boyles, C.~M. Elder, A.~Harbison, B.~Kennedy, A.~Knight,
+  N.~Martinez-Vlasoff, N.~Mastrodemos, T.~McElrath, W.~Owen, R.~Park, B.~Rush,
+  L.~Swanson, D.~Velez, K.~Yetter, C.~Thayer, C.~Adam, J.~Bauman, C.~Bryan,
+  B.~Carcich, M.~Corvin, J.~Hoffman, E.~Lessac-Chenen, A.~Levine, J.~McAdams,
+  L.~McCarthy, D.~Nelson, J.~Pelgrift, E.~Sahr, K.~Stakkestad, D.~Stanbridge,
+  D.~Wibben, B.~Williams, K.~Williams, P.~Wolff, P.~Hayne, D.~Kubitschek, M.~A.
+  Barucci, J.~D.P. Deshapriya, S.~Fornasier, M.~Fulchignoni, P.~Hasselmann,
+  F.~Merlin, A.~Praet, O.~Billett, A.~Boggs, B.~Buck, S.~Carlson-Kelly,
+  J.~Cerna, K.~Chaffin, E.~Church, M.~Coltrin, J.~Daly, A.~Deguzman,
+  R.~Dubisher, D.~Eckart, D.~Ellis, P.~Falkenstern, A.~Fisher, M.~E. Fisher,
+  P.~Fleming, K.~Fortney, S.~Francis, S.~Freund, S.~Gonzales, P.~Haas,
+  A.~Hasten, D.~Hauf, A.~Hilbert, D.~Howell, F.~Jaen, N.~Jayakody, M.~Jenkins,
+  K.~Johnson, M.~Lefevre, H.~Ma, C.~Mario, K.~Martin, C.~May, M.~McGee,
+  B.~Miller, C.~Miller, G.~Miller, A.~Mirfakhrai, E.~Muhle, C.~Norman, R.~Olds,
+  C.~Parish, M.~Ryle, M.~Schmitzer, P.~Sherman, M.~Skeen, M.~Susak, B.~Sutter,
+  Q.~Tran, C.~Welch, R.~Witherspoon, J.~Wood, J.~Zareski, M.~Arvizu-Jakubicki,
+  E.~Asphaug, E.~Audi, R.~Bandrowski, K.~J. Becker, T.~L. Becker, S.~Bendall,
+  C.~A. Bennett, H.~Bloomenthal, D.~Blum, W.~V. Boynton, J.~Brodbeck, K.~N.
+  Burke, M.~Chojnacki, A.~Colpo, J.~Contreras, J.~Cutts, C.~Y.Drouet D'Aubigny,
+  D.~Dean, D.~N. DellaGiustina, B.~Diallo, D.~Drinnon, K.~Drozd, H.~L. Enos,
+  R.~Enos, C.~Fellows, T.~Ferro, M.~R. Fisher, G.~Fitzgibbon, M.~Fitzgibbon,
+  J.~Forelli, T.~Forrester, I.~Galinsky, R.~Garcia, A.~Gardner, D.~R. Golish,
+  N.~Habib, D.~Hamara, D.~Hammond, K.~Hanley, K.~Harshman, C.~W. Hergenrother,
+  K.~Herzog, D.~Hill, C.~Hoekenga, S.~Hooven, E.~S. Howell, E.~Huettner,
+  A.~Janakus, J.~Jones, T.~R. Kareta, J.~Kidd, K.~Kingsbury, S.~S.
+  Balram-Knutson, L.~Koelbel, J.~Kreiner, D.~Lambert, C.~Lewin, B.~Lovelace,
+  M.~Loveridge, M.~Lujan, C.~K. Maleszewski, R.~Malhotra, K.~Marchese,
+  E.~McDonough, N.~Mogk, V.~Morrison, E.~Morton, R.~Munoz, J.~Nelson,
+  J.~Padilla, R.~Pennington, A.~Polit, N.~Ramos, V.~Reddy, M.~Riehl, B.~Rizk,
+  H.~L. Roper, S.~Salazar, S.~R. Schwartz, S.~Selznick, N.~Shultz, P.~H. Smith,
+  S.~Stewart, S.~Sutton, T.~Swindle, Y.~H. Tang, M.~Westermann, C.~W.V. Wolner,
+  D.~Worden, T.~Zega, Z.~Zeszut, A.~Bjurstrom, L.~Bloomquist, C.~Dickinson,
+  E.~Keates, J.~Liang, V.~Nifo, A.~Taylor, F.~Teti, M.~Caplinger, H.~Bowles,
+  S.~Carter, S.~Dickenshied, D.~Doerres, T.~Fisher, W.~Hagee, J.~Hill,
+  M.~Miner, D.~Noss, N.~Piacentine, M.~Smith, A.~Toland, P.~Wren, M.~Bernacki,
+  D.~Pino Munoz, S.~I. Watanabe, S.~A. Sandford, A.~Aqueche, B.~Ashman,
+  M.~Barker, A.~Bartels, K.~Berry, B.~Bos, R.~Burns, A.~Calloway, R.~Carpenter,
+  N.~Castro, R.~Cosentino, J.~Donaldson, J.~P. Dworkin, J.~Elsila Cook, C.~Emr,
+  D.~Everett, D.~Fennell, K.~Fleshman, D.~Folta, D.~Gallagher, J.~Garvin,
+  D.~Glavin, S.~Hull, K.~Hyde, H.~Ido, A.~Ingegneri, N.~Jones, P.~Kaotira,
+  L.~F. Lim, A.~Liounis, C.~Lorentson, D.~Lorenz, J.~Lyzhoft, R.~Mink,
+  W.~Moore, S.~Mullen, J.~Nagy, G.~Neumann, J.~Nuth, D.~Poland, D.~C. Reuter,
+  L.~Rhoads, S.~Rieger, D.~Sallitt, A.~Scroggins, G.~Shaw, A.~A. Simon,
+  J.~Swenson, P.~Vasudeva, M.~Wasser, R.~Zellar, J.~Grossman, G.~Johnston,
+  M.~Morris, J.~Wendel, A.~Burton, L.~P. Keller, L.~McNamara, S.~Messenger,
+  K.~Nakamura-Messenger, A.~Nguyen, K.~Righter, E.~Queen, K.~Bellamy, K.~Dill,
+  S.~Gardner, M.~Giuntini, B.~Key, J.~Kissell, D.~Patterson, D.~Vaughan,
+  B.~Wright, L.~{Le Corre}, J.~Y. Li, J.~L. Molaro, M.~A. Siegler, X.~D. Zou,
+  T.~Ireland, K.~Tait, P.~Bland, S.~Anwar, N.~Bojorquez-Murphy, P.~R.
+  Christensen, C.~W. Haberle, G.~Mehall, K.~Rios, I.~Franchi, C.~B.
+  Beddingfield, J.~Marshall, T.~J. McCoy, S.~Russell, M.~Killgore, V.~E.
+  Hamilton, H.~H. Kaplan, J.~L. Bandfield, B.~C. Clark, M.~Chodas, M.~Lambert,
+  R.~A. Masterson, J.~Freemantle, K.~Craft, C.~Ernst, R.~C. Espiritu,
+  M.~Holdridge, M.~Jones, A.~H. Nair, L.~Nguyen, J.~Peachey, M.~E. Perry,
+  J.~Plescia, J.~H. Roberts, R.~Steele, R.~Turner, J.~Backer, K.~Edmundson,
+  J.~Mapel, M.~Milazzo, S.~Sides, C.~Manzoni, B.~May, M.~Delbo', G.~Libourel,
+  A.~Ryan, F.~Thuillet, and B.~Marty.
+\newblock {The dynamic geophysical environment of (101955) Bennu based on
+  OSIRIS-REx measurements}.
+\newblock {\em Nature Astronomy}, 3(4):352--361, 2019.
+
+\bibitem{Scheeres2008}
+Daniel~J. Scheeres and Sepidehsadat Mirrahimi.
+\newblock {Rotational dynamics of a solar system body under solar radiation
+  torques}.
+\newblock {\em Celestial Mechanics and Dynamical Astronomy}, 101(1-2):69--103,
+  2008.
+
+\bibitem{ScheeresDanielJ.McMahonJ.W.2020}
+{Scheeres, Daniel J., McMahon, J.W.}
+\newblock {Janus: A NASA SIMPLEx mission to explore two NEO Binary Asteroids.}
+\newblock In {\em 51st Lunar and Planetary Science Conference}, 2020.
+
+\bibitem{laplacian}
+Olga Sorkine.
+\newblock {Laplacian Mesh Processing}.
+\newblock In Yiorgos Chrysanthou and Marcus Magnor, editors, {\em Eurographics
+  2005 - State of the Art Reports}. The Eurographics Association, 2005.
+
+\bibitem{Statler2009}
+Thomas~S. Statler.
+\newblock {Extreme sensitivity of the YORP effect to small-scale topography}.
+\newblock {\em Icarus}, 202(2):502--513, 2009.
+
+\bibitem{Statler2015}
+Thomas~S. Statler.
+\newblock {Obliquities of "top-shaped" asteroids may not imply reshaping by
+  YORP spin-up}.
+\newblock {\em Icarus}, 248:313--317, 2015.
+
+\bibitem{Takahashi2011}
+Yu~Takahashi and D.~J. Scheeres.
+\newblock {Small-body postrendezvous characterization via slow hyperbolic
+  flybys}.
+\newblock {\em Journal of Guidance, Control, and Dynamics}, 34(6):1815--1827,
+  2011.
+
+\bibitem{Takahashi2014}
+Yu~Takahashi and D.~J. Scheeres.
+\newblock {Morphology driven density distribution estimation for small bodies}.
+\newblock {\em Icarus}, 233:179--193, 2014.
+
+\bibitem{Takeishi2015}
+Naoya Takeishi, Takehisa Yairi, Yuichi Tsuda, Fuyuto Terui, Naoko Ogawa, and
+  Yuya Mimasu.
+\newblock {Simultaneous estimation of shape and motion of an asteroid for
+  automatic navigation}.
+\newblock {\em Proceedings - IEEE International Conference on Robotics and
+  Automation}, 2015-June(June):2861--2866, 2015.
+
+\bibitem{Tancredi2015}
+Gonzalo Tancredi, Santiago Roland, and Sebasti{\'{a}}n Bruzzone.
+\newblock {Distribution of boulders and the gravity potential on asteroid
+  Itokawa}.
+\newblock {\em Icarus}, 247:279--290, 2015.
+
+\bibitem{Tang2024}
+Y.~Tang, D.~S. Lauretta, R.~L. Ballouz, D.~N. DellaGiustina, A.~T. Polit, M.~M.
+  Westermann, C.~A. Bennett, K.~J. Becker, K.~J. Walsh, and D.~R. Golish.
+\newblock {Characterization and implications of a mass movement site in Bennu's
+  Bralgah Crater}.
+\newblock {\em Icarus}, 415(March):116056, 2024.
+
+\bibitem{Tanimoto2013}
+Akira Tanimoto, Naoya Takeishi, Takehisa Yairi, Yuichi Tsuda, Fuyuto Terui,
+  Naoko Ogawa, and Yuya Mimasu.
+\newblock {Fast estimation of asteroid shape and motion for spacecraft
+  navigation}.
+\newblock {\em 2013 IEEE International Conference on Robotics and Biomimetics,
+  ROBIO 2013}, (December):1550--1555, 2013.
+
+\bibitem{Thomas1989}
+Peter~C. Thomas.
+\newblock {The shapes of small satellites}.
+\newblock {\em Icarus}, 77(2):248--274, 1989.
+
+\bibitem{Villa2020}
+Jacopo Villa, Saptarshi Bandyopadhyay, Benjamin Morrell, Benjamin Hockman,
+  Daniel Lubey, Alexi Harvard, Soon-Jo Chung, Shyamkumar Bhaskaran, and Issa~A
+  Nesnas.
+\newblock {Optical Navigation for Autonomous Approach of Small Unknown Bodies}.
+\newblock In {\em AAS GN{\&}C Conference}, page 300, 2020.
+
+\bibitem{Vokrouhlicky2015}
+David Vokrouhlick{\'{y}}, William~F. Bottke, Steven~R. Chesley, Daniel~J.
+  Scheeres, and Thomas~S. Statler.
+\newblock {The Yarkovsky and YORP effects}.
+\newblock {\em Asteroids IV}, pages 509--531, 2015.
+
+\bibitem{Vokrouhlicky2007}
+David Vokrouhlicky and David Nesvorny.
+\newblock {Analytic Theory of the YORP Effect for Near-Spherical Objects}.
+\newblock {\em The Astronomical Journal}, 134:1750--1768, 2007.
+
+\bibitem{Walsh2019}
+K.~J. Walsh, E.~R. Jawin, R.~L. Ballouz, O.~S. Barnouin, E.~B. Bierhaus, H.~C.
+  Connolly, J.~L. Molaro, T.~J. McCoy, M.~Delbo', C.~M. Hartzell, M.~Pajola,
+  S.~R. Schwartz, D.~Trang, E.~Asphaug, K.~J. Becker, C.~B. Beddingfield, C.~A.
+  Bennett, W.~F. Bottke, K.~N. Burke, B.~C. Clark, M.~G. Daly, D.~N.
+  Dellagiustina, J.~P. Dworkin, C.~M. Elder, D.~R. Golish, A.~R. Hildebrand,
+  R.~Malhotra, J.~Marshall, P.~Michel, M.~C. Nolan, M.~E. Perry, B.~Rizk,
+  A.~Ryan, S.~A. Sandford, D.~J. Scheeres, H.~C.M. Susorney, F.~Thuillet, and
+  D.~S. Lauretta.
+\newblock {Craters, boulders and regolith of (101955) bennu indicative of an
+  old and dynamic surface}.
+\newblock {\em Nature Geoscience}, 12(April):242--246, 2019.
+
+\bibitem{Walsh2018}
+Kevin~J. Walsh.
+\newblock {Rubble Pile Asteroids}.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 56:593--624, 2018.
+
+\bibitem{Walsh2022}
+Kevin~J. Walsh, Ronald~Louis Ballouz, Erica~R. Jawin, Chrysa Avdellidou,
+  Olivier~S. Barnouin, Carina~A. Bennett, Edward~B. Bierhaus, Brent~J. Bos,
+  Saverio Cambioni, Harold~C. Connolly, Marco Delbo, Daniella~N. DellaGiustina,
+  Joseph DeMartini, Joshua~P. Emery, Dathon~R. Golish, Patrick~C. Haas, Carl~W.
+  Hergenrother, Huikang Ma, Patrick Michel, Michael~C. Nolan, Ryan Olds,
+  Benjamin Rozitis, Derek~C. Richardson, Bashar Rizk, Andrew~J. Ryan, Paul
+  S{\'{a}}nchez, Daniel~J. Scheeres, Stephen~R. Schwartz, Sanford~H. Selznick,
+  Yun Zhang, and Dante~S. Lauretta.
+\newblock {Near-zero cohesion and loose packing of Bennu's near subsurface
+  revealed by spacecraft contact}.
+\newblock {\em Science Advances}, 8(27):1--9, 2022.
+
+\bibitem{Watanabe2019}
+S.~Watanabe, M.~Hirabayashi, N.~Hirata, N.~Hirata, R.~Noguchi, Y.~Shimaki,
+  H.~Ikeda, E.~Tatsumi, M.~Yoshikawa, S.~Kikuchi, H.~Yabuta, T.~Nakamura,
+  S.~Tachibana, Y.~Ishihara, T.~Morota, K.~Kitazato, N.~Sakatani, K.~Matsumoto,
+  K.~Wada, H.~Senshu, C.~Honda, T.~Michikami, H.~Takeuchi, T.~Kouyama,
+  R.~Honda, S.~Kameda, T.~Fuse, H.~Miyamoto, G.~Komatsu, S.~Sugita, T.~Okada,
+  N.~Namiki, M.~Arakawa, M.~Ishiguro, M.~Abe, R.~Gaskell, E.~Palmer, O.~S.
+  Barnouin, P.~Michel, A.~S. French, J.~W. McMahon, D.~J. Scheeres, P.~A.
+  Abell, Y.~Yamamoto, S.~Tanaka, K.~Shirai, M.~Matsuoka, M.~Yamada, Y.~Yokota,
+  H.~Suzuki, K.~Yoshioka, Y.~Cho, S.~Tanaka, N.~Nishikawa, T.~Sugiyama,
+  H.~Kikuchi, R.~Hemmi, T.~Yamaguchi, N.~Ogawa, G.~Ono, Y.~Mimasu,
+  K.~Yoshikawa, T.~Takahashi, Y.~Takei, A.~Fujii, C.~Hirose, T.~Iwata,
+  M.~Hayakawa, S.~Hosoda, O.~Mori, H.~Sawada, T.~Shimada, S.~Soldini, H.~Yano,
+  R.~Tsukizaki, M.~Ozaki, Y.~Iijima, K.~Ogawa, M.~Fujimoto, T.~M. Ho,
+  A.~Moussi, R.~Jaumann, J.~P. Bibring, C.~Krause, F.~Terui, T.~Saiki,
+  S.~Nakazawa, and Y.~Tsuda.
+\newblock {Hayabusa2 arrives at the carbonaceous asteroid 162173 Ryugu-A
+  spinning top-shaped rubble pile}.
+\newblock {\em Science}, 2019.
+
+\bibitem{Zhou2022}
+Wen-Han Zhou, Yun Zhang, Xiaoran Yan, and Patrick Michel.
+\newblock {The crater-induced YORP effect}.
+\newblock 1(1), 2022.
 
 \end{thebibliography}
