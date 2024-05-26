@@ -11,36 +11,36 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Ball-Pivoting Surface Reconstruction Results of Itokawa and Bennu Point Clouds\relax }}{20}{figure.caption.14}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Pre- and Post-Processed Point Cloud of Itokawa Limb-Trimmed Shape\relax }}{21}{figure.caption.15}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Limb-based Itokawa shape compared to SPC, with surface error in units of kilometers\relax }}{22}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Pre- and Post-Processed Point Cloud of Bennu Limb-Trimmed Shape\relax }}{22}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Pre- and Post-Processed Point Cloud of Bennu Limb-Trimmed Shape\relax }}{23}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Limb-based Bennu shape compared to SPC, with surface error in units of kilometers\relax }}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Bennu Shape Model from Real Images, compared to SPC, surface error in kilometers\relax }}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Test image and Library Image, Expected Match Pair\relax }}{27}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Test image and Library image, Actual Match Pair\relax }}{28}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces 2D Correlation scores between all library images and all test images, based on longitude\relax }}{29}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Bennu Shape Model from Real Images, compared to SPC, surface error in kilometers\relax }}{28}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Test image and Library Image, Expected Match Pair\relax }}{28}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Test image and Library image, Actual Match Pair\relax }}{29}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces 2D Correlation scores between all library images and all test images, based on longitude\relax }}{30}{figure.caption.22}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram of solar radiation, absorption, and YORP re-radiation\relax }}{31}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces First-order YORP spin coefficient variation per facet on Bennu and Itokawa\relax }}{35}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Wedge shape boulders provide asymmetry that induces YORP effect\relax }}{36}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Boulder model with frame\relax }}{37}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram of solar radiation, absorption, and YORP re-radiation\relax }}{32}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces First-order YORP spin coefficient variation per facet on Bennu and Itokawa\relax }}{36}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Wedge shape boulders provide asymmetry that induces YORP effect\relax }}{37}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Boulder model with frame\relax }}{38}{figure.caption.26}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Difference of per-facet distance from body center of mass and the average radius for three asteroid shape models: Bennu, Ryugu, and Itokawa. Darker points represent equatorial facets. Itokawa exhibits the greatest variation over longitude.\relax }}{42}{figure.caption.27}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Cumulative number of boulders per square km\relax }}{42}{figure.caption.29}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Orientation of Prism Boulder Rotating from West to East, from $0$ to $\pi $\relax }}{47}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Sinusoidal relationship of boulder orientation to YORP torque. Asymmetric boulder at equator and perfectly tangent to spin pole\relax }}{49}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Frequency distribution of YORP with 500 random boulder populations for Bennu\relax }}{52}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Size distribution and mean diameter of boulders where $C_{0,z,i} > 1\%$ on Bennu\relax }}{52}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Bennu distribution comparison of normalized frequencies of boulder latitude and orientation in the > 1\% YORP spin coefficient boulder population.\relax }}{53}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Frequency distribution of total boulder YORP spin coefficients for Itokawa\relax }}{55}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Size distribution and mean diameter of boulders where $C_{0,z,i} > 1\%$ for Itokawa\relax }}{70}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Itokawa distribution comparison of normalized frequencies of boulder latitude and orientation in the > 1\% YORP spin coefficient boulder population.\relax }}{70}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Change in Bennu's global YORP spin coefficient with boulders, shown in Fig.\ref {fig:bennu_results}, when removing boulders < 1m, roughly $99\%$ of original population.\relax }}{70}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Overlaid distribution of normalized YORP with and without 1 m boulders\relax }}{71}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Boulder spin coefficients for Bennu, separated by size bins. Percentages represent the proportion of boulders in each bin to the size of the sample population.\relax }}{71}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Change in global YORP spin coefficient when enforcing a percentage of boulders with a westward orientation bias. Each profile is a histogram of global YORP spin coefficients. The black histogram represents the 100\% west bias for all boulders\relax }}{72}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Change in asteroid global YORP spin coefficients when removing boulders outside of $\pm 30^{\circ }$ latitude, varying the percentage until $100\%$ are outside of the the bounds equivalent to a liberal cushion about Bennu's Roche lobe\relax }}{72}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Normalized CYORP Contribution scaled by crater diameter frequency\relax }}{73}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Incorporating the assumption of smooth transitions below and above the ideal thermal inertia length, $L_{cond}$ with a logarithmic scale factor\relax }}{73}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Comparison of analytical YORP spin components for Bennu as a function of obliquity\relax }}{73}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Comparison of mean and standard deviation from several YORP models\relax }}{74}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sinusoidal relationship of boulder orientation to YORP torque. Asymmetric boulder at equator and perfectly tangent to spin pole\relax }}{50}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Frequency distribution of YORP with 500 random boulder populations for Bennu\relax }}{53}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Size distribution and mean diameter of boulders where $C_{0,z,i} > 1\%$ on Bennu\relax }}{53}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Bennu distribution comparison of normalized frequencies of boulder latitude and orientation in the > 1\% YORP spin coefficient boulder population.\relax }}{54}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Frequency distribution of total boulder YORP spin coefficients for Itokawa\relax }}{57}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Size distribution and mean diameter of boulders where $C_{0,z,i} > 1\%$ for Itokawa\relax }}{57}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Itokawa distribution comparison of normalized frequencies of boulder latitude and orientation in the > 1\% YORP spin coefficient boulder population.\relax }}{58}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Change in Bennu's global YORP spin coefficient with boulders, shown in Fig.\ref {fig:bennu_results}, when removing boulders < 1m, roughly $99\%$ of original population.\relax }}{60}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Overlaid distribution of normalized YORP with and without 1 m boulders\relax }}{62}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Boulder spin coefficients for Bennu, separated by size bins. Percentages represent the proportion of boulders in each bin to the size of the sample population.\relax }}{62}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Change in global YORP spin coefficient when enforcing a percentage of boulders with a westward orientation bias. Each profile is a histogram of global YORP spin coefficients. The black histogram represents the 100\% west bias for all boulders\relax }}{63}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Change in asteroid global YORP spin coefficients when removing boulders outside of $\pm 30^{\circ }$ latitude, varying the percentage until $100\%$ are outside of the the bounds equivalent to a liberal cushion about Bennu's Roche lobe\relax }}{64}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Normalized CYORP Contribution scaled by crater diameter frequency\relax }}{68}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Incorporating the assumption of smooth transitions below and above the ideal thermal inertia length, $L_{cond}$ with a logarithmic scale factor\relax }}{68}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Comparison of analytical YORP spin components for Bennu as a function of obliquity\relax }}{72}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Comparison of mean and standard deviation from several YORP models\relax }}{72}{figure.caption.47}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
