@@ -1,20 +1,20 @@
-\chapter{Optical-Based Shape Modeling}
+\chapter{Image-based shape modeling}
 \label{shape_modeling}
 \section{Introduction}
 We present a an approach to image processing and shape modeling for low resoltuion shape models. This involves real and simulated imagery, edge detection algorithms, and dramatic lighting conditions, 
 In this work, the models presented are generated from both simulated and actual mission data sources and compared to the most resolute shape models available for the bodies in question. The method is tested on both a convex and irregular body in order to show how our overlaid silhouette trimming procedure responds to self-shadowing, the presence of concavity, as well as phase angles  projections introduced by the orientation of the sun and camera. This work will be developed as necessary to enable onboard shape model generation, but this paper serves to present and defend the method which uses a process of refinement based on extending the shape along the silhouette cutout in space, and narrowing down the three-dimensional hull through multiple view angles. As the small body community looks to grant more SIMPLEx level missions to asteroids, such as the Janus mission which will rendezvous with a binary system, it is necessary to develop the autonomous onboard navigation capabilities that make those missions possible. 
 
-\section{Methods}
+\section{2D to 3D mapping of images to shapes}
 \subsection{Assumptions} 
 In it's current formulation, this shape modeling method processes a batch of optical and infrared images taken at a reasonable distance away from a target body. The body does not need to be centered in the frame of the image, nor does it need to be fully lit. The assumptions made in the work to follow include full knowledge of the body frame, beginning with the orientation of the spin pole and further defined by convention. The orientation and location of the camera is known along with its frame, as well as the sun location in the body frame. In actual missions, there is a reasonable track of the spacecraft orientation and location in the inertial (sun-centered) frame, and a state estimate is formed for the body during approach and during ground-based observation campaigns. In this work, perfect certainty of the body location, spacecraft location, and the camera-pointing vector can be assumed.    
 
-\subsection{Simulated Image Procedure}
+\subsection{Simulated image procedure}
 Simulated images were necessary to test the robustness of our modeling method. The process of generating these images was performed via Blender software {blender} with the goal of recreating conditions of the OSIRIS-REx approach phase to the asteroid Bennu. The shape model was of 6m resolution, sourced from the approach data results given by the OSIRIS-REx mission{Lauretta2019}. Lighting conditions, such as the sun location, were manipulated to match the testing criteria but the inherent qualities were kept constant: a light strength of 5 MW, $0\%$ specularity, and a radius of 1m were suitable to illuminate the target for the purpose of recreating mission-similar conditions. Both a regular and irregular body were tested. The camera dimensions were kept in accordance with the PolyCam on the OSIRIS-REx mission{Rizk2017}.
 %insert table outlining PolyCam camera parameters that you had to put into Blender (just fov? also image size/resolution?)
 
 
 
-\subsection{Mission Data}
+\subsection{Mission data}
 \begin{wrapfigure}[21]{R}{0.5\textwidth}
     \centering
     \captionsetup{justification=centering}
@@ -51,7 +51,7 @@ The data obtained to further test the modeling software was sourced from the OSI
 
 
 
-\subsection{Image Processing - Finding the Silhouette}
+\subsection{Identification of the silhouette}
 
 The procedure of shape generation using optical data begins with processing the images and finding the desired information - the silhouette of the body. The data shows results where the camera is within 100km, 151km, and 8km of the target body for the simulated test cases, the OSIRIS-REx data, and the Hayabusa images respectively. Examples of the input are shown in Fig. %\ref{fig:four_images}. 
 The simulated images and the mission data differ most in their surface detail, where rocks and boulders can be seen readily on mission images but are majorly missing from the surface representations of the shape models processed by Blender. For the purposes of silhouette-based shape modeling, this detail is acceptable and there are many steps implemented to ensure that all data sets are treated equally. This algorithm begins with a pre-processing thresholding procedure. An image is translated from RGB values into grayscale between [0,255] in intensity. These values are then flattened with the lowest intensity pixels ($< 2$) removed and all other intensities amplified by a factor of 1000. This produces a flat background of space with a bright masked featureless image of the body. 
@@ -167,7 +167,7 @@ After identifying the silhouette in the image frame and thus in the 3-D camera f
 One major known quantity in any space mission is the direction of the sun vector. This is increasingly important for a small body in which the whole shape can be observed along with the terminator, which is dependent on the relationship between the body, the camera, and the sun positions. In this work, it is assumed that there is perfect knowledge of the sun location and thus the unit vector corresponding to the sun direction in the body and image frames. This state allows for a calculation of the phase angle which becomes crucial when differentiating a limb versus a terminator in an image of a body that is only partially lit. The knowledge of the sun unit vector in the camera frame allows for simple vector products to separate the edge points which are facing the sun and the points which are on the opposing side. %add more description here
 
 
-\subsection{Ray Generation and Trimming}
+\subsection{Ray generation and trimming}
 
 
 The silhouettes have been identified and placed in their assumed positions in the bodycentric frame of the target, and now the next step is to extend these points into rays which will concentrically constrain the surface {Mcmahon2018}. The reason why the rays are necessary is that the points themselves may be misaligned, contain outliers, or possibly not hold enough information to solve for a reasonable resolution of the surface. Extending our points into rays which will be trimmed based on intersections and subsampled allows for more detail without requiring more information. 
@@ -257,10 +257,10 @@ the point identified is $20\%$ along the intersection ray, with a positive norma
 \end{wrapfigure}
 \indent After iterating through each view and trimming off the pieces of the rays that become intersected by another silhouette, the algorithm saves the remaining points as a point cloud output result. The segments of the original ray that are kept are the ones that were never intersected. This evaluation is strict and a misidentified edge point could result in the trimming of necessary and correct surface data. This drawback is kept in mind during the tuning procedure of the Canny edge detection function, which is designed to be the least sensitive and therefore refined to only identify true edge points. Depending on the range of the observations about the target body, the surface can be resolved to different magnitudes. It is possible to localize using single-view geometry because of the assumption that range is known. Without this assumption, a multiple-view refinement of location using the coordination of edge points along epipoles within the image frame would be required. This estimation capability can easily be implemented in future iterations of this work in order to reduce assumptions and provide further autonomy to the method. However, in the scope of this work, it is assumed that the attitude and range are known quantities for our spacecraft. If a full equatorial survey is able to be conducted, the resulting model will have more data and thus can be further refined by our method compared to a survey with less frequent observations taken. In the test cases presented in this paper, simulated data was used to represent an optimal scenario of observational ability. Using Blender {blender}, the case of a $0^\circ$ phase angle could be simulated for maximum limb brightness and the elimination of a terminator. Data sets were collected for both Itokawa and Bennu, to examine the individual challenges of mapping an irregular shaped body versus a symmetric body. 
 
-\subsection{Outlier Rejection}
+\subsection{Outlier rejection scheme}
 Once the limb rays have been iterated on and their final intersections have been trimmed down, the remaining points and their associated surface normal directions are saved as 3D data suitable to represent a point cloud. In order to reconstruct a surface from the points, we first have to sample down the number of resultant points in order to eliminate outliers from a coarse trimming bias and promote a smoothing of the final surface {Pomerleau2013}. We also implement a function to filter out noisy particles {Rusu2008}. This function keeps any points that have 10 neighboring points within 1 standard deviation of the mean distance between all points in the point cloud.
 
-\subsection{Surface Reconstruction}
+\subsection{Surface reconstruction with ball-pivoting}
 
 Solving for the final surface involves implementing a method that calculates triangular facets and their associated normal unit direction. The method implemented in our work is a ball-pivoting approach that results in a completely closed manifold. The ball-pivoting method forms a closed shape from a point cloud using a ball with a pre-specified radius $\rho$. A triangular face is formed if the ball, initialized at a random point, contains no more than three points {Bernardini1999}. This ball moves along the edges of the triangles solved until it has reached every point available. From there, Delaunay triangulation is applied to find the optimal vertices for each facet and connect the shape as it would fit over a closed volume, as one would expect for a small body {DiAngelo2011}. These methods for reconstruction were chosen because of their geometric simplicity and their restriction to form a closed surface which is a requirement for any small body target. As shown in Fig.\ref{fig:twosurfaces}, we capture some of the finer details of the shapes despite the lower resolution of the limb-based method. 
 \begin{figure*}[ht!]
@@ -334,7 +334,7 @@ The model shown here, developed using 11 images of Bennu along it's equator, is 
 \end{figure}
 
 
-\subsection{Mission Data}
+\subsection{Shape modeling from mission data}
 The last limb-trimmed shape model presented is developed using real mission images taken during the approach phase of the OSIRIS-REx mission by the PolyCam instrument. The major factor differentiating the previous simulated data models from the following model is the appropriateness of the zero degree phase angle assumption. For these reconstructions, we found views that had a low phase angle and therefore could easily ignore the terminator when searching for edge contours in the images without propagating large error in the model. It is to be expected that ignoring the phase angle between the sun and the body will always cause an under-determination of the shape by assigning the terminator as sunlit limb points. This drives forward future work in delineating terminator and limb from varying phase angles, however, the model presented here works under the assumption that the body is always lit from behind the direction of the camera. 
 
 Implementing the same procedures as shown in previous sections, we were able to process 70 images of the asteroid Bennu using Canny edge detection for the silhouette identification and limb-trimming for shape resolution in order to build a surface model from these initial silhouette points. The results show that the model is biased towards underestimating the size of the surface, with the error spanning from -55 to 7 meters, and a mean error of -7 meters. As predicted, the phase angle assumption caused terminator points to be associated with the edge, therefore reducing the size estimate of the body as a whole based on the trimming scheme. However, the shape is reasonably captured based on the dimensions of Bennu and could be used for initial navigation when better data is not yet available.  
@@ -347,8 +347,8 @@ Implementing the same procedures as shown in previous sections, we were able to 
 \end{figure}
 
 
-\section{Matching Localization}
-\subsection{Method}
+\section{Matching localization with Normalized Cross-Correlation}
+\subsection{Methods}
 
 The step of localization is important for any autonomous system to be able to navigate with the onboard generated map without human interference. Keeping a record of images with known locations about the body is one way to inform your future observations of their current orientation and range. We show a simplistic localization method based on finding correlations between test images and a library of images which were collected to build the initial model. With the asteroid Itokawa as our model, we use the Hayabusa mission image set from Oct. 1st, 2005 as the test images. The goal was to provide a test image with an associated latitude and longitude, and find the highest correlation score between this test image and the set of library images previously saved. Ideally, the highest correlation score would correspond to the same latitude and longitude between the test and library image. The process of correlation followed a simple iteration scheme where each test image was measured for a correlation score between each library image. We used a set of 36 library images of Itokawa generated in Blender with varying longitudes, spanning every 10 degrees. This library was acceptable for the images taken on approach, seeing as both the test images and the library set only greatly varied in the longitude orientation due to the spacecraft approaching the target body at an angle perpendicular to the spin axis on the day that the data was taken. 
 
@@ -410,10 +410,7 @@ The models generated with the limb-trimming method have been compared to mission
 %      \caption{Comparison of Shape from Silhouette Model Results to Truth Models}
 % \end{table*}
 
-\section{Discussion}
-
-\section{Conclusion and Further Work}
-
+We conclude that we are capable of building a shape model for an irregular as well as a convex body given low phase angle imagery. This shape model was comparable in size and shape to the target body and with improvements, could serve as a reliable data product for navigation in a scenario without reliable surface feature identification methods. This work also tests a preliminary, matching-focused localization method that we would like to integrate into a full navigation scheme with further testing. It has been shown that limbs can serve as reference data for a spacecraft navigating about a body, but that irregularities in the shape can cause major error between the predicted limb locations and the observed limb locations \cite{Liounis}. We would also like to challenge many of our assumptions, such as the low phase angle on approach, perfect knowledge of range and attitude, as well as our fine tuning of the Canny edge detection thresholds. We hope to find ways to iteratively update our model, ingesting new observations after the surface has been constructed, and allowing a transition between low and high resolution mapping methods as a spacecraft finds that better data is available.
 
 %\section{Acknowledgments}
 

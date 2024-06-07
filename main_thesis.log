@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  25 MAY 2024 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  5 JUN 2024 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main_thesis -interaction=nonstopmode
+**main_thesis
 (./main_thesis.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./thesis.cls
@@ -271,13 +271,206 @@ Package caption Info: New subtype `subtable' on input line 239.
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen160
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen161
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count280
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count281
+\leftroot@=\count282
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count283
+\DOTSCASE@=\count284
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen162
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count285
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count286
+\dotsspace@=\muskip17
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
+\tag@help=\toks21
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
+\andhelp@=\toks22
+\eqnshift@=\dimen163
+\alignsep@=\dimen164
+\tagshift@=\dimen165
+\tagwidth@=\dimen166
+\totwidth@=\dimen167
+\lineht@=\dimen168
+\@envbody=\toks23
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count292
+\calc@Bcount=\count293
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count294
+\calc@Cskip=\skip58
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count295
+\l_MT_multwidth_dim=\dimen171
+\origjot=\skip59
+\l_MT_shortvdotswithinadjustabove_dim=\dimen172
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen173
+\l_MT_above_intertext_sep=\dimen174
+\l_MT_below_intertext_sep=\dimen175
+\l_MT_above_shortintertext_sep=\dimen176
+\l_MT_below_shortintertext_sep=\dimen177
+\xmathstrut@box=\box57
+\xmathstrut@dim=\dimen178
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count296
+\LTcapwidth=\dimen179
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count297
+\LT@rows=\count298
+\c@LT@tables=\count299
+\c@LT@chunks=\count300
+\LT@p@ftn=\toks25
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen180
+\ar@mcellbox=\box63
+\extrarowheight=\dimen181
+\NC@list=\toks26
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box64
+)
+\TX@col@width=\dimen182
+\TX@old@table=\dimen183
+\TX@old@col=\dimen184
+\TX@target=\dimen185
+\TX@delta=\dimen186
+\TX@cols=\count301
+\TX@ftn=\toks27
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count302
+\float@exts=\toks28
+\float@box=\box65
+\@float@everytoks=\toks29
+\@floatcapt=\box66
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen187
+\c@nlinenum=\count303
+\TeXr@lab=\toks30
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen188
+\l__siunitx_angle_marker_box=\box67
+\l__siunitx_angle_unit_box=\box68
+\l__siunitx_compound_count_int=\count304
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count305
+))
+\l__siunitx_number_exponent_fixed_int=\count306
+\l__siunitx_number_min_decimal_int=\count307
+\l__siunitx_number_min_integer_int=\count308
+\l__siunitx_number_round_precision_int=\count309
+\l__siunitx_number_lower_threshold_int=\count310
+\l__siunitx_number_upper_threshold_int=\count311
+\l__siunitx_number_group_first_int=\count312
+\l__siunitx_number_group_size_int=\count313
+\l__siunitx_number_group_minimum_int=\count314
+\l__siunitx_table_tmp_box=\box69
+\l__siunitx_table_tmp_dim=\dimen189
+\l__siunitx_table_column_width_dim=\dimen190
+\l__siunitx_table_integer_box=\box70
+\l__siunitx_table_decimal_box=\box71
+\l__siunitx_table_uncert_box=\box72
+\l__siunitx_table_before_box=\box73
+\l__siunitx_table_after_box=\box74
+\l__siunitx_table_before_dim=\dimen191
+\l__siunitx_table_carry_dim=\dimen192
+\l__siunitx_unit_tmp_int=\count315
+\l__siunitx_unit_position_int=\count316
+\l__siunitx_unit_total_int=\count317
+)
 Putting page number on short ToC
 Putting page number on short LoF
 Putting page number on short LoT
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 75.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count318
+\l__pdf_internal_box=\box75
 )
 (./main_thesis.aux
 
@@ -292,40 +485,46 @@ LaTeX Warning: Label `fig:three sin x' multiply defined.
 
 LaTeX Warning: Label `sub@fig:three sin x' multiply defined.
 
+
+LaTeX Warning: Label `discussion' multiply defined.
+
+
+LaTeX Warning: Label `conclusion' multiply defined.
+
 )
 \openout1 = `main_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
-\scratchdimen=\dimen160
-\scratchbox=\box56
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count284
-\MPscratchDim=\dimen161
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count319
+\scratchdimen=\dimen193
+\scratchbox=\box76
+\nofMPsegments=\count320
+\nofMParguments=\count321
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen194
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -335,15 +534,38 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 75.
 
 (./main_thesis.out) (./main_thesis.out)
 \@outlinefile=\write3
 \openout3 = `main_thesis.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 75.
 
 Making Title Page
 Making Abstract Page
@@ -351,13 +573,13 @@ Making Abstract Page
 
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -384,14 +606,14 @@ centered
 Short Chapter (page numbered)
 (./main_thesis.toc [5
 
-] [6])
+] [6] [7])
 \tf@toc=\write4
 \openout4 = `main_thesis.toc'.
 
 
 Making LoT Page
 Making Short LoT...
-[7]
+[8]
 centered
 Short Chapter (page numbered)
 (./main_thesis.lot)
@@ -401,14 +623,14 @@ Short Chapter (page numbered)
 
 Making LoF Page
 Making Short LoF...
-[8
+[9
 
 ]
 centered
 Short Chapter (page numbered)
-(./main_thesis.lof [9
+(./main_thesis.lof [10
 
-] [10])
+] [11])
 \tf@lof=\write6
 \openout6 = `main_thesis.lof'.
 
@@ -418,94 +640,57 @@ Short Chapter (page numbered)
 -------------------Beginning Body----------------------
 
 
-[11] (./macros.tex
-\c@th@theorem=\count287
+[12] (./macros.tex
+\c@th@theorem=\count325
 ) (./chapter1.tex
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 1.
 centered
 [1
 
 
-] [2]
-
-LaTeX Warning: Citation `Palmer2019' on page 3 undefined on input line 16.
-
-[3]
-
-LaTeX Warning: Citation `Mainzer2011' on page 4 undefined on input line 24.
-
-[4]
-
-LaTeX Warning: Citation `Vokrouhlicky2000' on page 5 undefined on input line 26
-.
-
-
-LaTeX Warning: Citation `Durech2023' on page 5 undefined on input line 26.
-
-
-LaTeX Warning: Citation `Zhou2023' on page 5 undefined on input line 26.
-
-
-LaTeX Warning: Citation `Murdoch2015' on page 5 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Barnouin2022' on page 5 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Kuppers2012' on page 5 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Zhang2022' on page 5 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Holsapple2010' on page 5 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Bennett2021' on page 5 undefined on input line 30.
-
-[5] [6]) (./chapter2.tex [7]
+] [2] [3] [4] [5] [6] [7]) (./chapter2.tex [8]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 2.
 centered
-[8
+[9
 
 ]
-<fig/render72.png, id=582, 1027.84pt x 1027.84pt>
+<fig/render72.png, id=709, 1027.84pt x 1027.84pt>
 File: fig/render72.png Graphic file (type png)
 <use fig/render72.png>
 Package pdftex.def Info: fig/render72.png  used on input line 22.
 (pdftex.def)             Requested size: 108.02832pt x 108.02832pt.
-<fig/Screen Shot 2021-02-18 at 11.43.43 AM.png, id=584, 293.095pt x 274.02374pt
+<fig/Screen Shot 2021-02-18 at 11.43.43 AM.png, id=711, 293.095pt x 274.02374pt
 >
 File: fig/Screen Shot 2021-02-18 at 11.43.43 AM.png Graphic file (type png)
 <use fig/Screen Shot 2021-02-18 at 11.43.43 AM.png>
 Package pdftex.def Info: fig/Screen Shot 2021-02-18 at 11.43.43 AM.png  used on
  input line 29.
 (pdftex.def)             Requested size: 108.04094pt x 108.04376pt.
-<fig/image_69.png, id=585, 1027.84pt x 1027.84pt>
+<fig/image_69.png, id=712, 1027.84pt x 1027.84pt>
 File: fig/image_69.png Graphic file (type png)
 <use fig/image_69.png>
 Package pdftex.def Info: fig/image_69.png  used on input line 36.
 (pdftex.def)             Requested size: 108.02832pt x 108.02832pt.
-<fig/st_2423026558_v.png, id=586, 1027.84pt x 1027.84pt>
+<fig/st_2423026558_v.png, id=713, 1027.84pt x 1027.84pt>
 File: fig/st_2423026558_v.png Graphic file (type png)
 <use fig/st_2423026558_v.png>
 Package pdftex.def Info: fig/st_2423026558_v.png  used on input line 43.
 (pdftex.def)             Requested size: 108.02832pt x 108.02832pt.
- [9]
-<fig/unproc_ito.jpg, id=591, 232.87pt x 218.8175pt>
+ [10]
+<fig/unproc_ito.jpg, id=718, 232.87pt x 218.8175pt>
 File: fig/unproc_ito.jpg Graphic file (type jpg)
 <use fig/unproc_ito.jpg>
 Package pdftex.def Info: fig/unproc_ito.jpg  used on input line 62.
 (pdftex.def)             Requested size: 187.90588pt x 144.54019pt.
-<fig/flat_thresh_ito.jpeg, id=592, 254.9525pt x 223.83624pt>
+<fig/flat_thresh_ito.jpeg, id=719, 254.9525pt x 223.83624pt>
 File: fig/flat_thresh_ito.jpeg Graphic file (type jpg)
 <use fig/flat_thresh_ito.jpeg>
 Package pdftex.def Info: fig/flat_thresh_ito.jpeg  used on input line 68.
 (pdftex.def)             Requested size: 187.90717pt x 144.54233pt.
- [10 <./fig/render72.png> <./fig/Screen Shot 2021-02-18 at 11.43.43 AM.png> <./
+ [11 <./fig/render72.png> <./fig/Screen Shot 2021-02-18 at 11.43.43 AM.png> <./
 fig/image_69.png (PNG copy)> <./fig/st_2423026558_v.png (PNG copy)>]
-[11 <./fig/unproc_ito.jpg> <./fig/flat_thresh_ito.jpeg>]
-<fig/tiled_canny_test.png, id=606, 1349.04pt x 1350.04375pt>
+[12 <./fig/unproc_ito.jpg> <./fig/flat_thresh_ito.jpeg>]
+<fig/tiled_canny_test.png, id=733, 1349.04pt x 1350.04375pt>
 File: fig/tiled_canny_test.png Graphic file (type png)
 <use fig/tiled_canny_test.png>
 Package pdftex.def Info: fig/tiled_canny_test.png  used on input line 135.
@@ -514,50 +699,50 @@ Package pdftex.def Info: fig/tiled_canny_test.png  used on input line 135.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/overlay_canny_correctparameters.png, id=607, 622.325pt x 579.16376pt>
+<fig/overlay_canny_correctparameters.png, id=734, 622.325pt x 579.16376pt>
 File: fig/overlay_canny_correctparameters.png Graphic file (type png)
 <use fig/overlay_canny_correctparameters.png>
 Package pdftex.def Info: fig/overlay_canny_correctparameters.png  used on input
  line 143.
 (pdftex.def)             Requested size: 187.89912pt x 174.86397pt.
-[12 <./fig/overlay_canny_correctparameters.png (PNG copy)>] [13 <./fig/tiled_ca
+[13 <./fig/overlay_canny_correctparameters.png (PNG copy)>] [14 <./fig/tiled_ca
 nny_test.png>]
-<fig/limb_term_bennu_correct.jpeg, id=619, 622.325pt x 579.16376pt>
+<fig/limb_term_bennu_correct.jpeg, id=747, 622.325pt x 579.16376pt>
 File: fig/limb_term_bennu_correct.jpeg Graphic file (type jpg)
 <use fig/limb_term_bennu_correct.jpeg>
 Package pdftex.def Info: fig/limb_term_bennu_correct.jpeg  used on input line 1
 63.
 (pdftex.def)             Requested size: 183.20415pt x 170.49832pt.
- [14 <./fig/limb_term_bennu_correct.jpeg>]
-<fig/planes_intersect.png, id=625, 416.55624pt x 321.2pt>
+ [15 <./fig/limb_term_bennu_correct.jpeg>]
+<fig/planes_intersect.png, id=752, 416.55624pt x 321.2pt>
 File: fig/planes_intersect.png Graphic file (type png)
 <use fig/planes_intersect.png>
 Package pdftex.def Info: fig/planes_intersect.png  used on input line 209.
 (pdftex.def)             Requested size: 234.87749pt x 181.11075pt.
- [15 <./fig/planes_intersect.png>]
-<fig/twoplanes.png, id=633, 478.78876pt x 386.44376pt>
+ [16 <./fig/planes_intersect.png>]
+<fig/twoplanes.png, id=760, 478.78876pt x 386.44376pt>
 File: fig/twoplanes.png Graphic file (type png)
 <use fig/twoplanes.png>
 Package pdftex.def Info: fig/twoplanes.png  used on input line 234.
 (pdftex.def)             Requested size: 230.18251pt x 185.78572pt.
-<fig/intersecting_planes.png, id=634, 455.7025pt x 380.42125pt>
+<fig/intersecting_planes.png, id=761, 455.7025pt x 380.42125pt>
 File: fig/intersecting_planes.png Graphic file (type png)
 <use fig/intersecting_planes.png>
 Package pdftex.def Info: fig/intersecting_planes.png  used on input line 239.
 (pdftex.def)             Requested size: 230.18251pt x 192.16054pt.
-<fig/line_pts_norms.png, id=635, 709.65125pt x 136.51pt>
+<fig/line_pts_norms.png, id=762, 709.65125pt x 136.51pt>
 File: fig/line_pts_norms.png Graphic file (type png)
 <use fig/line_pts_norms.png>
 Package pdftex.def Info: fig/line_pts_norms.png  used on input line 254.
 (pdftex.def)             Requested size: 234.87749pt x 45.18175pt.
- [16] [17 <./fig/twoplanes.png> <./fig/intersecting_planes.png>]
-[18 <./fig/line_pts_norms.png>]
-<fig/itokawa_recon.png, id=654, 1124.2pt x 843.15pt>
+ [17] [18 <./fig/twoplanes.png> <./fig/intersecting_planes.png>]
+[19 <./fig/line_pts_norms.png>]
+<fig/itokawa_recon.png, id=781, 1124.2pt x 843.15pt>
 File: fig/itokawa_recon.png Graphic file (type png)
 <use fig/itokawa_recon.png>
 Package pdftex.def Info: fig/itokawa_recon.png  used on input line 270.
 (pdftex.def)             Requested size: 234.87749pt x 176.15327pt.
-<fig/bennu_recon.png, id=655, 1124.2pt x 843.15pt>
+<fig/bennu_recon.png, id=782, 1124.2pt x 843.15pt>
 File: fig/bennu_recon.png Graphic file (type png)
 <use fig/bennu_recon.png>
 Package pdftex.def Info: fig/bennu_recon.png  used on input line 276.
@@ -567,30 +752,30 @@ Overfull \hbox (4.86665pt too wide) in paragraph at lines 268--279
  [][]  [] 
  []
 
-[19]
-<fig/dense_itokawa.png, id=660, 1124.2pt x 843.15pt>
+[20]
+<fig/dense_itokawa.png, id=787, 1124.2pt x 843.15pt>
 File: fig/dense_itokawa.png Graphic file (type png)
 <use fig/dense_itokawa.png>
 Package pdftex.def Info: fig/dense_itokawa.png  used on input line 289.
 (pdftex.def)             Requested size: 187.89912pt x 140.9149pt.
-<fig/sparse_itokawa.png, id=661, 1124.2pt x 843.15pt>
+<fig/sparse_itokawa.png, id=788, 1124.2pt x 843.15pt>
 File: fig/sparse_itokawa.png Graphic file (type png)
 <use fig/sparse_itokawa.png>
 Package pdftex.def Info: fig/sparse_itokawa.png  used on input line 294.
 (pdftex.def)             Requested size: 187.89912pt x 140.9149pt.
- [20 <./fig/itokawa_recon.png (PNG copy)> <./fig/bennu_recon.png (PNG copy)>] [
-21 <./fig/dense_itokawa.png (PNG copy)> <./fig/sparse_itokawa.png (PNG copy)>]
-<fig/itokawa_sim.png, id=672, 968.61874pt x 687.56876pt>
+ [21 <./fig/itokawa_recon.png (PNG copy)> <./fig/bennu_recon.png (PNG copy)>] [
+22 <./fig/dense_itokawa.png (PNG copy)> <./fig/sparse_itokawa.png (PNG copy)>]
+<fig/itokawa_sim.png, id=798, 968.61874pt x 687.56876pt>
 File: fig/itokawa_sim.png Graphic file (type png)
 <use fig/itokawa_sim.png>
 Package pdftex.def Info: fig/itokawa_sim.png  used on input line 305.
 (pdftex.def)             Requested size: 328.82706pt x 233.41357pt.
-<fig/dense_bennu.png, id=673, 562.1pt x 421.575pt>
+<fig/dense_bennu.png, id=799, 562.1pt x 421.575pt>
 File: fig/dense_bennu.png Graphic file (type png)
 <use fig/dense_bennu.png>
 Package pdftex.def Info: fig/dense_bennu.png  used on input line 315.
 (pdftex.def)             Requested size: 234.87749pt x 176.15327pt.
-<fig/sparse_bennu.png, id=674, 562.1pt x 421.575pt>
+<fig/sparse_bennu.png, id=800, 562.1pt x 421.575pt>
 File: fig/sparse_bennu.png Graphic file (type png)
 <use fig/sparse_bennu.png>
 Package pdftex.def Info: fig/sparse_bennu.png  used on input line 320.
@@ -599,7 +784,7 @@ Package pdftex.def Info: fig/sparse_bennu.png  used on input line 320.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/bennu_sim.png, id=675, 966.61125pt x 688.5725pt>
+<fig/bennu_sim.png, id=801, 966.61125pt x 688.5725pt>
 File: fig/bennu_sim.png Graphic file (type png)
 <use fig/bennu_sim.png>
 Package pdftex.def Info: fig/bennu_sim.png  used on input line 331.
@@ -607,9 +792,9 @@ Package pdftex.def Info: fig/bennu_sim.png  used on input line 331.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./fig/itokawa_sim.png>] [23 <./fig/dense_bennu.png (PNG copy)> <./fig/spar
+[23 <./fig/itokawa_sim.png>] [24 <./fig/dense_bennu.png (PNG copy)> <./fig/spar
 se_bennu.png (PNG copy)> <./fig/bennu_sim.png>]
-<fig/bennu_real.png, id=686, 964.60374pt x 685.56125pt>
+<fig/bennu_real.png, id=813, 964.60374pt x 685.56125pt>
 File: fig/bennu_real.png Graphic file (type png)
 <use fig/bennu_real.png>
 Package pdftex.def Info: fig/bennu_real.png  used on input line 344.
@@ -618,27 +803,8 @@ Package pdftex.def Info: fig/bennu_real.png  used on input line 344.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24]
-! Undefined control sequence.
-<argument> ...s _m \sum \limits _n (A_{mn} - \Bar 
-                                                  {A})(B_{mn} - \Bar {B})
-l.357 ... \sum\limits_n (B_{mn}-\bar{B})^2 \big)}}
-                                                  
-? 
-! Undefined control sequence.
-<argument> ...n (A_{mn} - \Bar {A})(B_{mn} - \Bar 
-                                                  {B})
-l.357 ... \sum\limits_n (B_{mn}-\bar{B})^2 \big)}}
-                                                  
-? 
-! Undefined control sequence.
-<argument> ...s _m \sum \limits _n (A_{mn} - \Bar 
-                                                  {A})^2 \big ) \big ( \sum ...
-l.357 ... \sum\limits_n (B_{mn}-\bar{B})^2 \big)}}
-                                                  
-? 
-[25]
-<fig/expected_match.png, id=698, 1124.2pt x 843.15pt>
+[25] [26]
+<fig/expected_match.png, id=826, 1124.2pt x 843.15pt>
 File: fig/expected_match.png Graphic file (type png)
 <use fig/expected_match.png>
 Package pdftex.def Info: fig/expected_match.png  used on input line 366.
@@ -647,7 +813,7 @@ Package pdftex.def Info: fig/expected_match.png  used on input line 366.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/highest_score.png, id=699, 1124.2pt x 843.15pt>
+<fig/highest_score.png, id=827, 1124.2pt x 843.15pt>
 File: fig/highest_score.png Graphic file (type png)
 <use fig/highest_score.png>
 Package pdftex.def Info: fig/highest_score.png  used on input line 372.
@@ -655,7 +821,7 @@ Package pdftex.def Info: fig/highest_score.png  used on input line 372.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/all_scores.png, id=701, 1124.2pt x 843.15pt>
+<fig/all_scores.png, id=829, 1124.2pt x 843.15pt>
 File: fig/all_scores.png Graphic file (type png)
 <use fig/all_scores.png>
 Package pdftex.def Info: fig/all_scores.png  used on input line 381.
@@ -665,665 +831,812 @@ Overfull \hbox (46.97836pt too wide) in paragraph at lines 381--382
  [][] 
  []
 
-[26]) (./chapter3.tex [27] [28 <./fig/bennu_real.png> <./fig/expected_match.png
- (PNG copy)>] [29 <./fig/highest_score.png (PNG copy)>] [30 <./fig/all_scores.p
+[27]) (./chapter3.tex [28] [29 <./fig/bennu_real.png> <./fig/expected_match.png
+ (PNG copy)>] [30 <./fig/highest_score.png (PNG copy)>] [31 <./fig/all_scores.p
 ng (PNG copy)>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 3.
 centered
-<fig/yorp.jpeg, id=736, 1581.91pt x 1144.275pt>
+<fig/yorp.jpeg, id=865, 1581.91pt x 1144.275pt>
 File: fig/yorp.jpeg Graphic file (type jpg)
 <use fig/yorp.jpeg>
-Package pdftex.def Info: fig/yorp.jpeg  used on input line 14.
+Package pdftex.def Info: fig/yorp.jpeg  used on input line 12.
 (pdftex.def)             Requested size: 211.3883pt x 152.89903pt.
-[31
+[32
 
-]
-
-LaTeX Warning: Citation `Golish2021' on page 32 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Breiter2011a' on page 32 undefined on input line 21.
-
-[32 <./fig/yorp.jpeg>] [33]
-Overfull \hbox (7.34265pt too wide) in paragraph at lines 37--42
+] [33 <./fig/yorp.jpeg>] [34]
+Overfull \hbox (7.34265pt too wide) in paragraph at lines 36--41
 []\OT1/cmr/m/n/10.95 For ap-prox-i-mat-ing torque due to fea-tures, we fo-cus o
 n the nor-mal-ized zeroth-order z-component
  []
 
-[34]
-
-LaTeX Warning: File `bennu_base_facet_yorp.png' not found on input line 52.
-
-
-! Package pdftex.def Error: File `bennu_base_facet_yorp.png' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 ...dth=\textwidth]{bennu_base_facet_yorp.png}
-                                                  
-? 
-
-LaTeX Warning: File `itokawa_base_facet_yorp.png' not found on input line 58.
-
-
-! Package pdftex.def Error: File `itokawa_base_facet_yorp.png' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 ...h=\textwidth]{itokawa_base_facet_yorp.png}
-                                                  
-? 
 [35]
-
-LaTeX Warning: File `wedge_orientations.png' not found on input line 72.
-
-
-! Package pdftex.def Error: File `wedge_orientations.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 ...twidth,height=6cm]{wedge_orientations.png}
-                                                  
-? 
-[36]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \begin{figure}[H]
-                      
-? 
-<fig/prism.png, id=800, 363.3575pt x 663.47874pt>
+<fig/bennu_base_facet_yorp.png, id=912, 794.68092pt x 578.8827pt>
+File: fig/bennu_base_facet_yorp.png Graphic file (type png)
+<use fig/bennu_base_facet_yorp.png>
+Package pdftex.def Info: fig/bennu_base_facet_yorp.png  used on input line 51.
+(pdftex.def)             Requested size: 211.3883pt x 153.98616pt.
+<fig/itokawa_base_facet_yorp.png, id=913, 794.68092pt x 578.8827pt>
+File: fig/itokawa_base_facet_yorp.png Graphic file (type png)
+<use fig/itokawa_base_facet_yorp.png>
+Package pdftex.def Info: fig/itokawa_base_facet_yorp.png  used on input line 57
+.
+(pdftex.def)             Requested size: 211.3883pt x 153.98616pt.
+ [36 <./fig/bennu_base_facet_yorp.png> <./fig/itokawa_base_facet_yorp.png>]
+<fig/wedge_orientations.png, id=922, 1885.0425pt x 701.62125pt>
+File: fig/wedge_orientations.png Graphic file (type png)
+<use fig/wedge_orientations.png>
+Package pdftex.def Info: fig/wedge_orientations.png  used on input line 71.
+(pdftex.def)             Requested size: 399.29346pt x 170.7157pt.
+[37 <./fig/wedge_orientations.png>]
+<fig/prism.png, id=936, 363.3575pt x 663.47874pt>
 File: fig/prism.png Graphic file (type png)
 <use fig/prism.png>
-Package pdftex.def Info: fig/prism.png  used on input line 86.
+Package pdftex.def Info: fig/prism.png  used on input line 85.
 (pdftex.def)             Requested size: 117.43555pt x 187.89879pt.
-[37] [38 <./fig/prism.png>]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 \begin{figure}[H]
-                      
-? 
-<fig/overlaid_shape_symmetry.png, id=815, 773.5299pt x 557.9244pt>
+ [38]
+<fig/overlaid_shape_symmetry.png, id=947, 773.5299pt x 557.9244pt>
 File: fig/overlaid_shape_symmetry.png Graphic file (type png)
 <use fig/overlaid_shape_symmetry.png>
 Package pdftex.def Info: fig/overlaid_shape_symmetry.png  used on input line 10
-1.
+0.
 (pdftex.def)             Requested size: 187.89912pt x 135.5221pt.
-[39]
-! Undefined control sequence.
-<recently read> \makegapedcells 
-                                
-l.127         }
-               
-? 
-! Undefined control sequence.
-<recently read> \makegapedcells 
-                                
-l.127         }
-               
-? 
-! Undefined control sequence.
-<argument> ... 0.002$ & $0.787 \pm 0.0004$ & \num 
-                                                  {4.0613e-4} & \num {1.0037...
-l.127         }
-               
-? 
-! Undefined control sequence.
-<argument> ...m 0.0004$ & \num {4.0613e-4} & \num 
-                                                  {1.00378e-6} & $3.63 \pm $...
-l.127         }
-               
-? 
-! Undefined control sequence.
-<argument> ...num {1.00378e-6} & $3.63 \pm $ \num 
-                                                  {0.52e-6}\\ \hline \makega...
-l.127         }
-               
-? 
-! Undefined control sequence.
-<recently read> \makegapedcells 
-                                
-l.127         }
-               
-? 
-! Undefined control sequence.
-<argument> ...,0.209) $\pm 0.001$ & 0.3928 & \num 
-                                                  {1.4385e-4} & \num {-2.037...
-l.127         }
-               
-? 
-! Undefined control sequence.
-<argument> ... & 0.3928 & \num {1.4385e-4} & \num 
-                                                  {-2.03797e-5} & \num {3.54...
-l.127         }
-               
-? 
-! Undefined control sequence.
-<argument> ...385e-4} & \num {-2.03797e-5} & \num 
-                                                  {3.54e-8}\\ \hline \end {t...
-l.127         }
-               
-? 
-
-LaTeX Warning: Citation `Daly2020' on page 40 undefined on input line 132.
-
-[40]
-
-LaTeX Warning: Citation `Jawin2020' on page 41 undefined on input line 140.
-
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141 \begin{figure}[H]
-                       
-? 
-<fig/boulder_sizes_power_law.png, id=837, 589.0005pt x 412.6617pt>
+ [39 <./fig/prism.png>] [40 <./fig/overlaid_shape_symmetry.png>] [41]
+<fig/boulder_sizes_power_law.png, id=977, 589.0005pt x 412.6617pt>
 File: fig/boulder_sizes_power_law.png Graphic file (type png)
 <use fig/boulder_sizes_power_law.png>
 Package pdftex.def Info: fig/boulder_sizes_power_law.png  used on input line 14
-3.
+2.
 (pdftex.def)             Requested size: 211.3883pt x 148.10472pt.
-[41] [42 <./fig/overlaid_shape_symmetry.png> <./fig/boulder_sizes_power_law.png
->] [43] [44]
-
-LaTeX Warning: Citation `Clauset2009' on page 45 undefined on input line 186.
-
-[45] [46]
-
-LaTeX Warning: File `rotating_wedge.png' not found on input line 208.
-
-
-! Package pdftex.def Error: File `rotating_wedge.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 ...[width=0.8\textwidth]{rotating_wedge.png}
-                                                  
-? 
-[47] [48]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.234 \begin{table}[H]
-                      
-? 
-<fig/rotation_plot_one_equator_boulder.png, id=893, 722.7pt x 650.43pt>
+ [42] [43 <./fig/boulder_sizes_power_law.png>]
+[44] [45] [46]
+<fig/rotating_wedge.png, id=1018, 2507.3675pt x 842.14626pt>
+File: fig/rotating_wedge.png Graphic file (type png)
+<use fig/rotating_wedge.png>
+Package pdftex.def Info: fig/rotating_wedge.png  used on input line 207.
+(pdftex.def)             Requested size: 375.80542pt x 126.21368pt.
+ [47] [48 <./fig/rotating_wedge.png>] [49]
+<fig/rotation_plot_one_equator_boulder.png, id=1040, 722.7pt x 650.43pt>
 File: fig/rotation_plot_one_equator_boulder.png Graphic file (type png)
 <use fig/rotation_plot_one_equator_boulder.png>
 Package pdftex.def Info: fig/rotation_plot_one_equator_boulder.png  used on inp
-ut line 257.
+ut line 256.
 (pdftex.def)             Requested size: 211.3883pt x 190.24753pt.
-[49] [50 <./fig/rotation_plot_one_equator_boulder.png>]
-
-LaTeX Warning: Citation `Clauset2009' on page 51 undefined on input line 267.
-
-
-LaTeX Warning: Citation `Saito2006' on page 51 undefined on input line 273.
-
-[51]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.284 \begin{figure}[H]
-                       
-? 
-<fig/bennu_comparison.png, id=918, 863.1447pt x 624.8946pt>
+ [50 <./fig/rotation_plot_one_equator_boulder.png>] [51]
+<fig/bennu_comparison.png, id=1063, 863.1447pt x 624.8946pt>
 File: fig/bennu_comparison.png Graphic file (type png)
 <use fig/bennu_comparison.png>
-Package pdftex.def Info: fig/bennu_comparison.png  used on input line 286.
+Package pdftex.def Info: fig/bennu_comparison.png  used on input line 285.
 (pdftex.def)             Requested size: 230.18251pt x 166.64514pt.
-! Undefined control sequence.
-l.291 ...ing a YORP spin coefficient value of \num
-                                                  {1.77e-4} compared to the ...
-
-? 
-! Undefined control sequence.
-l.291 ...he Bennu base shape YORP coefficient,\num
-                                                  {1.324e-6}. This largest m...
-
-? 
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.294 \begin{figure}[H]
-                       
-? 
-<fig/bennu_impact_size_new.png, id=919, 631.8807pt x 391.2216pt>
+ [52 <./fig/bennu_comparison.png>]
+<fig/bennu_impact_size_new.png, id=1069, 631.8807pt x 391.2216pt>
 File: fig/bennu_impact_size_new.png Graphic file (type png)
 <use fig/bennu_impact_size_new.png>
-Package pdftex.def Info: fig/bennu_impact_size_new.png  used on input line 296.
+Package pdftex.def Info: fig/bennu_impact_size_new.png  used on input line 295.
 
 (pdftex.def)             Requested size: 211.3883pt x 130.87648pt.
-<fig/bennu_impact_location_new.png, id=920, 672.8337pt x 397.485pt>
+<fig/bennu_impact_location_new.png, id=1070, 672.8337pt x 397.485pt>
 File: fig/bennu_impact_location_new.png Graphic file (type png)
 <use fig/bennu_impact_location_new.png>
 Package pdftex.def Info: fig/bennu_impact_location_new.png  used on input line 
-304.
+303.
 (pdftex.def)             Requested size: 230.18251pt x 135.98009pt.
-<fig/bennu_impact_orient_new.png, id=921, 585.6279pt x 505.4082pt>
+<fig/bennu_impact_orient_new.png, id=1071, 585.6279pt x 505.4082pt>
 File: fig/bennu_impact_orient_new.png Graphic file (type png)
 <use fig/bennu_impact_orient_new.png>
 Package pdftex.def Info: fig/bennu_impact_orient_new.png  used on input line 31
-1.
+0.
 (pdftex.def)             Requested size: 172.63687pt x 148.98615pt.
-[52] [53 <./fig/bennu_comparison.png> <./fig/bennu_impact_size_new.png>]
-[54 <./fig/bennu_impact_location_new.png> <./fig/bennu_impact_orient_new.png>]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.340 \begin{figure}[H]
-                       
-? 
-
-LaTeX Warning: File `fig/itokawa_comparison.png' not found on input line 342.
-
-
-! Package pdftex.def Error: File `fig/itokawa_comparison.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.342 ...45\textwidth]{fig/itokawa_comparison.png}
-                                                  
-? 
-[55]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.350 \begin{figure}[H]
-                       
-? 
-<fig/itokawa_impact_size_new.png, id=951, 631.8807pt x 391.2216pt>
+ [53 <./fig/bennu_impact_location_new.png> <./fig/bennu_impact_orient_new.png> 
+<./fig/bennu_impact_size_new.png>] [54]
+<fig/itokawa_comparison.png, id=1088, 863.1447pt x 624.8946pt>
+File: fig/itokawa_comparison.png Graphic file (type png)
+<use fig/itokawa_comparison.png>
+Package pdftex.def Info: fig/itokawa_comparison.png  used on input line 341.
+(pdftex.def)             Requested size: 211.3883pt x 153.03853pt.
+ [55]
+<fig/itokawa_impact_size_new.png, id=1097, 631.8807pt x 391.2216pt>
 File: fig/itokawa_impact_size_new.png Graphic file (type png)
 <use fig/itokawa_impact_size_new.png>
 Package pdftex.def Info: fig/itokawa_impact_size_new.png  used on input line 35
-2.
+1.
 (pdftex.def)             Requested size: 197.29623pt x 122.14899pt.
-<fig/itokawa_impact_location_new.png, id=952, 672.8337pt x 390.9807pt>
+<fig/itokawa_impact_location_new.png, id=1098, 672.8337pt x 390.9807pt>
 File: fig/itokawa_impact_location_new.png Graphic file (type png)
 <use fig/itokawa_impact_location_new.png>
 Package pdftex.def Info: fig/itokawa_impact_location_new.png  used on input lin
-e 360.
+e 359.
 (pdftex.def)             Requested size: 225.48038pt x 131.02258pt.
-<fig/itokawa_impact_orient_new.png, id=953, 585.6279pt x 505.4082pt>
+<fig/itokawa_impact_orient_new.png, id=1099, 585.6279pt x 505.4082pt>
 File: fig/itokawa_impact_orient_new.png Graphic file (type png)
 <use fig/itokawa_impact_orient_new.png>
 Package pdftex.def Info: fig/itokawa_impact_orient_new.png  used on input line 
-367.
+366.
 (pdftex.def)             Requested size: 172.63687pt x 148.98615pt.
-[56] [57 <./fig/itokawa_impact_size_new.png>] [58 <./fig/itokawa_impact_locatio
-n_new.png> <./fig/itokawa_impact_orient_new.png>]
-<fig/bennu_difference_yorps.png, id=976, 658.6206pt x 390.9807pt>
+ [56 <./fig/itokawa_comparison.png>] [57 <./fig/itokawa_impact_location_new.png
+> <./fig/itokawa_impact_orient_new.png> <./fig/itokawa_impact_size_new.png>] [5
+8]
+<fig/bennu_difference_yorps.png, id=1122, 658.6206pt x 390.9807pt>
 File: fig/bennu_difference_yorps.png Graphic file (type png)
 <use fig/bennu_difference_yorps.png>
-Package pdftex.def Info: fig/bennu_difference_yorps.png  used on input line 394
+Package pdftex.def Info: fig/bennu_difference_yorps.png  used on input line 393
 .
 (pdftex.def)             Requested size: 211.3883pt x 125.48625pt.
-
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \begin{figure}[H]
-                       
-? 
-<fig/bennu_comparison_2.png, id=979, 863.1447pt x 624.8946pt>
+<fig/bennu_comparison_2.png, id=1125, 863.1447pt x 624.8946pt>
 File: fig/bennu_comparison_2.png Graphic file (type png)
 <use fig/bennu_comparison_2.png>
-Package pdftex.def Info: fig/bennu_comparison_2.png  used on input line 401.
+Package pdftex.def Info: fig/bennu_comparison_2.png  used on input line 400.
 (pdftex.def)             Requested size: 197.29623pt x 142.83597pt.
-[59]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.408 \begin{figure}[H]
-                       
-? 
-<fig/bennu_size_binned_spreads.png, id=988, 945.7734pt x 653.3208pt>
+ [59 <./fig/bennu_difference_yorps.png>]
+<fig/bennu_size_binned_spreads.png, id=1135, 945.7734pt x 653.3208pt>
 File: fig/bennu_size_binned_spreads.png Graphic file (type png)
 <use fig/bennu_size_binned_spreads.png>
 Package pdftex.def Info: fig/bennu_size_binned_spreads.png  used on input line 
-410.
+409.
 (pdftex.def)             Requested size: 230.18251pt x 159.00331pt.
 
-LaTeX Warning: Citation `Daly2024' on page 60 undefined on input line 414.
-
-
-LaTeX Warning: Citation `Pajola2024' on page 60 undefined on input line 414.
-
-
-LaTeX Warning: Citation `Raducan2024' on page 60 undefined on input line 414.
-
-[60 <./fig/bennu_difference_yorps.png>]
-
-LaTeX Warning: File `bennu_orient_samesize_recreate.png' not found on input lin
-e 421.
-
-
-! Package pdftex.def Error: File `bennu_orient_samesize_recreate.png' not found
-: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.421 ...idth]{bennu_orient_samesize_recreate.png}
-                                                  
-? 
-
-LaTeX Warning: File `itokawa_orient_samesize_recreate.png' not found on input l
-ine 426.
-
-
-! Package pdftex.def Error: File `itokawa_orient_samesize_recreate.png' not fou
-nd: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.426 ...th]{itokawa_orient_samesize_recreate.png}
-                                                  
-? 
-
-LaTeX Warning: Citation `Tang2023' on page 61 undefined on input line 432.
-
-[61] [62 <./fig/bennu_comparison_2.png> <./fig/bennu_size_binned_spreads.png>]
-[63]
-
-LaTeX Warning: File `bennu_polar_samesize.png' not found on input line 444.
-
-
-! Package pdftex.def Error: File `bennu_polar_samesize.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.444 ...dth=\textwidth]{bennu_polar_samesize.png}
-                                                  
-? 
-
-LaTeX Warning: File `itokawa_polar_samesize.png' not found on input line 449.
-
-
-! Package pdftex.def Error: File `itokawa_polar_samesize.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.449 ...h=\textwidth]{itokawa_polar_samesize.png}
-                                                  
-? 
-[64] [65]
-
-LaTeX Warning: Citation `Bierhaus2022' on page 66 undefined on input line 464.
-
-
-LaTeX Warning: Citation `Daly2020a' on page 66 undefined on input line 464.
-
-
-LaTeX Warning: Citation `Zhou2023' on page 66 undefined on input line 464.
-
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.466 \begin{figure}[H]
-                       
-? 
-<fig/cyorp.png, id=1023, 665.1249pt x 411.2163pt>
+[60 <./fig/bennu_comparison_2.png>]
+<fig/bennu_orient_samesize_recreate.png, id=1144, 1135.6026pt x 522.2712pt>
+File: fig/bennu_orient_samesize_recreate.png Graphic file (type png)
+<use fig/bennu_orient_samesize_recreate.png>
+Package pdftex.def Info: fig/bennu_orient_samesize_recreate.png  used on input 
+line 420.
+(pdftex.def)             Requested size: 230.18251pt x 105.86293pt.
+<fig/itokawa_orient_samesize_recreate.png, id=1145, 1135.6026pt x 522.2712pt>
+File: fig/itokawa_orient_samesize_recreate.png Graphic file (type png)
+<use fig/itokawa_orient_samesize_recreate.png>
+Package pdftex.def Info: fig/itokawa_orient_samesize_recreate.png  used on inpu
+t line 425.
+(pdftex.def)             Requested size: 230.18251pt x 105.86293pt.
+ [61 <./fig/bennu_size_binned_spreads.png>]
+[62 <./fig/bennu_orient_samesize_recreate.png> <./fig/itokawa_orient_samesize_r
+ecreate.png>]
+<fig/bennu_polar_samesize.png, id=1165, 1135.6026pt x 522.2712pt>
+File: fig/bennu_polar_samesize.png Graphic file (type png)
+<use fig/bennu_polar_samesize.png>
+Package pdftex.def Info: fig/bennu_polar_samesize.png  used on input line 443.
+(pdftex.def)             Requested size: 230.18251pt x 105.86293pt.
+<fig/itokawa_polar_samesize.png, id=1166, 1135.6026pt x 522.2712pt>
+File: fig/itokawa_polar_samesize.png Graphic file (type png)
+<use fig/itokawa_polar_samesize.png>
+Package pdftex.def Info: fig/itokawa_polar_samesize.png  used on input line 448
+.
+(pdftex.def)             Requested size: 230.18251pt x 105.86293pt.
+ [63 <./fig/bennu_polar_samesize.png> <./fig/itokawa_polar_samesize.png>] [64]
+<fig/cyorp.png, id=1183, 665.1249pt x 411.2163pt>
 File: fig/cyorp.png Graphic file (type png)
 <use fig/cyorp.png>
-Package pdftex.def Info: fig/cyorp.png  used on input line 468.
+Package pdftex.def Info: fig/cyorp.png  used on input line 467.
 (pdftex.def)             Requested size: 230.18251pt x 142.30899pt.
-
-LaTeX Warning: Citation `Bierhaus2022' on page 66 undefined on input line 474.
-
-[66]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \begin{figure}[H]
-                       
-? 
-<fig/tyorp_regolith.png, id=1029, 650.43pt x 433.62pt>
+ [65 <./fig/cyorp.png>]
+<fig/tyorp_regolith.png, id=1194, 650.43pt x 433.62pt>
 File: fig/tyorp_regolith.png Graphic file (type png)
 <use fig/tyorp_regolith.png>
-Package pdftex.def Info: fig/tyorp_regolith.png  used on input line 482.
+Package pdftex.def Info: fig/tyorp_regolith.png  used on input line 481.
 (pdftex.def)             Requested size: 225.48038pt x 150.32025pt.
-
-LaTeX Warning: Citation `Rozitis2020' on page 67 undefined on input line 487.
-
-[67] [68 <./fig/cyorp.png> <./fig/tyorp_regolith.png>]
-
-LaTeX Warning: Citation `Sevecek2016' on page 69 undefined on input line 492.
-
-
-! LaTeX Error: Environment split undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494     \begin{split}
-                       
-? 
-! Misplaced alignment tab character &.
-l.495     {T_{z,}}_{TYORP} &
-                             = 4.5 \frac{\Phi R^3}{c}n_0 \mu \exp \Bigg( -\f...
-
-? 
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.496     &
-            \times (1+cos^2\epsilon)sgn(\omega)
-? 
-
-! LaTeX Error: \begin{equation} on input line 493 ended by \end{split}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.497     \end{split}
-                     
-? 
-
-LaTeX Warning: Citation `Daly2020a' on page 69 undefined on input line 503.
-
-
-LaTeX Warning: Citation `Nolan2019' on page 69 undefined on input line 503.
-
-[69]
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.505 \begin{figure}[H]
-                       
-? 
-<fig/all_yorps.png, id=1053, 1127.412pt x 736.1904pt>
+ [66] [67 <./fig/tyorp_regolith.png>]
+<fig/all_yorps.png, id=1216, 1127.412pt x 736.1904pt>
 File: fig/all_yorps.png Graphic file (type png)
 <use fig/all_yorps.png>
-Package pdftex.def Info: fig/all_yorps.png  used on input line 507.
+Package pdftex.def Info: fig/all_yorps.png  used on input line 506.
 (pdftex.def)             Requested size: 230.18251pt x 150.30217pt.
-! Undefined control sequence.
-<recently read> \num 
-                     
-l.520 ...lity. The total YORP uncertainty is $\num
-                                                  {1.394e-05}$ deg/day$^2$.
-? 
-[70]
 
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.522 \begin{figure}[H]
-                       
-? 
-<fig/error_compare.png, id=1063, 519.8622pt x 345.6915pt>
+[68] [69 <./fig/all_yorps.png>]
+<fig/error_compare.png, id=1234, 519.8622pt x 345.6915pt>
 File: fig/error_compare.png Graphic file (type png)
 <use fig/error_compare.png>
-Package pdftex.def Info: fig/error_compare.png  used on input line 524.
+Package pdftex.def Info: fig/error_compare.png  used on input line 523.
 (pdftex.def)             Requested size: 230.18251pt x 153.05946pt.
-
-LaTeX Warning: Citation `Nolan2019' on page 71 undefined on input line 530.
-
-[71] [72 <./fig/all_yorps.png> <./fig/error_compare.png>]
-! Undefined control sequence.
-l.538 ...acceleration on Bennu was $.1039 \pm \num
-                                                  {1.329e-5}$ deg/day$^2$, a...
-
-? 
-! Undefined control sequence.
-<recently read> \num 
-                     
-l.538 ...pm \num{1.329e-5}$ deg/day$^2$, and $\num
-                                                  {-2.129} \pm \num{1.717e-5...
-
-? 
-! Undefined control sequence.
-l.538 ...$ deg/day$^2$, and $\num{-2.129} \pm \num
-                                                  {1.717e-5}$ deg/day$^2$ fo...
-
-? 
-! Undefined control sequence.
-l.541 ...n increased an average of $7.913 \pm \num
-                                                  {0.574e-7}$ deg/day$^2$ wi...
-
-? 
-! Undefined control sequence.
-l.541 ...ation bias for Bennu, and $1.029 \pm \num
-                                                  {0.110e-6}$ deg/day$^2$ fo...
-
-? 
-! Undefined control sequence.
-l.542 ...n increased an average of $2.262 \pm \num
-                                                  {3.052e-7}$ deg/day$^2$ wi...
-
-? 
-! Undefined control sequence.
-l.542 ... polar bias on Bennu, and $1.471 \pm \num
-                                                  {3.973e-7}$ deg/day$^2$ fo...
-
-? 
-[73{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.en
-c}]) (./chapter4.tex [74]
+ [70 <./fig/error_compare.png>] [71{/usr/local/texlive/2023/texmf-dist/fonts/en
+c/dvips/cm-super/cm-super-ts1.enc}] [72])
+(./chapter4.tex [73]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 4.
 centered
-) (./chapter5.tex [75
+[74
 
-]
+] [75] [76]
+<fig/body_frame_w_obliq.jpg, id=1294, 503.7pt x 376.242pt>
+File: fig/body_frame_w_obliq.jpg Graphic file (type jpg)
+<use fig/body_frame_w_obliq.jpg>
+Package pdftex.def Info: fig/body_frame_w_obliq.jpg  used on input line 77.
+(pdftex.def)             Requested size: 234.87749pt x 175.44444pt.
+ [77] [78 <./fig/body_frame_w_obliq.jpg>] [79] [80] [81] [82]
+<fig/initial_obliq_dot_dist_bennu.png, id=1345, 575.751pt x 397.7259pt>
+File: fig/initial_obliq_dot_dist_bennu.png Graphic file (type png)
+<use fig/initial_obliq_dot_dist_bennu.png>
+Package pdftex.def Info: fig/initial_obliq_dot_dist_bennu.png  used on input li
+ne 230.
+(pdftex.def)             Requested size: 230.18251pt x 159.00864pt.
+<fig/initial_obliq_dot_dist_itokawa.png, id=1346, 575.751pt x 397.7259pt>
+File: fig/initial_obliq_dot_dist_itokawa.png Graphic file (type png)
+<use fig/initial_obliq_dot_dist_itokawa.png>
+Package pdftex.def Info: fig/initial_obliq_dot_dist_itokawa.png  used on input 
+line 236.
+(pdftex.def)             Requested size: 230.18251pt x 159.00864pt.
+
+
+LaTeX Warning: Reference `all_size' on page 83 undefined on input line 246.
+
+[83 <./fig/initial_obliq_dot_dist_bennu.png> <./fig/initial_obliq_dot_dist_itok
+awa.png>]
+<fig/boulder_size_dist_bennu.png, id=1355, 575.751pt x 391.2216pt>
+File: fig/boulder_size_dist_bennu.png Graphic file (type png)
+<use fig/boulder_size_dist_bennu.png>
+Package pdftex.def Info: fig/boulder_size_dist_bennu.png  used on input line 25
+1.
+(pdftex.def)             Requested size: 230.18251pt x 156.40826pt.
+<fig/boulder_size_dist_itokawa.png, id=1356, 575.751pt x 392.9079pt>
+File: fig/boulder_size_dist_itokawa.png Graphic file (type png)
+<use fig/boulder_size_dist_itokawa.png>
+Package pdftex.def Info: fig/boulder_size_dist_itokawa.png  used on input line 
+257.
+(pdftex.def)             Requested size: 230.18251pt x 157.08243pt.
+<fig/boulder_sizes_biggerthan1_bennu.png, id=1359, 575.751pt x 395.5578pt>
+File: fig/boulder_sizes_biggerthan1_bennu.png Graphic file (type png)
+<use fig/boulder_sizes_biggerthan1_bennu.png>
+Package pdftex.def Info: fig/boulder_sizes_biggerthan1_bennu.png  used on input
+ line 270.
+(pdftex.def)             Requested size: 230.18251pt x 158.14185pt.
+<fig/boulder_sizes_biggerthan1_itokawa.png, id=1360, 575.751pt x 395.5578pt>
+File: fig/boulder_sizes_biggerthan1_itokawa.png Graphic file (type png)
+<use fig/boulder_sizes_biggerthan1_itokawa.png>
+Package pdftex.def Info: fig/boulder_sizes_biggerthan1_itokawa.png  used on inp
+ut line 276.
+(pdftex.def)             Requested size: 230.18251pt x 158.14185pt.
+ [84 <./fig/boulder_size_dist_bennu.png> <./fig/boulder_size_dist_itokawa.png>]
+<fig/boulder_west_stacked_bennu.png, id=1368, 690.6603pt x 468.3096pt>
+File: fig/boulder_west_stacked_bennu.png Graphic file (type png)
+<use fig/boulder_west_stacked_bennu.png>
+Package pdftex.def Info: fig/boulder_west_stacked_bennu.png  used on input line
+ 288.
+(pdftex.def)             Requested size: 230.18251pt x 156.07184pt.
+<fig/boulder_west_stacked_itokawa.png, id=1369, 690.6603pt x 468.3096pt>
+File: fig/boulder_west_stacked_itokawa.png Graphic file (type png)
+<use fig/boulder_west_stacked_itokawa.png>
+Package pdftex.def Info: fig/boulder_west_stacked_itokawa.png  used on input li
+ne 294.
+(pdftex.def)             Requested size: 230.18251pt x 156.07184pt.
+ [85 <./fig/boulder_sizes_biggerthan1_bennu.png> <./fig/boulder_sizes_biggertha
+n1_itokawa.png>]
+<fig/location_dists_bennu.png, id=1378, 1235.0943pt x 1211.4861pt>
+File: fig/location_dists_bennu.png Graphic file (type png)
+<use fig/location_dists_bennu.png>
+Package pdftex.def Info: fig/location_dists_bennu.png  used on input line 306.
+(pdftex.def)             Requested size: 230.18251pt x 225.76665pt.
+<fig/location_dists_itokawa.png, id=1379, 1235.0943pt x 1211.4861pt>
+File: fig/location_dists_itokawa.png Graphic file (type png)
+<use fig/location_dists_itokawa.png>
+Package pdftex.def Info: fig/location_dists_itokawa.png  used on input line 312
+.
+(pdftex.def)             Requested size: 230.18251pt x 225.76665pt.
+ [86 <./fig/boulder_west_stacked_bennu.png> <./fig/boulder_west_stacked_itokawa
+.png>]) (./chapter5.tex [87 <./fig/location_dists_bennu.png> <./fig/location_di
+sts_itokawa.png>] [88]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
 centered
-) (./chapter6.tex [76
+) (./chapter6.tex [89
 
 ]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 6.
 centered
-) (./main_thesis.bbl [77
+) (./main_thesis.bbl [90
 
 ]
 centered
-[78
+
+Overfull \hbox (223.97568pt too wide) in paragraph at lines 4--7
+[]\OT1/cmr/m/sc/10.95 D. Baker and J. McMa-hon\OT1/cmr/m/n/10.95 , |   [],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+|   []\OT1/cmr/m/n/10.95 , in IEEE
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 41--48
+\OT1/cmr/m/sc/10.95 D. N. Del-laG-iustina, P. L. Gay, J. I. Brod-beck, J. No-la
+u, J. Padilla,
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 41--48
+\OT1/cmr/m/sc/10.95 S. Stew-art, S. Schwartz, P. Michel, M. Pa-jola, and D. S. 
+Lau-retta\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (12.56264pt too wide) in paragraph at lines 41--48
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 50--54
+[]\OT1/cmr/m/sc/10.95 W. F. Bot-tke, D. Vokrouh-lick[]y, D. P. Ru-bin-cam, and 
+D. Nesvorn[]y\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 50--54
+|   []\OT1/cmr/m/n/10.95 , An-nual Re-view of
+ []
+
+
+Overfull \hbox (14.55667pt too wide) in paragraph at lines 56--59
+[]\OT1/cmr/m/sc/10.95 E. Boyer and J. S. Franco\OT1/cmr/m/n/10.95 , |   [],
+ []
+
+[91
 
 ]
-Underfull \hbox (badness 1237) in paragraph at lines 101--106
-[]\OT1/cmr/m/n/10.95 S. Bre-iter and D. Vokrouh-lick^^Ry.  Yarkovsky-O'Keefe-Ra
-dzievskii-Paddack ef-fect with
+Underfull \hbox (badness 1205) in paragraph at lines 61--64
+[]\OT1/cmr/m/sc/10.95 S. Bre-iter, P. Bartczak, M. Czekaj, B. Oczu-jda, and D. 
+Vokrouh-lick[]y\OT1/cmr/m/n/10.95 ,
  []
 
-[79] [80] [81] [82]
-Underfull \hbox (badness 2393) in paragraph at lines 466--469
-[]\OT1/cmr/m/n/10.95 Kenji Hata and Sil-vio Savarese.  CS231A Course Notes 3: E
-pipo-lar Ge-om-e-try.
+
+Overfull \hbox (126.95541pt too wide) in paragraph at lines 66--69
+[]\OT1/cmr/m/sc/10.95 S. Bre-iter and M. Mu-raw-iecka\OT1/cmr/m/n/10.95 , |   [
+],
  []
 
-[83] [84] [85] [86] [87] [88]
+
+Overfull \hbox (88.00989pt too wide) in paragraph at lines 71--75
+[]\OT1/cmr/m/sc/10.95 S. Bre-iter and D. Vokrouh-lick[]y\OT1/cmr/m/n/10.95 , | 
+  [],
+ []
+
+
+Overfull \hbox (1.35028pt too wide) in paragraph at lines 77--80
+[]\OT1/cmr/m/sc/10.95 J. A. Chris-tian\OT1/cmr/m/n/10.95 , |   [],
+ []
+
+
+Overfull \hbox (150.39456pt too wide) in paragraph at lines 82--85
+[]\OT1/cmr/m/sc/10.95 S. Ci-cal[]o and D. J. Scheeres\OT1/cmr/m/n/10.95 , |   [
+],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+[]\OT1/cmr/m/sc/10.95 A. Clauset, C. R. Shal-izi, and M. E. New-man\OT1/cmr/m/n
+/10.95 ,
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 91--100
+[]\OT1/cmr/m/sc/10.95 M. G. Daly, O. S. Barnouin, J. A. Seabrook, J. Roberts, C
+. Dick-in-son,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--100
+|   []\OT1/cmr/m/n/10.95 , Sci-ence
+ []
+
+
+Overfull \hbox (133.6227pt too wide) in paragraph at lines 117--120
+[]\OT1/cmr/m/sc/10.95 B. J. Davids-son and H. Rick-man\OT1/cmr/m/n/10.95 , |   
+[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
+[]\OT1/cmr/m/sc/10.95 B. J. Davids-son, H. Rick-man, J. L. Band-field, O. Grous
+sin,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
+\OT1/cmr/m/sc/10.95 P. J. Guti[]errez, M. Wilska, M. T. Capria, J. P. Emery,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--127
+\OT1/cmr/m/sc/10.95 J. Hel-bert, L. Jorda, A. Ma-turilli, and T. G. Mueller\OT1
+/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (60.3168pt too wide) in paragraph at lines 122--127
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 129--131
+[]\OT1/cmr/m/sc/10.95 M. Delbo, M. Mueller, J. P. Emery, B. Rozi-tis, and M. T.
+ Capria\OT1/cmr/m/n/10.95 ,
+ []
+
+[92]
+Underfull \hbox (badness 10000) in paragraph at lines 133--139
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 141--152
+\OT1/cmr/m/sc/10.95 B. Rizk, M. K. Crom-bie, E. K. Kinney-Spano, J. de Le[]on, 
+J. L. Ri-zos,
+ []
+
+
+Overfull \hbox (262.16206pt too wide) in paragraph at lines 141--152
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (28.74432pt too wide) in paragraph at lines 154--235
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+[93] [94]
+Overfull \hbox (205.83028pt too wide) in paragraph at lines 237--244
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (60.47325pt too wide) in paragraph at lines 246--249
+[]\OT1/cmr/m/sc/10.95 O. B. E.E. Palmer, J.R. Weirich\OT1/cmr/m/n/10.95 , |   [
+],
+ []
+
+
+Overfull \hbox (232.84027pt too wide) in paragraph at lines 251--256
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--271
+[]\OT1/cmr/m/sc/10.95 R. Gaskell, O. Barnouin-Jha, D. Scheeres, T. Mukai, N. Hi
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--271
+\OT1/cmr/m/sc/10.95 rata, S. Abe, J. Saito, M. Ishig-uro, T. Kub-ota, T. Hashim
+oto,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--271
+\OT1/cmr/m/sc/10.95 J. Kawaguchi, M. Yoshikawa, K. Shi-rakawa, and T. Kom-i-nat
+o\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (23.17804pt too wide) in paragraph at lines 265--271
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 273--278
+\OT1/cmr/m/sc/10.95 S. Abe, J. Saito, M. Ishig-uro, T. Kub-ota, T. Hashimoto, J
+. Kawaguchi,
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 273--278
+\OT1/cmr/m/sc/10.95 M. Yoshikawa, K. Shi-rakawa, T. Kom-i-nato, N. Hi-rata, and
+ H. De-mura\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (76.14143pt too wide) in paragraph at lines 296--299
+[]\OT1/cmr/m/sc/10.95 O. Gol-ubov and V. Li-pa-tova\OT1/cmr/m/n/10.95 , |   [],
+
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
+[]\OT1/cmr/m/sc/10.95 O. Gol-ubov, D. J. Scheeres, and Y. N. Krugly\OT1/cmr/m/n
+/10.95 ,
+ []
+
+
+Overfull \hbox (114.03276pt too wide) in paragraph at lines 313--394
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+[96]
+Overfull \hbox (81.53246pt too wide) in paragraph at lines 400--407
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+[97]
+Overfull \hbox (150.8838pt too wide) in paragraph at lines 418--421
+[]\OT1/cmr/m/sc/10.95 R. L. Jones, M. Juri[]c, and []Z. Ivezi[]c\OT1/cmr/m/n/10
+.95 , |   [],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--428
+[]\OT1/cmr/m/sc/10.95 M. Kana-maru, S. Sasaki, T. Mo-rota, Y. Cho, E. Tat-sumi,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--428
+\OT1/cmr/m/sc/10.95 M. Hirabayashi, N. Hi-rata, H. Sen-shu, Y. Shi-maki, N. Sak
+atani,
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 423--428
+\OT1/cmr/m/sc/10.95 S. Tanaka, T. Okada, T. Usui, S. Sugita, and S. ichiro Wata
+n-abe\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--428
+|   []\OT1/cmr/m/n/10.95 , Jour-
+ []
+
+[98] [99]
+Underfull \hbox (badness 7777) in paragraph at lines 516--520
+[]\OT1/cmr/m/sc/10.95 D. S. Lau-retta, A. T. Polit, H. C. Con-nolly, and J. Gro
+ss-man\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (199.92952pt too wide) in paragraph at lines 516--520
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (107.60686pt too wide) in paragraph at lines 522--525
+[]\OT1/cmr/m/sc/10.95 S. Li, R. Lu, L. Zhang, and Y. Peng\OT1/cmr/m/n/10.95 , |
+   [],
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 541--549
+[]\OT1/cmr/m/sc/10.95 A. Mainzer, T. Grav, J. Bauer, J. Masiero, R. S. McMil-la
+n, R. M.
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 541--549
+\OT1/cmr/m/sc/10.95 Cutri, R. Walker, E. Wright, P. Eisen-hardt, D. J. Tholen, 
+T. Spahr,
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 541--549
+\OT1/cmr/m/sc/10.95 R. Jedicke, L. Den-neau, E. De-baun, D. Els-bury, T. Gau-ti
+er, S. Gomil-
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 551--554
+[]\OT1/cmr/m/sc/10.95 W. Ma-tusik, C. Buehler, R. Raskar, S. J. Gortler, and L.
+ McMil-lan\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 562--568
+[]\OT1/cmr/m/sc/10.95 J. L. Mo-laro, K. J. Walsh, E. R. Jawin, R. L. Bal-louz, 
+C. A. Ben-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--568
+\OT1/cmr/m/sc/10.95 nett, D. N. Del-laG-iustina, D. R. Gol-ish, C. Drouet d'Aub
+igny,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--568
+\OT1/cmr/m/sc/10.95 B. Rizk, S. R. Schwartz, R. D. Hanna, S. J. Mar-tel, M. Pa-
+
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 562--568
+\OT1/cmr/m/sc/10.95 jola, H. Campins, A. J. Ryan, W. F. Bot-tke, and D. S. Lau-
+retta\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 570--572
+[]\OT1/cmr/m/sc/10.95 N. Mur-doch, P. S[]anchez, S. R. Schwartz, and H. Miyamot
+o\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (138.25218pt too wide) in paragraph at lines 574--577
+[]\OT1/cmr/m/sc/10.95 D. Nesvorny and D. Vokrouh-licky\OT1/cmr/m/n/10.95 , |   
+[],
+ []
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 592--597
+[]\OT1/cmr/m/sc/10.95 M. Pa-jola, F. Tus-berti, A. Luc-chetti, O. Barnouin, S. 
+Cam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--597
+\OT1/cmr/m/sc/10.95 bioni, C. M. Ernst, E. Dotto, R. T. Daly, M. Hirabayashi,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--597
+\OT1/cmr/m/sc/10.95 R. Nakano, E. M. Epi-fani, N. L. Chabot, and V. D. Corte\OT
+1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (83.46396pt too wide) in paragraph at lines 592--597
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 599--602
+[]\OT1/cmr/m/sc/10.95 P. Pan-icucci, J. Le-bre-ton, J. McMa-hon, E. Zenou, and 
+M. Delpech\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
+[]\OT1/cmr/m/sc/10.95 V. Pesce, A. A. Agha-Mohammadi, and M. Lavagna\OT1/cmr/m/
+n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--607
+|   []\OT1/cmr/m/n/10.95 , IEEE Aerospace Con-fer-ence Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--612
+[]\OT1/cmr/m/sc/10.95 S. Ra-d-u-can, M. Jutzi, A. Cheng, Y. Zhang, and O. Barno
+uin\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--612
+|   []\OT1/cmr/m/n/10.95 , Na-ture As-
+ []
+
+
+Overfull \hbox (305.06046pt too wide) in paragraph at lines 614--618
+[]\OT1/cmr/m/sc/10.95 B. Rozi-tis and S. F. Green\OT1/cmr/m/n/10.95 , |   [],
+ []
+
+
+Overfull \hbox (186.21652pt too wide) in paragraph at lines 620--624
+[]|\OT1/cmr/m/n/10.95 , |   [],
+ []
+
+
+Overfull \hbox (32.91635pt too wide) in paragraph at lines 626--629
+[]|\OT1/cmr/m/n/10.95 , |   [],
+ []
+
+
+Overfull \hbox (54.75554pt too wide) in paragraph at lines 631--635
+[]|\OT1/cmr/m/n/10.95 , |   [],
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 637--646
+\OT1/cmr/m/sc/10.95 H. H. Ka-plan, L. F. Lim, J. L. Mo-laro, D. Pino Munoz, M. 
+C. Nolan,
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 637--646
+\OT1/cmr/m/sc/10.95 B. Rizk, M. A. Siegler, H. C. Su-sor-ney, K. J. Walsh, and 
+D. S. Lau-
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 652--660
+[]\OT1/cmr/m/sc/10.95 J. Saito, H. Miyamoto, R. Naka-mura, M. Ishig-uro, T. Mic
+hikami, A. M.
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 652--660
+\OT1/cmr/m/sc/10.95 Naka-mura, H. De-mura, S. Sasaki, N. Hi-rata, C. Honda, A. 
+Ya-mamoto,
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 652--660
+\OT1/cmr/m/sc/10.95 T. Kub-ota, Y. Higuchi, T. Naka-mura, P. Smith, K. Hi-raoka
+, T. Honda,
+ []
+
+[101]
+Underfull \hbox (badness 1127) in paragraph at lines 676--678
+[]|\OT1/cmr/m/n/10.95 , |   [], Icarus, 247 (2015),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 680--683
+[]|\OT1/cmr/m/n/10.95 , |   [], Icarus, 304
+ []
+
+
+Overfull \hbox (13.26218pt too wide) in paragraph at lines 697--777
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+[102] [103]
+Overfull \hbox (87.71779pt too wide) in paragraph at lines 779--782
+[]\OT1/cmr/m/sc/10.95 D. J. Scheeres and S. Mir-rahimi\OT1/cmr/m/n/10.95 , |   
+[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 784--787
+[]\OT1/cmr/m/sc/10.95 P. []Seve[]cek, O. Gol-ubov, D. J. Scheeres, and Y. N. Kr
+ugly\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--797
+[]\OT1/cmr/m/sc/10.95 Y. Tang, D. S. Lau-retta, R. L. Bal-louz, D. N. Del-laG-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 793--797
+\OT1/cmr/m/sc/10.95 iustina, C. A. Ben-nett, K. J. Walsh, and D. R. Gol-ish\OT1
+/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (2.92047pt too wide) in paragraph at lines 793--797
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--802
+[]\OT1/cmr/m/sc/10.95 D. Vokrouh-lick[]y, A. Mi-lani, and S. R. Ches-ley\OT1/cm
+r/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--802
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 808--818
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 820--836
+\OT1/cmr/m/sc/10.95 mura, S. Tachibana, Y. Ishi-hara, T. Mo-rota, K. Ki-tazato,
+ N. Sakatani,
+ []
+
+
+Overfull \hbox (22.44801pt too wide) in paragraph at lines 820--836
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+[104]
+Overfull \hbox (131.0965pt too wide) in paragraph at lines 838--843
+|   []\OT1/cmr/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (164.27373pt too wide) in paragraph at lines 845--848
+[]\OT1/cmr/m/sc/10.95 W.-H. Zhou and P. Michel\OT1/cmr/m/n/10.95 , |   [],
+ []
+
 ! Misplaced alignment tab character &.
-<argument> \@empty GN&
-                      C
-l.842 \newblock In {\em AAS GN&C Conference}
-                                            , pages 1--12, 2020.
+l.851   YORP effect}}, Astronomy &
+                                   Astrophysics, 1 (2022).
 ? 
-[89] [90] [91] [92])
-! Undefined control sequence.
-l.84 \printbibliography
-                       
-? 
-[93] (./main_thesis.aux)
+) (./appendix1.tex [105]
+ \th@ChapterStyle\th@DoChapCenterAppendix \th@ChapterStyle A.
+centered
+[106
+
+]) [107] (./main_thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1331,33 +1644,34 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DBA849D244FAAAEBDE95E3CF779E0193;10579.
+(rerunfilecheck)             Checksum: D44DEBF1A6A19ABA894C533727B5C12F;14952.
  ) 
 Here is how much of TeX's memory you used:
- 11971 strings out of 476025
- 201212 string characters out of 5790016
- 1879388 words of memory out of 5000000
- 31816 multiletter control sequences out of 15000+600000
- 521600 words of font info for 66 fonts, out of 8000000 for 9000
+ 17581 strings out of 476025
+ 340816 string characters out of 5790016
+ 1873388 words of memory out of 5000000
+ 37330 multiletter control sequences out of 15000+600000
+ 522434 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,76p,2162b,644s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,76p,2137b,1116s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
 usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main_thesis.pdf (104 pages, 11148695 bytes).
+cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main_thesis.pdf (119 pages, 23866357 bytes).
 PDF statistics:
- 1391 PDF objects out of 1440 (max. 8388607)
- 1174 compressed objects within 12 object streams
- 385 named destinations out of 1000 (max. 500000)
- 717 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1643 PDF objects out of 1728 (max. 8388607)
+ 1368 compressed objects within 14 object streams
+ 408 named destinations out of 1000 (max. 500000)
+ 945 words of extra memory for PDF output out of 10000 (max. 10000000)
 
