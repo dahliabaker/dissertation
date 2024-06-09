@@ -61,7 +61,7 @@
 \contentsline {subsection}{\numberline {\th@SubSectionStyle 3.8.3}\normalsize \normalfont Overall YORP Comparison}{68}{subsection.3.8.3}%
 \contentsline {section}{\numberline {\th@SectionStyle 3.9}\normalsize \normalfont Application to YORP Estimates}{70}{section.3.9}%
 \contentsline {section}{\numberline {\th@SectionStyle 3.10}\normalsize \normalfont Summary and Conclusions}{71}{section.3.10}%
-\contentsline {chapter}{\numberline {\th@ChapterStyle 4}\normalsize \normalfont Pole Stability and Obliquity Evolution under YORP Torques}{74}{chapter.4}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 4}\normalsize \normalfont Pole Stability and Obliquity Evolution under Boulder-Induced YORP Torques}{74}{chapter.4}%
 \contentsline {section}{\numberline {\th@SectionStyle 4.1}\normalsize \normalfont Background}{74}{section.4.1}%
 \contentsline {section}{\numberline {\th@SectionStyle 4.2}\normalsize \normalfont Coordinate Frames}{76}{section.4.2}%
 \contentsline {section}{\numberline {\th@SectionStyle 4.3}\normalsize \normalfont YORP Torques}{78}{section.4.3}%
@@ -75,7 +75,7 @@
 \contentsline {section}{\numberline {\th@SectionStyle 4.6}\normalsize \normalfont Discussion}{87}{section.4.6}%
 \contentsline {subsection}{\numberline {\th@SubSectionStyle 4.6.1}\normalsize \normalfont Binaries}{87}{subsection.4.6.1}%
 \contentsline {section}{\numberline {\th@SectionStyle 4.7}\normalsize \normalfont Conclusions}{87}{section.4.7}%
-\contentsline {chapter}{\numberline {\th@ChapterStyle 5}\normalsize \normalfont Estimates of YORP for Ground-Based Observing}{89}{chapter.5}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 5}\normalsize \normalfont Ground-based Uncertainty based on Boulder Distributions}{89}{chapter.5}%
 \contentsline {section}{\numberline {\th@SectionStyle 5.1}\normalsize \normalfont Asteroid YORP measured from ground}{89}{section.5.1}%
 \contentsline {section}{\numberline {\th@SectionStyle 5.2}\normalsize \normalfont Comparison of current models and observations}{89}{section.5.2}%
 \contentsline {section}{\numberline {\th@SectionStyle 5.3}\normalsize \normalfont Boulder-induced YORP variability analysis}{89}{section.5.3}%

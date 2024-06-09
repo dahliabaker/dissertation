@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  5 JUN 2024 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  9 JUN 2024 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1643,8 +1643,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D44DEBF1A6A19ABA894C533727B5C12F;14952.
+
+Package rerunfilecheck Warning: File `main_thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main_thesis.out':
+(rerunfilecheck)             Before: D44DEBF1A6A19ABA894C533727B5C12F;14952
+(rerunfilecheck)             After:  62C0EB9851047586D5FDD43AD182BA9F;15090.
  ) 
 Here is how much of TeX's memory you used:
  17581 strings out of 476025
@@ -1668,7 +1674,7 @@ xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main_thesis.pdf (119 pages, 23866357 bytes).
+Output written on main_thesis.pdf (119 pages, 23866587 bytes).
 PDF statistics:
  1643 PDF objects out of 1728 (max. 8388607)
  1368 compressed objects within 14 object streams

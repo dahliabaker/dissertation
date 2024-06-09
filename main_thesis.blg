@@ -3,10 +3,63 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main_thesis.aux
 The style file: siam.bst
 Database file #1: dissertation.bib
+Database file #2: chapter2bib.bib
+Repeated entry---line 29 of file chapter2bib.bib
+ : @article{Lauretta2019
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 108 of file chapter2bib.bib
+ : @article{Fujiwara2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 117 of file chapter2bib.bib
+ : @article{Gaskell2008
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 132 of file chapter2bib.bib
+ : @article{Pesce2018
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 147 of file chapter2bib.bib
+ : @article{Franco2009
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 230 of file chapter2bib.bib
+ : @article{Bandyonadhyay2019
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 257 of file chapter2bib.bib
+ : @article{Boyer2003
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 280 of file chapter2bib.bib
+ : @inproceedings{Liounis
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 301 of file chapter2bib.bib
+ : @article{DellaGiustina2018
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 345 of file chapter2bib.bib
+ : @article{Matusik2000
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 388 of file chapter2bib.bib
+ : @article{Li2013
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 479 of file chapter2bib.bib
+ : @inproceedings{Owen2011
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 526 of file chapter2bib.bib
+ : @article{Christian2017
+ :                       ,
+I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 You've used 87 entries,
             2030 wiz_defined-function locations,
-            1045 strings with 59448 characters,
+            1046 strings with 59459 characters,
 and the built_in function-call counts, 107483 in all, are:
 = -- 8059
 > -- 13596
@@ -45,3 +98,4 @@ warning$ -- 0
 while$ -- 362
 width$ -- 89
 write$ -- 772
+(There were 13 error messages)
