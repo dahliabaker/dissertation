@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  11 JUN 2024 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  11 JUN 2024 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,18 +1047,14 @@ File: fig/body_frame_w_obliq.jpg Graphic file (type jpg)
 <use fig/body_frame_w_obliq.jpg>
 Package pdftex.def Info: fig/body_frame_w_obliq.jpg  used on input line 78.
 (pdftex.def)             Requested size: 234.87749pt x 175.44444pt.
- [79] [80 <./fig/body_frame_w_obliq.jpg>] [81]
-
-LaTeX Warning: Citation `Scheeres2014' on page 82 undefined on input line 142.
-
-[82] [83]
-<fig/initial_obliq_dot_dist_bennu.png, id=1354, 575.751pt x 397.7259pt>
+ [79] [80 <./fig/body_frame_w_obliq.jpg>] [81] [82] [83]
+<fig/initial_obliq_dot_dist_bennu.png, id=1356, 575.751pt x 397.7259pt>
 File: fig/initial_obliq_dot_dist_bennu.png Graphic file (type png)
 <use fig/initial_obliq_dot_dist_bennu.png>
 Package pdftex.def Info: fig/initial_obliq_dot_dist_bennu.png  used on input li
 ne 256.
 (pdftex.def)             Requested size: 230.18251pt x 159.00864pt.
-<fig/initial_obliq_dot_dist_itokawa.png, id=1355, 575.751pt x 397.7259pt>
+<fig/initial_obliq_dot_dist_itokawa.png, id=1357, 575.751pt x 397.7259pt>
 File: fig/initial_obliq_dot_dist_itokawa.png Graphic file (type png)
 <use fig/initial_obliq_dot_dist_itokawa.png>
 Package pdftex.def Info: fig/initial_obliq_dot_dist_itokawa.png  used on input 
@@ -1066,38 +1062,38 @@ line 262.
 (pdftex.def)             Requested size: 230.18251pt x 159.00864pt.
  [84 <./fig/initial_obliq_dot_dist_bennu.png> <./fig/initial_obliq_dot_dist_ito
 kawa.png>]
-<fig/boulder_size_dist_bennu.png, id=1365, 575.751pt x 391.2216pt>
+<fig/boulder_size_dist_bennu.png, id=1367, 575.751pt x 391.2216pt>
 File: fig/boulder_size_dist_bennu.png Graphic file (type png)
 <use fig/boulder_size_dist_bennu.png>
 Package pdftex.def Info: fig/boulder_size_dist_bennu.png  used on input line 28
 2.
 (pdftex.def)             Requested size: 230.18251pt x 156.40826pt.
-<fig/boulder_size_dist_itokawa.png, id=1366, 575.751pt x 392.9079pt>
+<fig/boulder_size_dist_itokawa.png, id=1368, 575.751pt x 392.9079pt>
 File: fig/boulder_size_dist_itokawa.png Graphic file (type png)
 <use fig/boulder_size_dist_itokawa.png>
 Package pdftex.def Info: fig/boulder_size_dist_itokawa.png  used on input line 
 288.
 (pdftex.def)             Requested size: 230.18251pt x 157.08243pt.
-<fig/boulder_sizes_biggerthan1_bennu.png, id=1367, 575.751pt x 395.5578pt>
+<fig/boulder_sizes_biggerthan1_bennu.png, id=1369, 575.751pt x 395.5578pt>
 File: fig/boulder_sizes_biggerthan1_bennu.png Graphic file (type png)
 <use fig/boulder_sizes_biggerthan1_bennu.png>
 Package pdftex.def Info: fig/boulder_sizes_biggerthan1_bennu.png  used on input
  line 298.
 (pdftex.def)             Requested size: 230.18251pt x 158.14185pt.
-<fig/boulder_sizes_biggerthan1_itokawa.png, id=1368, 575.751pt x 395.5578pt>
+<fig/boulder_sizes_biggerthan1_itokawa.png, id=1370, 575.751pt x 395.5578pt>
 File: fig/boulder_sizes_biggerthan1_itokawa.png Graphic file (type png)
 <use fig/boulder_sizes_biggerthan1_itokawa.png>
 Package pdftex.def Info: fig/boulder_sizes_biggerthan1_itokawa.png  used on inp
 ut line 304.
 (pdftex.def)             Requested size: 230.18251pt x 158.14185pt.
  [85 <./fig/boulder_size_dist_bennu.png> <./fig/boulder_size_dist_itokawa.png>]
-<fig/boulder_west_stacked_bennu.png, id=1376, 690.6603pt x 468.3096pt>
+<fig/boulder_west_stacked_bennu.png, id=1378, 690.6603pt x 468.3096pt>
 File: fig/boulder_west_stacked_bennu.png Graphic file (type png)
 <use fig/boulder_west_stacked_bennu.png>
 Package pdftex.def Info: fig/boulder_west_stacked_bennu.png  used on input line
  316.
 (pdftex.def)             Requested size: 230.18251pt x 156.07184pt.
-<fig/boulder_west_stacked_itokawa.png, id=1377, 690.6603pt x 468.3096pt>
+<fig/boulder_west_stacked_itokawa.png, id=1379, 690.6603pt x 468.3096pt>
 File: fig/boulder_west_stacked_itokawa.png Graphic file (type png)
 <use fig/boulder_west_stacked_itokawa.png>
 Package pdftex.def Info: fig/boulder_west_stacked_itokawa.png  used on input li
@@ -1105,12 +1101,12 @@ ne 322.
 (pdftex.def)             Requested size: 230.18251pt x 156.07184pt.
  [86 <./fig/boulder_sizes_biggerthan1_bennu.png> <./fig/boulder_sizes_biggertha
 n1_itokawa.png>]
-<fig/location_dists_bennu.png, id=1385, 1235.0943pt x 1211.4861pt>
+<fig/location_dists_bennu.png, id=1387, 1235.0943pt x 1211.4861pt>
 File: fig/location_dists_bennu.png Graphic file (type png)
 <use fig/location_dists_bennu.png>
 Package pdftex.def Info: fig/location_dists_bennu.png  used on input line 334.
 (pdftex.def)             Requested size: 230.18251pt x 225.76665pt.
-<fig/location_dists_itokawa.png, id=1386, 1235.0943pt x 1211.4861pt>
+<fig/location_dists_itokawa.png, id=1388, 1235.0943pt x 1211.4861pt>
 File: fig/location_dists_itokawa.png Graphic file (type png)
 <use fig/location_dists_itokawa.png>
 Package pdftex.def Info: fig/location_dists_itokawa.png  used on input line 340
@@ -1118,26 +1114,23 @@ Package pdftex.def Info: fig/location_dists_itokawa.png  used on input line 340
 (pdftex.def)             Requested size: 230.18251pt x 225.76665pt.
  [87 <./fig/boulder_west_stacked_bennu.png> <./fig/boulder_west_stacked_itokawa
 .png>]
-<fig/obliq_amt_boulder_motion_bennu.png, id=1394, 599.1183pt x 441.3288pt>
+<fig/obliq_amt_boulder_motion_bennu.png, id=1396, 599.1183pt x 441.3288pt>
 File: fig/obliq_amt_boulder_motion_bennu.png Graphic file (type png)
 <use fig/obliq_amt_boulder_motion_bennu.png>
 Package pdftex.def Info: fig/obliq_amt_boulder_motion_bennu.png  used on input 
 line 365.
 (pdftex.def)             Requested size: 234.87749pt x 173.0199pt.
  [88 <./fig/location_dists_bennu.png> <./fig/location_dists_itokawa.png>]
-<fig/obliq_delta_boulder_motion_bennu.png, id=1401, 584.1825pt x 445.1832pt>
+<fig/obliq_delta_boulder_motion_bennu.png, id=1403, 584.1825pt x 445.1832pt>
 File: fig/obliq_delta_boulder_motion_bennu.png Graphic file (type png)
 <use fig/obliq_delta_boulder_motion_bennu.png>
 Package pdftex.def Info: fig/obliq_delta_boulder_motion_bennu.png  used on inpu
 t line 373.
 (pdftex.def)             Requested size: 234.87749pt x 178.99396pt.
- [89 <./fig/obliq_amt_boulder_motion_bennu.png>]) (./chapter6.tex [90 <./fig/ob
-liq_delta_boulder_motion_bennu.png>]
+ [89 <./fig/obliq_amt_boulder_motion_bennu.png>]) (./chapter6.tex
+[90 <./fig/obliq_delta_boulder_motion_bennu.png>]
  \th@ChapterStyle\th@DoChapCenterChapter \th@ChapterStyle 5.
 centered
-
-LaTeX Warning: Citation `Tang2024' on page 91 undefined on input line 8.
-
 [91
 
 ]) [92] (./main_thesis.bbl [93]
@@ -1699,10 +1692,10 @@ cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
 texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on main_thesis.pdf (122 pages, 24554464 bytes).
+Output written on main_thesis.pdf (122 pages, 24554428 bytes).
 PDF statistics:
- 1637 PDF objects out of 1728 (max. 8388607)
- 1353 compressed objects within 14 object streams
+ 1639 PDF objects out of 1728 (max. 8388607)
+ 1355 compressed objects within 14 object streams
  395 named destinations out of 1000 (max. 500000)
  925 words of extra memory for PDF output out of 10000 (max. 10000000)
 
