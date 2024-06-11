@@ -339,7 +339,7 @@ The last limb-trimmed shape model presented is developed using real mission imag
 
 Implementing the same procedures as shown in previous sections, we were able to process 70 images of the asteroid Bennu using Canny edge detection for the silhouette identification and limb-trimming for shape resolution in order to build a surface model from these initial silhouette points. The results show that the model is biased towards underestimating the size of the surface, with the error spanning from -55 to 7 meters, and a mean error of -7 meters. As predicted, the phase angle assumption caused terminator points to be associated with the edge, therefore reducing the size estimate of the body as a whole based on the trimming scheme. However, the shape is reasonably captured based on the dimensions of Bennu and could be used for initial navigation when better data is not yet available.  
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width = 0.8\textwidth]{fig/bennu_real.png}
     \caption{Bennu Shape Model from Real Images, compared to SPC, surface error in kilometers}
@@ -361,7 +361,7 @@ In the correlation coefficient equation, m and n refer to the u and v axes of th
 \subsection{Results}
 Correlating two images based on pixel values has proven to have some promise, however, our approach did not successfully match test images to the correct corresponding library image. The test case based on the asteroid Itokawa has shown that the body exhibits symmetries along certain axes that make it difficult for this correlation method to match the correct longitudes. We have learned that high correlation scores are possible between images that are meant to be matched, which shows that the 2-D correlation coefficient can see some similarities between images taken at the same longitudes. If this method were to be applied for localization procedures, it would need more rigorous matching capabilities. Shown in Fig.\ref{fig:expected}, the two images presented are both focused on the same latitude and longitude, both $0^{\circ}$. The corresponding correlation coefficient is above 0.9, which means these images are a strong match to each other. However, the iteration scheme found another image in our library with a higher matching score and associated our test image with the incorrect image shown in Fig.\ref{fig:highest}. 
 
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
     \includegraphics[height=0.43\textheight]{fig/expected_match.png}
     \caption{Test image and Library Image, Expected Match Pair}
@@ -370,13 +370,13 @@ Correlating two images based on pixel values has proven to have some promise, ho
 \begin{figure}[h!]
     \centering
     \includegraphics[height=0.43\textheight]{fig/highest_score.png}
-    \caption{Test image and Library image, Actual Match Pair}
+    \caption{Test Image and Library image, Actual Match Pair}
     \label{fig:highest}
 \end{figure}
 
 We can see from these comparisons that the algorithm failed to account for rotations in the body orientation. The expected match and the actual match have correlation scores within 0.005 of each other, showing that the algorithm can still correlate similarities well. However, this cannot be claimed as a success for navigation purposes seeing that the error in the matched longitude is $168.66^{\circ}$. Further analysis shows that for all of the images in the library, the score of the correlation between the library image and a test image follows a symmetric pattern, shown in Fig.\ref{fig:heatmap}. If this method of localization was successful and we could match test images to their correct library equivalent, we would see the highest correlation scores following a $y=x$ trend across the score map. The observations made instead show that the highest correlation scores follow the symmetry of the body, and the most likely match in the images are when the asteroid is being viewed from the $0^{\circ}$ and $180^{\circ}$ orientations. This data could be improved with further centering of test images during pre-processing, testing flipped orientations of the library images, or possibly examining the silhouette only for localization. Another avenue of testing could be for lighting-condition invariance, where many phase angles are tested and machine learning is applied to match features despite different sun angles{Manni2020}. 
 
-\begin{figure}[ht!]
+\begin{figure}[H]
     \centering
     \includegraphics[width= 1.1\textwidth]{fig/all_scores.png}
     \caption{2D Correlation scores between all library images and all test images, based on longitude}

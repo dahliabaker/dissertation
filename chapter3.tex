@@ -251,7 +251,7 @@ The equation-of-fit corresponds to the Fig. \ref{fig:sine}. We examine a 10 m di
 \end{table}
 The dominant re-radiation orientation of a boulder is highly stochastic therefore the uncertainty due to the orientation is uniformly distributed. Our choice in shape conditions the final distribution of boulder-induced YORP with its sinusoidal function resulting from the rotation of a standing isosceles prism. 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.45\textwidth]{fig/rotation_plot_one_equator_boulder.png}
     \caption{Sinusoidal relationship of boulder orientation to YORP torque. Asymmetric boulder at equator and perfectly tangent to spin pole}
@@ -534,12 +534,6 @@ The standard error for Ryugu's YORP acceleration would be $1.47 \times 10^{-6}$ 
 %here Jay said to do some boe calcs
 When the dynamics change, there can be new forces at the surface that induce boulder motion. This can be sliding, rolling, or escape that are all side effects of spin acceleration. Here we will show the difference in YORP spin torque contribution between a boulder at a single constant longitude, but varying between +45, 0, and -45 degrees in latitude. These are the same size (0.1m diameter) and orientation (directly west). The difference in torque between these boulders is equivalent to the change in dynamics due to a boulder moving from it's original location to a new one. In Fig. \ref{fig:motion_nodelta}, we show the YORP spin acceleration values for boulders at varying latitudes between -90 and 90 degrees, or south to north pole, that are all constrained within -173 and -178 degrees in longitude. Note that the distribution shows that boulders, all facing 100\% west with their dominant face, can vary between negative and positive YORP spin acceleration even on the same hemisphere. The boulders closer to the equator contribute the most spin torque due to the longer lever arm length from the central spin pole. However, slight variations in the tilt of the base facet can cause these swaps from positive to negative on boulders close to each other. 
 
-
-
-We show the delta distribution of these boulders, in Fig.\ref{fig:motion_delta}, by taking the difference of YORP spin from each boulder compared to it's closest north neighbor. The change in latitude varies by boulder comparison, and we show the resultant change in YORP acceleration contributions based on this latitude change. Note that the maximum delta in longitude is just 5 degrees. There is no relationship between larger latitude change and YORP acceleration change. The motion represented by $0-2^{\circ}$ of latitude change is the most common and shows the largest distribution, positive and negative, of YORP acceleration change. 
-
-This data shows how much YORP can change from the same size, same orientation, and same shape of boulder being assessed at different locations, mainly varying in latitude which is the larger driver of YORP spin acceleration change due to the lever arm length variation. The largest YORP spin acceleration delta is $1.6828\times 10^-9$, which is equivalent to a doubling rate for Bennu of 76 million years from a single boulder delta. If extrapolated to the case where 1\% of the boulders on the surface, now sized at 1m, were all to increase in YORP acceleration at this rate, then the doubling time due to just these boulders is now ~153,000 years. In the Bennu lifetime, this is a short period for accelerating from a 4.3 hour period to 2.15 hour period. In the next chapter, we will show the rotational deformation speeds for these asteroids and compare these values to what we have found here.
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{fig/yorp_amt_boulder_motion_bennu.png}
@@ -548,12 +542,20 @@ This data shows how much YORP can change from the same size, same orientation, a
 \end{figure}
 
 
+We show the delta distribution of these boulders, in Fig.\ref{fig:motion_delta}, by taking the difference of YORP spin from each boulder compared to it's closest north neighbor. The change in latitude varies by boulder comparison, and we show the resultant change in YORP acceleration contributions based on this latitude change. Note that the maximum delta in longitude is just 5 degrees. There is no relationship between larger latitude change and YORP acceleration change. The motion represented by $0-2^{\circ}$ of latitude change is the most common and shows the largest distribution, positive and negative, of YORP acceleration change. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{fig/yorp_delta_boulder_motion_bennu.png}
     \caption{The change in YORP spin acceleration from boulder motion with the latitude degree change shown on the x-axis}
     \label{fig:motion_delta}
 \end{figure}
+
+This data shows how much YORP can change from the same size, same orientation, and same shape of boulder being assessed at different locations, mainly varying in latitude which is the larger driver of YORP spin acceleration change due to the lever arm length variation. The largest YORP spin acceleration delta is $1.6828\times 10^-9$, which is equivalent to a doubling rate for Bennu of 76 million years from a single boulder delta. If extrapolated to the case where 1\% of the boulders on the surface, now sized at 1m, were all to increase in YORP acceleration at this rate, then the doubling time due to just these boulders is now ~153,000 years. In the Bennu lifetime, this is a short period for accelerating from a 4.3 hour period to 2.15 hour period. In the next chapter, we will show the rotational deformation speeds for these asteroids and compare these values to what we have found here.
+
+
+
+
 
 \section{Summary of Spin Evolution Findings} \label{conclusion}
 Boulder-induced YORP is the consideration of larger-scale surface roughness which can still be modeled through facet geometry therefore is not captured in regolith roughness approximations. We have shown that compared to the magnitude of other analytical models of YORP, it is a significant contributor to final magnitude and uncertainty. We can use this characterization of YORP from boulders to inform future estimates of measured YORP versus actual shape, which aims to clarify the sources of uncertainty or bias in our current YORP estimates. Simulating realistic populations of boulders provides an applicable way to tie together observation and modeling of YORP in a way that purely analytical models have not.
