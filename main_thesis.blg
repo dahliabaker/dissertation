@@ -11,6 +11,10 @@ Repeated entry---line 2296 of file dissertation.bib
  : @article{Walsh2022
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2311 of file dissertation.bib
+ : @article{Tang2024
+ :                  ,
+I'm skipping whatever remains of this entry
 Database file #2: chapter2bib.bib
 Repeated entry---line 29 of file chapter2bib.bib
  : @article{Lauretta2019
@@ -65,45 +69,46 @@ Repeated entry---line 526 of file chapter2bib.bib
  :                       ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 89 entries,
+Warning--empty journal in Scheeres2014
+You've used 91 entries,
             2030 wiz_defined-function locations,
-            1060 strings with 60701 characters,
-and the built_in function-call counts, 109515 in all, are:
-= -- 8215
-> -- 13842
+            1070 strings with 61085 characters,
+and the built_in function-call counts, 110338 in all, are:
+= -- 8284
+> -- 13905
 < -- 0
-+ -- 5527
-- -- 5438
-* -- 12507
-:= -- 19873
-add.period$ -- 89
-call.type$ -- 89
-change.case$ -- 2990
++ -- 5552
+- -- 5461
+* -- 12580
+:= -- 20012
+add.period$ -- 91
+call.type$ -- 91
+change.case$ -- 3007
 chr.to.int$ -- 0
-cite$ -- 89
-duplicate$ -- 1482
-empty$ -- 2275
-format.name$ -- 5438
-if$ -- 19368
+cite$ -- 92
+duplicate$ -- 1517
+empty$ -- 2315
+format.name$ -- 5461
+if$ -- 19529
 int.to.chr$ -- 0
-int.to.str$ -- 89
-missing$ -- 90
-newline$ -- 270
-num.names$ -- 173
-pop$ -- 2882
+int.to.str$ -- 91
+missing$ -- 92
+newline$ -- 276
+num.names$ -- 178
+pop$ -- 2899
 preamble$ -- 1
-purify$ -- 2901
+purify$ -- 2916
 quote$ -- 0
-skip$ -- 1317
+skip$ -- 1346
 stack$ -- 0
-substring$ -- 2311
-swap$ -- 653
+substring$ -- 2333
+swap$ -- 670
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 354
-warning$ -- 0
-while$ -- 372
-width$ -- 91
-write$ -- 789
-(There were 15 error messages)
+type$ -- 362
+warning$ -- 1
+while$ -- 378
+width$ -- 93
+write$ -- 805
+(There were 16 error messages)

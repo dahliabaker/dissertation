@@ -135,11 +135,11 @@ The term $W_B$ stands for the fraction $G_1 \symbol{92} I_z a^2 \sqrt(1-e^2)$, a
 Thermal inertia is approximated in these equations of as a constant time lag, serving to delay the time of emitted energy by some fraction of the period. This ignores the variations in materials of the surface or inertia as a function of spin velocity or time of local day. However, it is useful in these twice averaged equations of motion and allows thermal lag to be isolated in trigonometric terms that scale the first-order YORP torque coefficients. In the next section we will discuss alternative approaches to thermal inertia considerations within these equations. 
 
 \subsection{YORP Timescales and Spin Limits}
-The YORP timescale refers to the amount of time it takes for the angular velocity to double or halve as a result of YORP-induced acceleration, and it analytically defined as the current spin rate divided by the spin acceleration. 
+The YORP timescale ($\tau_Y$) refers to the amount of time it takes for the angular velocity to double or halve as a result of YORP-induced acceleration, and it analytically defined as the current spin rate divided by the spin acceleration. 
 \begin{equation}
-    \frac{\omega}{\dot{omega}} = \tau_Y = \frac{4\piA^2\sqrt{1-E^2}}{3\Phi} \frac{\omega \rho R^2}{\mathit{C}}
+    \frac{\omega}{\dot{\omega}} = \tau_Y = \frac{4\pi A^2\sqrt{1-E^2}}{3\Phi} \frac{\omega \rho R^2}{\mathit{C}}
 \end{equation}
-
+This is defined by Scheeres and Sanchez, and applies Scheeres notation for YORP spin acceleration \cite{Scheeres2014}\cite{Scheeres2007}. Mentioning these barriers to YORP dynamics is important because the original intention of defining the YORP effect was to explain how small meteroids are accelerated to the point of disruption \cite{Rubincam2000}. We extend it to small rubble-pile asteroids to explain the unmodeled accelerations observed in their dynamics.
 This delimiter of time is important for tracking how quickly YORP is changing the dynamics and it can tell us how often to expect the body to go through a complete "YORP cycle", or period of accelerating up to a breakdown speed and then rearranging until slower, stable angular velocity is achieved \cite{Scheeres2019}. This is the typical cycle for a body with positive YORP torques, but we can see a similar cycle with YORP spin-down and tumbling. These are idealized versions of the stochastic events that we predict for YORP evolution so we assume secular acceleration and non-dynamic surfaces when defining this behavior. We will show here the angular velocity requirements for disaggregation as well as for tumbling. Tumbling requires that there are non-periodic forces impacting the obliquity evolution term. %check this
 
 There are two velocities relevant for rotational fission. The first is the spin rate at which deformation begins, when the cohesive forces are overcome by the centrifugal forces at the surface. The second is the failure spin rate, where plastic deformation is induced. This goes beyond the cohesiveless spin rate $\omega_c$ \cite{Scheeres2018}\cite{Sanchez2014}.
@@ -250,7 +250,7 @@ We find that for each combination of 5000 randomly selected boulders, scaled pro
 
 We have calculated the sum of the torque influence from each boulder and present it in Fig. \ref{fig:is_results} for both the asteroid Bennu and Itokawa shapes. For N=500 cases, we see different variance in each case. While most of the cases have close to zero change in the obliquity shifting rate due to boulders, we see a handful of cases that deviate towards the maximum influences of 2e-12 and 5e-12, for Bennu and Itokawa respectively. In the following subsections, we will show the significance of certain properties of boulders and what the distributions of the most influential individuals looks like.
 
-\begin{figure}[H]
+\begin{figure}
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/initial_obliq_dot_dist_bennu.png}
@@ -269,7 +269,7 @@ We have calculated the sum of the torque influence from each boulder and present
 
 \subsection{Sensitivity}
 
-We have applied the characterizations of the size power law of boulders on Bennu and Itokawa that come from image-based analysis due to the OSIRIS-REx and Hayabusa missions. The size of each boulder selected randomly for surface placement was sampled from this power law, modeled by the dashed lines in Fig. \ref{all_size}. The histogram shows the full distribution of every size boulder selected for this simulation study. Now we will separate the population by which boulders contribute over $1\%$ to the obliquity changing rate despite each representing a constituency of $0.02\%$ percent of the population. 
+We have applied the characterizations of the size power law of boulders on Bennu and Itokawa that come from image-based analysis due to the OSIRIS-REx and Hayabusa missions. The size of each boulder selected randomly for surface placement was sampled from this power law, modeled by the dashed lines in Fig. \ref{fig:all_size}. The histogram shows the full distribution of every size boulder selected for this simulation study. Now we will separate the population by which boulders contribute over $1\%$ to the obliquity changing rate despite each representing a constituency of $0.02\%$ percent of the population. 
 
 
 Now comparing Fig. \ref{fig:all_size} and Fig. \ref{fig:size_onepercent}, we see that the boulders smaller than 0.01m in diameter begin to be lost when filtering for large contributions to YORP obliquity change. It's the same result independent of the underlying shape.
@@ -358,14 +358,37 @@ These results tell us about the influential factors that make an asteroid overal
 %%%%%%%%%%%
 %%%%%%%%%%%
 
-\section{Discussion} \label{discussion}
-%so what does this mean for modeling YORP obliquity instability
-%how can we use this to improve YORP models
-
 \subsection{Boulder Motion}
+We compare boulder YORP contributions at different locations to make inferences about the impact of boulder's moving on the body's surface. This behavior has been discussed previously and explains the presence of features such as infilled craters on asteroids. In Fig. \ref{fig:ob_motion_nodelta}, we sample boulders within $5^{\circ}$ of longitude and up to $9.43^{\circ}$ in latitude apart. Their obliquity rate contributions, shown as $\dot{i}_s$, follow a distinct linear relationship with latitude.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig/obliq_amt_boulder_motion_bennu.png}
+    \caption{Differing amounts of YORP obliquity acceleration for boulders within 5 degrees in longitude but varying latitudes}
+    \label{fig:ob_motion_nodelta}
+\end{figure}
 
-\subsection{Binaries}
+Comparing the differences between neighboring boulders gives a more random relationship. It is shown that a boulder at a higher latitude could have a lower or higher amount of torque changing the body's obliquity. The largest change in $\dot{i}_s$ is $7.06\times 10^{-6} rad/day^2$. If this change was applied to the largest obliquity changing boulder, in this case, a boulder exhibiting $1.05\times 10^{-5} rad/day^2$, then the variation in obliquity angle shifting due to just this single boulder could induce angular rates faster than the current spin rate within 4.9 million years. This assumes uniform spin is independent of obliquity angle change. These dynamics are naturally coupled and calculations here serve to highlight the magnitude of change due to moving boulders on the surface. In future work, it will be highlighted how necessary it will be to simulate boulders moving positions as the dynamics change due to YORP.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig/obliq_delta_boulder_motion_bennu.png}
+    \caption{The change in YORP obliquity acceleration from boulder motion with the latitude degree change shown on the x-axis}
+    \label{fig:ob_motion_delta}
+\end{figure}
 
-\section{Conclusions} \label{conclusion}
+
+%\section{Takeaways for Obliquity Evolution} \label{conclusion}
+
+
+
+
+
+
+
+
+
+
+
+
+
 %what did I find. Did I address the thesis I put in the intro
 There are other ways of describing YORP. There are other features which induce interesting thermal effects such as self-shadowing and self-radiation (craters). The density distribution of the surface can change the inertia which varies these results wildly. Boulders move over time as the dynamics change which resets the problem. Regolith roughness can scatter the initial thermal energy and induce even more stochastics to the geometric analysis of YORP. This work has applied what we know about heavily assumed models and high-resolution asteroid surfaces to show variability in the YORP effect. Further observations of asteroid surfaces could further constrain how bouldered they get, what asymmetry is typically induced, and the thermal properties of boulders which may have been fractured, buried, or excavated as the dynamics evolve. We hope to see this continued with more advanced thermal models, the application of boulder motion based on the gravitational field variations, and rigorous ray-tracing in order to get refined YORP coefficients from the original geometries. 
