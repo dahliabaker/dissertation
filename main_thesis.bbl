@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{Aoki2014}
+{\sc T.~Aoki, A.~Nakamura, and N.~Hirata}, {\em {Estimating the angle of
+  friction of blocks on rubble-pile asteroid Itokawa}}, in ACM 2014, 201.
+
 \bibitem{Baker2024}
 {\sc D.~Baker and J.~McMahon}, {\em {Boulder-Induced Spin Variability in the
   YORP Effect Boulder-Induced Spin Variability in the YORP Effect}}, Icarus,
@@ -72,6 +76,13 @@
   {Yarkovsky-O'Keefe-Radzievskii-Paddack effect with anisotropic radiation}},
   Monthly Notices of the Royal Astronomical Society, 410 (2011),
   pp.~2807--2816.
+
+\bibitem{Chesley2014}
+{\sc S.~R. Chesley, D.~Farnocchia, M.~C. Nolan, D.~Vokrouhlick{\'{y}}, P.~W.
+  Chodas, A.~Milani, F.~Spoto, B.~Rozitis, L.~A. Benner, W.~F. Bottke, M.~W.
+  Busch, J.~P. Emery, E.~S. Howell, D.~S. Lauretta, J.~L. Margot, and P.~A.
+  Taylor}, {\em {Orbit and bulk density of the OSIRIS-REx target Asteroid
+  (101955) Bennu}}, Icarus, 235 (2014), pp.~5--22.
 
 \bibitem{Christian2017}
 {\sc J.~A. Christian}, {\em {Accurate planetary limb localization for
@@ -663,11 +674,6 @@
   rubble pile asteroids}}, Meteoritics and Planetary Science, 49 (2014),
   pp.~788--811.
 
-\bibitem{Schaub2018}
-{\sc H.~Schaub and J.~L. Junkins}, {\em {Analytical Mechanics of Space
-  Systems}}, American Institute of Aeronautics and Astronautics, Inc., 4th
-  editio~ed., 2018.
-
 \bibitem{Scheeres2007}
 {\sc D.~J. Scheeres}, {\em {The dynamical evolution of uniformly rotating
   asteroids subject to YORP}}, Icarus, 188 (2007), pp.~430--450.
@@ -803,6 +809,16 @@
 \bibitem{Walsh2018}
 {\sc K.~J. Walsh}, {\em {Rubble Pile Asteroids}}, Annual Review of Astronomy
   and Astrophysics, 56 (2018), pp.~593--624.
+
+\bibitem{Walsh2022}
+{\sc K.~J. Walsh, R.~L. Ballouz, E.~R. Jawin, C.~Avdellidou, O.~S. Barnouin,
+  C.~A. Bennett, E.~B. Bierhaus, B.~J. Bos, S.~Cambioni, H.~C. Connolly,
+  M.~Delbo, D.~N. DellaGiustina, J.~DeMartini, J.~P. Emery, D.~R. Golish, P.~C.
+  Haas, C.~W. Hergenrother, H.~Ma, P.~Michel, M.~C. Nolan, R.~Olds, B.~Rozitis,
+  D.~C. Richardson, B.~Rizk, A.~J. Ryan, P.~S{\'{a}}nchez, D.~J. Scheeres,
+  S.~R. Schwartz, S.~H. Selznick, Y.~Zhang, and D.~S. Lauretta}, {\em
+  {Near-zero cohesion and loose packing of Bennu's near subsurface revealed by
+  spacecraft contact}}, Science Advances, 8 (2022), pp.~1--9.
 
 \bibitem{Walsh2019}
 {\sc K.~J. Walsh, E.~R. Jawin, R.~L. Ballouz, O.~S. Barnouin, E.~B. Bierhaus,

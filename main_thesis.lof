@@ -21,14 +21,14 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram of solar radiation, absorption, and YORP re-radiation\relax }}{33}{figure.caption.23}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces First-order YORP spin coefficient variation per facet on Bennu and Itokawa\relax }}{36}{figure.caption.24}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Wedge shape boulders provide asymmetry that induces YORP effect\relax }}{37}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Boulder model with frame\relax }}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Boulder model with frame\relax }}{38}{figure.caption.26}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Difference of per-facet distance from body center of mass and the average radius for three asteroid shape models: Bennu, Ryugu, and Itokawa. Darker points represent equatorial facets. Itokawa exhibits the greatest variation over longitude.\relax }}{40}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Cumulative number of boulders per square km\relax }}{43}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Orientation of Prism Boulder Rotating from West to East, from $0$ to $\pi $\relax }}{48}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Cumulative number of boulders per square km\relax }}{42}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Orientation of Prism Boulder Rotating from West to East, from $0$ to $\pi $\relax }}{47}{figure.caption.30}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Sinusoidal relationship of boulder orientation to YORP torque. Asymmetric boulder at equator and perfectly tangent to spin pole\relax }}{50}{figure.caption.32}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Frequency distribution of YORP with 500 random boulder populations for Bennu\relax }}{52}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Bennu distribution comparison of normalized frequencies of boulder latitude and orientation in the > 1\% YORP spin coefficient boulder population.\relax }}{53}{figure.caption.35}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Size distribution and mean diameter of boulders where $C_{0,z,i} > 1\%$ on Bennu\relax }}{53}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Bennu distribution comparison of normalized frequencies of boulder latitude and orientation in the > 1\% YORP spin coefficient boulder population.\relax }}{54}{figure.caption.35}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Frequency distribution of total boulder YORP spin coefficients for Itokawa\relax }}{56}{figure.caption.36}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Itokawa distribution comparison of normalized frequencies of boulder latitude and orientation in the > 1\% YORP spin coefficient boulder population.\relax }}{57}{figure.caption.38}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Size distribution and mean diameter of boulders where $C_{0,z,i} > 1\%$ for Itokawa\relax }}{57}{figure.caption.37}%
@@ -42,12 +42,12 @@
 \contentsline {figure}{\numberline {3.22}{\ignorespaces Comparison of analytical YORP spin components for Bennu as a function of obliquity\relax }}{69}{figure.caption.46}%
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Comparison of mean and standard deviation from several YORP models\relax }}{70}{figure.caption.47}%
 \contentsline {figure}{\numberline {3.24}{\ignorespaces Differing amounts of YORP spin acceleration for boulders within 5 degrees in longitude but varying latitudes\relax }}{72}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces \relax }}{73}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces The change in YORP spin acceleration from boulder motion with the latitude degree change shown on the x-axis\relax }}{73}{figure.caption.49}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Body frame diagram which shows $\hat {u}$, the sun-pointing vector, $\hat {u}_{||xy}$, the projection of the sun-pointing vector into the body x-y plane, $\hat {u}_{\perp }$, the perpendicular vector to the sun-pointing vector, the body frame unit vectors $\hat {x}_B, \hat {y}_B$, and $\hat {z}_B$, as well as the solar inclination angle $i_s$, the longitude of the ascending node $\Omega _s$, and the spin pole obliquity angle $\eta $. \relax }}{80}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \relax }}{85}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \relax }}{86}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \relax }}{87}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \relax }}{88}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces \relax }}{89}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Solar Inclination Rates for entire asteroid with 5000 boulders added in 500 different configurations of size, orientation, and location on Bennu and Itokawa shape models\relax }}{84}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Boulder diameter power laws: dashed line is the model and histogram represents the population sampled from power law\relax }}{85}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Full histogram of boulder diameters compared to the subsampled set that represents boulders contributing $> 1\%$ to solar inclination change\relax }}{86}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Varying bins of percent contribution to solar inclination change, with darker colors representing higher \% change from a single boulder, distributed over dominant pointing direction\relax }}{87}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Boulder locations separated by percent contribution, showing a departure of boulders from equator at rates of > 1\% and > 10\% for both bodies\relax }}{88}{figure.caption.56}%
 \addvspace {10\p@ }

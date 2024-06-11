@@ -1,5 +1,6 @@
 %chapter 4
-\chapter{Pole Stability and Obliquity Evolution under Boulder-Induced YORP Torques}
+%Pole Stability and Obliquity Evolution under Boulder-Induced YORP Torques
+\chapter{Obliquity Evolution under Boulder-Induced YORP Torques}
 \label{yorp_obliquity}
 
 \section{Background} \label{background} %section 1
@@ -133,8 +134,13 @@ The term $W_B$ stands for the fraction $G_1 \symbol{92} I_z a^2 \sqrt(1-e^2)$, a
 
 Thermal inertia is approximated in these equations of as a constant time lag, serving to delay the time of emitted energy by some fraction of the period. This ignores the variations in materials of the surface or inertia as a function of spin velocity or time of local day. However, it is useful in these twice averaged equations of motion and allows thermal lag to be isolated in trigonometric terms that scale the first-order YORP torque coefficients. In the next section we will discuss alternative approaches to thermal inertia considerations within these equations. 
 
-\subsection{YORP Timescales}
-The YORP timescale refers to the amount of time it takes for the angular velocity to double or halve as a result of YORP-induced acceleration. This delimiter of time is important for tracking how quickly YORP is changing the dynamics and it can tell us how often to expect the body to go through a complete "YORP cycle", or period of accelerating up to a breakdown speed and then rearranging until slower, stable angular velocity is achieved \cite{Scheeres2019}. This is the typical cycle for a body with positive YORP torques, but we can see a similar cycle with YORP spin-down and tumbling. These are idealized versions of the stochastic events that we predict for YORP evolution so we assume secular acceleration and non-dynamic surfaces when defining this behavior. We will show here the angular velocity requirements for disaggregation as well as for tumbling. Tumbling requires that there are non-periodic forces impacting the obliquity evolution term. %check this
+\subsection{YORP Timescales and Spin Limits}
+The YORP timescale refers to the amount of time it takes for the angular velocity to double or halve as a result of YORP-induced acceleration, and it analytically defined as the current spin rate divided by the spin acceleration. 
+\begin{equation}
+    \frac{\omega}{\dot{omega}} = \tau_Y = \frac{4\piA^2\sqrt{1-E^2}}{3\Phi} \frac{\omega \rho R^2}{\mathit{C}}
+\end{equation}
+
+This delimiter of time is important for tracking how quickly YORP is changing the dynamics and it can tell us how often to expect the body to go through a complete "YORP cycle", or period of accelerating up to a breakdown speed and then rearranging until slower, stable angular velocity is achieved \cite{Scheeres2019}. This is the typical cycle for a body with positive YORP torques, but we can see a similar cycle with YORP spin-down and tumbling. These are idealized versions of the stochastic events that we predict for YORP evolution so we assume secular acceleration and non-dynamic surfaces when defining this behavior. We will show here the angular velocity requirements for disaggregation as well as for tumbling. Tumbling requires that there are non-periodic forces impacting the obliquity evolution term. %check this
 
 There are two velocities relevant for rotational fission. The first is the spin rate at which deformation begins, when the cohesive forces are overcome by the centrifugal forces at the surface. The second is the failure spin rate, where plastic deformation is induced. This goes beyond the cohesiveless spin rate $\omega_c$ \cite{Scheeres2018}\cite{Sanchez2014}.
 \begin{equation}
@@ -145,9 +151,29 @@ There are two velocities relevant for rotational fission. The first is the spin 
 \end{equation}
 %tumbling
 
-\begin{figure}
-    %here is where plot of bennu omega/omegadot will go
-\end{figure}
+Below in table \ref{table:properties} are the physical constants used to determine the cohesive force barrier velocity and failure spin rates. %I need G, I don't think it's the constant that I think it is. the units don't work
+
+\begin{table*}[b!]
+    \renewcommand{\arraystretch}{1.5}
+
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{| c || c | c | c | c | c |}
+        \hline
+        \makegapedcells
+        \textbf{Body} & \textbf{Density}, $\rho$ & \textbf{Cohesive Strength}, $\sigma$ & \textbf{Longest Radius}, $\alpha$ & \textbf{Angle of Friction},$\phi$ \\
+        \hline 
+        \hline
+        \makegapedcells
+        Bennu & 1260 $kg/m^3 $ \cite{Chesley2014} & 1 Pa \cite{Walsh2022} & 282.37 m & $35^{\circ}$ \cite{Zhang2022} \\ 
+        \hline 
+        \makegapedcells 
+        Itokawa & 2000 $kg/m^3$ \cite{Sanchez2014} & 25 Pa \cite{Sanchez2014}  & 267.5 m & 40 \cite{Aoki2014}\\  
+        \hline   
+        \end{tabular}
+        }
+    \caption{Granular properties for asteroid disaggregation limits}
+    \label{table:properties}
+\end{table*}
 
 %another plot of likeeeeeeeeee YORP timescales?
 %\subsection{Thermal Modeling}
@@ -180,38 +206,38 @@ There are two velocities relevant for rotational fission. The first is the spin 
 %%%%%%%%%%%
 %%%%%%%%%%%
 
-\section{Spin and Stability Dynamics} \label{spin}
+%\section{Spin and Stability Dynamics} \label{spin}
 
-The asteroid dynamics that YORP is acting upon can be summarized with the phase angle, $\phi$, the rotational velocity, $\omega$, the solar inclination, $i_s$, and the solar longitude, $\Omega_s$. These are all variables in the body fixed frame. We will also consider the euler parameters of the attitude of the spin pole in order to track orientation over time in the inertial frame. The full dynamical state space is given below.%below give all the equations and dynamics
+%The asteroid dynamics that YORP is acting upon can be summarized with the phase angle, $\phi$, the rotational velocity, $\omega$, the solar inclination, $i_s$, and the solar longitude, $\Omega_s$. These are all variables in the body fixed frame. We will also consider the euler parameters of the attitude of the spin pole in order to track orientation over time in the inertial frame. The full dynamical state space is given below.%below give all the equations and dynamics
 
-\begin{equation}
-    [] = []
-\end{equation}
+%\begin{equation}
+%    [] = []
+%\end{equation}
 
-We propagate these dynamics using the rotational motion equations as well as the ones defined as influenced by YORP. This could be expanded to include natural phenomena such as SRP, but we will remain focused here on just the YORP torque contributions to the dynamics over time. The goal is to evaluate how much the YORP timescale is changed, and how the stability of the pole is altered. In simulating both in tandem, we can find whether the body will secularly accelerate in spin to an end-state or if the requirements for tumbling motion are met before this can occur. 
+%We propagate these dynamics using the rotational motion equations as well as the ones defined as influenced by YORP. This could be expanded to include natural phenomena such as SRP, but we will remain focused here on just the YORP torque contributions to the dynamics over time. The goal is to evaluate how much the YORP timescale is changed, and how the stability of the pole is altered. In simulating both in tandem, we can find whether the body will secularly accelerate in spin to an end-state or if the requirements for tumbling motion are met before this can occur. 
 %%%%%%%%%%%
 %%%%%%%%%%%
 %%%%%%%%%%%%%% ANALYSIS NEEDED %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%
 %%%%%%%%%%%
 
-Now we talk about the figure above. 
+%Now we talk about the figure above. 
       
 
-We will begin our stability analysis by describing this homogenous system. This assumption makes it applicable to use the same YORP coefficients throughout. The general solution for the state in this form is as follows. 
+%We will begin our stability analysis by describing this homogenous system. This assumption makes it applicable to use the same YORP coefficients throughout. The general solution for the state in this form is as follows. 
 
-\begin{equation}
-    \centering
-    \mathbf{x}(t) = e^{[A](t-t_0)}\mathbf{x}(t_0)
-\end{equation}
-We will follow the format of \cite{Schaub2018} to describe the sensitivity matrix. This is to analyze the sensitivities of the current state vector to variations in the initial state vector. This follows our analysis of the sensitivity of spin dynamics to the changes induced by boulders. 
+%\begin{equation}
+%    \centering
+%    \mathbf{x}(t) = e^{[A](t-t_0)}\mathbf{x}(t_0)
+%\end{equation}
+%We will follow the format of \cite{Schaub2018} to describe the sensitivity matrix. This is to analyze the sensitivities of the current state vector to variations in the initial state vector. This follows our analysis of the sensitivity of spin dynamics to the changes induced by boulders. 
 
-There are three types of stability that could be applied to this problem. Euclidean, Lagrange, and Lyapunov. Because we care about the initial conditions and staying near them in the long term, we will use Lyapnov stability methods to analyze the behavior of an asteroid spinning under the influence of YORP accelerations in the obliquity angle.
+%There are three types of stability that could be applied to this problem. Euclidean, Lagrange, and Lyapunov. Because we care about the initial conditions and staying near them in the long term, we will use Lyapnov stability methods to analyze the behavior of an asteroid spinning under the influence of YORP accelerations in the obliquity angle.
 
-We now apply Lyapunov's direct method to study the stability of this system in it's current formulation. 
+%We now apply Lyapunov's direct method to study the stability of this system in it's current formulation. 
 
 
-We will also look at the asymptotic stability because we care about these bodies asymptotically approaching an end-state. 
+%We will also look at the asymptotic stability because we care about these bodies asymptotically approaching an end-state. 
 %show phase space diagram of x(t) as x axis and \dot(x)(t) as the y axis
 
 \section{Results} \label{results}
@@ -219,64 +245,66 @@ We will also look at the asymptotic stability because we care about these bodies
 %it would be cool to have color plots of surface with different thermal parameters
 %could I randomize thermal parameter by facet?
 %no separate sections for bennu and itokawa
-\subsection{Boulder Distribution Effects}
+\subsection{Boulder Distribution Effects on Solar Inclination Change Rates}
 We find that for each combination of 5000 randomly selected boulders, scaled proportionally by the size distribution which is also randomly but sufficiently sampled from, we find significant variability in the solar inclination torque. We will also map this to the additional west/east surface area that is applied through this procedure. Sensitivity of the YORP effect to the individual boulders is tested by isolating the boulders that contribute more than 1\% to the total inclination torque magnitude. This is then analyzed for the distribution in size, orientation, and location.
-\subsubsection{Inclination Torque Distribution}
+
 We have calculated the sum of the torque influence from each boulder and present it in Fig. \ref{fig:is_results} for both the asteroid Bennu and Itokawa shapes. For N=500 cases, we see different variance in each case. While most of the cases have close to zero change in the obliquity shifting rate due to boulders, we see a handful of cases that deviate towards the maximum influences of 2e-12 and 5e-12, for Bennu and Itokawa respectively. In the following subsections, we will show the significance of certain properties of boulders and what the distributions of the most influential individuals looks like.
 
 \begin{figure}[H]
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/initial_obliq_dot_dist_bennu.png}
-        \caption{}
+        \caption{Distribution of Global Solar Inclination Rate due to Added Boulders on Bennu, 500 cases}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/initial_obliq_dot_dist_itokawa.png}
-        \caption{}
+        \caption{Distribution of Global Solar Inclination Rate due to Added Boulders on Bennu, 500 cases}
     \end{subfigure}  
-    \caption{}
+    \caption{Solar Inclination Rates for entire asteroid with 5000 boulders added in 500 different configurations of size, orientation, and location on Bennu and Itokawa shape models}
     \label{fig:is_results}
 \end{figure}
 
 
-\subsubsection{Sensitivity}
+\subsection{Sensitivity}
 
 We have applied the characterizations of the size power law of boulders on Bennu and Itokawa that come from image-based analysis due to the OSIRIS-REx and Hayabusa missions. The size of each boulder selected randomly for surface placement was sampled from this power law, modeled by the dashed lines in Fig. \ref{all_size}. The histogram shows the full distribution of every size boulder selected for this simulation study. Now we will separate the population by which boulders contribute over $1\%$ to the obliquity changing rate despite each representing a constituency of $0.02\%$ percent of the population. 
+
+
+Now comparing Fig. \ref{fig:all_size} and Fig. \ref{fig:size_onepercent}, we see that the boulders smaller than 0.01m in diameter begin to be lost when filtering for large contributions to YORP obliquity change. It's the same result independent of the underlying shape.
+
+
 
 \begin{figure}[H]
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/boulder_size_dist_bennu.png}
-        \caption{}
+        \caption{Power law size distribution for Bennu in theory and sampled, $\alpha$ = -2.9}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/boulder_size_dist_itokawa.png}
-        \caption{}
+        \caption{Power law size distribution for Itokawa in theory and sampled, $\alpha$ = -2.7}
     \end{subfigure}  
-    \caption{}
+    \caption{Boulder diameter power laws: dashed line is the model and histogram represents the population sampled from power law}
     \label{fig:all_size}
 \end{figure}
 
-
-
-Now comparing Fig. \ref{fig:all_size} and Fig. \ref{fig:size_onepercent}, we see that the boulders smaller than 0.01m in diameter begin to be lost when filtering for large contributions to YORP obliquity change. It's the same result independent of the underlying shape.
 \begin{figure}[H]
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/boulder_sizes_biggerthan1_bennu.png}
-        \caption{}
+        \caption{Bennu's subsampled results of diameter and percent contribution to solar inclination change}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/boulder_sizes_biggerthan1_itokawa.png}
-        \caption{}
+        \caption{Itokawa's subsampled results of diameter and percent contribution to solar inclination change}
     \end{subfigure}  
-    \caption{}
+    \caption{Full histogram of boulder diameters compared to the subsampled set that represents boulders contributing $> 1\%$ to solar inclination change}
     \label{fig:size_onepercent}
 \end{figure}
 
@@ -286,15 +314,15 @@ The next factor that was randomized during simulations was the dominant face ori
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/boulder_west_stacked_bennu.png}
-        \caption{}
+        \caption{Bennu's orientation pointing distribution separated by percent contribution to global solar inclination change rate}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/boulder_west_stacked_itokawa.png}
-        \caption{}
+        \caption{Itokawa's orientation pointing distribution separated by percent contribution to global solar inclination change rate}
     \end{subfigure}  
-    \caption{}
+    \caption{Varying bins of percent contribution to solar inclination change, with darker colors representing higher \% change from a single boulder, distributed over dominant pointing direction}
     \label{fig:west_onepercent}
 \end{figure}
 
@@ -304,15 +332,15 @@ Lastly we examine the longitude and latitude biases for large contributing bould
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/location_dists_bennu.png}
-        \caption{}
+        \caption{Bennu location distribution separated into contributing levels to solar inclination change}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{fig/location_dists_itokawa.png}
-        \caption{}
+        \caption{Itokawa location distribution separated into contributing levels to solar inclination change}
     \end{subfigure}  
-    \caption{}
+    \caption{Boulder locations separated by percent contribution, showing a departure of boulders from equator at rates of > 1\% and > 10\% for both bodies}
     \label{fig:location_percents}
 \end{figure}
 

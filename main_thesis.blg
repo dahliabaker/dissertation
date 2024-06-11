@@ -3,6 +3,14 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main_thesis.aux
 The style file: siam.bst
 Database file #1: dissertation.bib
+Repeated entry---line 2282 of file dissertation.bib
+ : @article{Scheeres2018
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2296 of file dissertation.bib
+ : @article{Walsh2022
+ :                   ,
+I'm skipping whatever remains of this entry
 Database file #2: chapter2bib.bib
 Repeated entry---line 29 of file chapter2bib.bib
  : @article{Lauretta2019
@@ -57,45 +65,45 @@ Repeated entry---line 526 of file chapter2bib.bib
  :                       ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-You've used 87 entries,
+You've used 89 entries,
             2030 wiz_defined-function locations,
-            1046 strings with 59459 characters,
-and the built_in function-call counts, 107483 in all, are:
-= -- 8059
-> -- 13596
+            1060 strings with 60701 characters,
+and the built_in function-call counts, 109515 in all, are:
+= -- 8215
+> -- 13842
 < -- 0
-+ -- 5429
-- -- 5342
-* -- 12278
-:= -- 19506
-add.period$ -- 87
-call.type$ -- 87
-change.case$ -- 2936
++ -- 5527
+- -- 5438
+* -- 12507
+:= -- 19873
+add.period$ -- 89
+call.type$ -- 89
+change.case$ -- 2990
 chr.to.int$ -- 0
-cite$ -- 87
-duplicate$ -- 1450
-empty$ -- 2224
-format.name$ -- 5342
-if$ -- 19004
+cite$ -- 89
+duplicate$ -- 1482
+empty$ -- 2275
+format.name$ -- 5438
+if$ -- 19368
 int.to.chr$ -- 0
-int.to.str$ -- 87
-missing$ -- 89
-newline$ -- 264
-num.names$ -- 169
-pop$ -- 2831
+int.to.str$ -- 89
+missing$ -- 90
+newline$ -- 270
+num.names$ -- 173
+pop$ -- 2882
 preamble$ -- 1
-purify$ -- 2849
+purify$ -- 2901
 quote$ -- 0
-skip$ -- 1292
+skip$ -- 1317
 stack$ -- 0
-substring$ -- 2266
-swap$ -- 641
+substring$ -- 2311
+swap$ -- 653
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 344
+type$ -- 354
 warning$ -- 0
-while$ -- 362
-width$ -- 89
-write$ -- 772
-(There were 13 error messages)
+while$ -- 372
+width$ -- 91
+write$ -- 789
+(There were 15 error messages)
