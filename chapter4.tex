@@ -3,20 +3,20 @@
 \chapter{Obliquity Evolution under Boulder-Induced YORP Torques}
 \label{yorp_obliquity}
 
-\section{Background} \label{background} %section 1
+%\section{Background} \label{background} %section 1
 %asteroids
-Asteroids are highly variable bodies that retain the history of our solar system in their motion, geology, and mineral composition. The dynamics of asteroids can be highly sensitive in the sub-1 km diameter regime. At this size range, we often find rubble-piles formed by the aggregation of material leftover from a previous impact. These types of asteroids can experience multiple forms as they transition in their dynamics and are accelerated to either high velocity disaggregation or low velocity chaotic tumbling \cite{Golubov2019}. 
-Here we investigate the unique thermal properties seen and modeled by the Yarkovsky-O'Keefe-Radzievskii-Paddack (YORP) effect, which is an additional force due to photons re-radiating from the surface as governed by the material thermal inertia and thermal skin depth \cite{Rubincam2000}\cite{Davidsson2014}. This is opposite to the solar radiation pressure experienced by small bodies, which is the force of incident radiation. This YORP force has been known to shift the spin and pole directions of bodies over time and has been observed in the accelerations of multiple bodies from the ground \cite{Durech2023}\cite{Lowry2007}. 
+%Asteroids are highly variable bodies that retain the history of our solar system in their motion, geology, and mineral composition. The dynamics of asteroids can be highly sensitive in the sub-1 km diameter regime. At this size range, we often find rubble-piles formed by the aggregation of material leftover from a previous impact. These types of asteroids can experience multiple forms as they transition in their dynamics and are accelerated to either high velocity disaggregation or low velocity chaotic tumbling \cite{Golubov2019}. 
+%Here we investigate the unique thermal properties seen and modeled by the Yarkovsky-O'Keefe-Radzievskii-Paddack (YORP) effect, which is an additional force due to photons re-radiating from the surface as governed by the material thermal inertia and thermal skin depth \cite{Rubincam2000}\cite{Davidsson2014}. This is opposite to the solar radiation pressure experienced by small bodies, which is the force of incident radiation. This YORP force has been known to shift the spin and pole directions of bodies over time and has been observed in the accelerations of multiple bodies from the ground \cite{Durech2023}\cite{Lowry2007}. 
 
-Analytical models of the YORP effect can take a shape-focused approach with relaxed thermal assumptions, while others have developed detailed thermal models while assuming general properties of the shape \cite{Scheeres2007}\cite{Nesvorny2008}. The latter is useful when applying the YORP theory to many bodies constrained by ground observations. In this work, we will further extend Scheeres' geometric analysis of YORP torque to include the possibility of boulders which will be an additive measure for estimates taken from the ground where detailed features are not seen. In geometric simulations, we have simulated and verified that YORP is extremely sensitive to small changes in the shape, which means that a mismodeled boulder may alter YORP estimates up to 200\% \cite{Baker2024} \cite{Statler2009}. 
+%Analytical models of the YORP effect can take a shape-focused approach with relaxed thermal assumptions, while others have developed detailed thermal models while assuming general properties of the shape \cite{Scheeres2007}\cite{Nesvorny2008}. The latter is useful when applying the YORP theory to many bodies constrained by ground observations. In this work, we will further extend Scheeres' geometric analysis of YORP torque to include the possibility of boulders which will be an additive measure for estimates taken from the ground where detailed features are not seen. In geometric simulations, we have simulated and verified that YORP is extremely sensitive to small changes in the shape, which means that a mismodeled boulder may alter YORP estimates up to 200\% \cite{Baker2024} \cite{Statler2009}. 
 
-Boulders on asteroid surfaces experience the intra-radiative effect called tangential YORP, where at optimal spin velocities and thermal inertias, boulders will absorb and then transmit thermal energy in the pro-spin direction \cite{Golubov2022}. It is also seen that obliquity is a large driver of varying the magnitude of tangential YORP \cite{Sevecek2016}. It is suggested that the presence of unmodeled tangential YORP is the reason for the disagreement in the YORP acceleration calculated and measured for the asteroid Itokawa (cite Golubov again). There are also YORP torques induced by crater shapes. This is unique from normal YORP as it considers self-heating and self-shadowing effects that are activated by the concavity \cite{Zhou2023}.
+%Boulders on asteroid surfaces experience the intra-radiative effect called tangential YORP, where at optimal spin velocities and thermal inertias, boulders will absorb and then transmit thermal energy in the pro-spin direction \cite{Golubov2022}. It is also seen that obliquity is a large driver of varying the magnitude of tangential YORP \cite{Sevecek2016}. It is suggested that the presence of unmodeled tangential YORP is the reason for the disagreement in the YORP acceleration calculated and measured for the asteroid Itokawa (cite Golubov again). There are also YORP torques induced by crater shapes. This is unique from normal YORP as it considers self-heating and self-shadowing effects that are activated by the concavity \cite{Zhou2023}.
 
-Our model will give the YORP torque due to the heat absorbed to the thermal depth of boulders and compare the relative strength of added torque between the normal and tangential YORP effects. This is not a new theory for thermal behavior or YORP interaction. It is an extension of previous efforts made to constrain stochasticity in YORP by modeling small details \cite{Statler2009} \cite{Rozitis2012}. We apply geometric models of faceted shapes with different thermal assumptions. Many boulders are simulated in order to capture a full test of significance of features that vary in location, orientation, and size. There is further analysis to be done with different shapes and asymmetries. More boulders could be added as well as the regolith roughness, similar to the thermal beaming effect \cite{Rozitis2011a}.  
+%Our model will give the YORP torque due to the heat absorbed to the thermal depth of boulders and compare the relative strength of added torque between the normal and tangential YORP effects. This is not a new theory for thermal behavior or YORP interaction. It is an extension of previous efforts made to constrain stochasticity in YORP by modeling small details \cite{Statler2009} \cite{Rozitis2012}. We apply geometric models of faceted shapes with different thermal assumptions. Many boulders are simulated in order to capture a full test of significance of features that vary in location, orientation, and size. There is further analysis to be done with different shapes and asymmetries. More boulders could be added as well as the regolith roughness, similar to the thermal beaming effect \cite{Rozitis2011a}.  
 
 %give more info on chaotic tumbling boulders?
 
-We model their sizes, positions, and orientations carefully and randomize these properties to characterize the upper and lower bounds to YORP variability. In studying the shifting obliquity angle rate, we are also analyzing the ease of inducing instability in the dynamics. While the spin acceleration can be derived from longitudinal asymmetry and surface area, the angle acceleration depends on full 3-D asymmetry and the thermal inertia which governs where in the spin period the torque due to YORP is applied. The goal of investigating variance in the obliquity rate induced by the YORP effect originating from surface boulders is to find how much more likely a rough shape is to reach a YORP end-state. In this approach, we will not consider surface redistribution, however this is to be expected when varying the dynamics of a body. For this purpose, it is assumed that surfaces stay static until they reach their spun-up or spun-down dynamical end-state.  
+We continue to model the sizes, positions, and orientations of boulders and randomize these properties to characterize the upper and lower bounds to YORP variability. In studying the shifting obliquity angle rate, we are also analyzing the ease of inducing instability in the dynamics. While the spin acceleration can be derived from longitudinal asymmetry and surface area, the angle acceleration depends on full 3-D asymmetry and the thermal inertia which governs where in the spin period the torque due to YORP is applied. The goal of investigating variance in the obliquity rate induced by the YORP effect originating from surface boulders is to find how much more likely a rough shape is to reach a YORP end-state. In this approach, we will not consider surface redistribution, however this is to be expected when varying the dynamics of a body. For this purpose, it is assumed that surfaces stay static until they reach their spun-up or spun-down dynamical end-state.  
 
 %My question here is, how much asymmetry from boulders is required to induce rapid spin-up or down in an asteroid? I can use the total western surface area as a variable. I will analyze the total size/mass contribution. I can show the reduction in YORP timescale. I will also do a time propagation of these EOMs to show interplay between angular velocity and angle rate change. I can simulate the removal of different boulders at different time steps as the body spins up.  
 
@@ -82,40 +82,39 @@ In these unit vector definitions, $\alpha$ is the right ascension of the asteroi
 
 %begin here with the basic equations for YORP dynamics like from Golubov Limiting Behavior of Asteroid Obliquity and Spin Using a Semi-analytic Thermal Model of the YORP Effect
 %just show how we are approaching the description of YORP torques, including reference to the normalized versions
-\subsection{Fourier YORP Coefficients}
-Here we will reproduce the basic derivation steps from Scheeres, 2007 to present the formulation of YORP torque coefficients that are calculated to find the rate of change of angular velocity and inclination (or obliquity) angle of the asteroid experiencing YORP torque.
-We apply the derivations of Scheeres which used a faceted, spin and orbit averaged approach to calculate fourier coefficients which describe the magnitude of YORP torque. This is derived from assumptions made about the surface, such as low albedo, Lambertian scattering, and uniform rotation. This last assumption can be made for the short periods under which the force equations are averaged, but for the long term periods that we are simulating YORP, this does not apply as we calculate the acceleration of the spin vector over time. The strength of this approach is that we can focus on small contours on the surface and how that changes the overall torque calculations. The forces can be calculated for as small of facets as we can resolve for the surface. That is why we can simulate many small boulders, down to 1 cm in diameter. 
+%\subsection{Fourier YORP Coefficients}
+%Here we will reproduce the basic derivation steps from Scheeres, 2007 to present the formulation of YORP torque coefficients that are calculated to find the rate of change of angular velocity and inclination (or obliquity) angle of the asteroid experiencing YORP torque.
+%We apply the derivations of Scheeres which used a faceted, spin and orbit averaged approach to calculate fourier coefficients which describe the magnitude of YORP torque. This is derived from assumptions made about the surface, such as low albedo, Lambertian scattering, and uniform rotation. This last assumption can be made for the short periods under which the force equations are averaged, but for the long term periods that we are simulating YORP, this does not apply as we calculate the acceleration of the spin vector over time. The strength of this approach is that we can focus on small contours on the surface and how that changes the overall torque calculations. The forces can be calculated for as small of facets as we can resolve for the surface. That is why we can simulate many small boulders, down to 1 cm in diameter. 
 
-The coefficients are evaluated from the shape and orbit as follows. We begin by defining the force due to YORP. The force is calculated following the surface geometry, material thermal properties, and illumination patterns and can be expressed as a function of $\lambda$, the general longitude, in a Fourier decomposition about the periodic rotation angle $\phi$. 
-\begin{equation}
-    \begin{split}
-    \frac{\mathbf{F}(\lambda)}{P(R)} &= \sum^{N}_{i=1}\mathbf{f}(\lambda) \\
-    & = \mathbf{A}_0 + \sum^{\infty}_{n=1}[\mathbf{A}_n cos(n\lambda) + \mathbf{B}_n sin(n\lambda)]
-    \end{split}
-\end{equation}
-We leave the initial derivation steps to be explained in the source paper. Here we will print the relevant equations needed for the understanding of our analysis. Next is the expression for the zeroth-order A coefficient which depends on $\rho$, the surface albedo, $s$, the specular reflection ratio, as well as the facet $i$ normal vector $\mathbf{\hat{n}}_i$, the identity dyad $\mathbf{U}$, the thermal coefficient $a_2 = B(1-s)\rho + (1-\rho)B$ where $B$ is the Lambertian scattering coefficient assumed to be 2/3, and the illumination integrals $\mathbf{I}$ with bounds equal to the rise and set longitudes (defined in Scheeres'). We present the equation for $A_0$ and leave it to the reader to find the equivalent expressions for higher order terms and the B coefficient.   
-\begin{equation}
-    \begin{split}
-    \mathbf{A}_{0,i} = &\frac{A_i}{2\pi} \Big[\Big\{\rho s (2\mathbf{\hat{n}}_i\mathbf{\hat{n}}_i - \mathbf{U}) +\mathbf{U}  \Big\}\cdot \mathbf{I}^2_{c0,i} \cdot \mathbf{\hat{n}}_i \\
-    & + a_2 \mathbf{\hat{n}}_i \mathbf{\hat{n}}_i \cdot \mathbf{I}^1_{c0,i}\Big]
-    \end{split}
-\end{equation}
-While $A_0, A_1$, and $B_1$ are the decomposed coefficients of the force expression, the moment coefficients follow the same relationship as force and moment themselves. Therefore we find $C_{n,i}$ and $D_{n,i}$ with the simple cross product. 
-\begin{equation}
-    \mathbf{C}_{n,i} = \mathbf{r}_i \times \mathbf{A}_{n,i}
-\end{equation} 
-\begin{equation}
-    \mathbf{D}_{n,i} = \mathbf{r}_i \times \mathbf{B}_{n,i}
-\end{equation}
+%The coefficients are evaluated from the shape and orbit as follows. We begin by defining the force due to YORP. The force is calculated following the surface geometry, material thermal properties, and illumination patterns and can be expressed as a function of $\lambda$, the general longitude, in a Fourier decomposition about the periodic rotation angle $\phi$. 
+%\begin{equation}
+%    \begin{split}
+%   \frac{\mathbf{F}(\lambda)}{P(R)} &= \sum^{N}_{i=1}\mathbf{f}(\lambda) \\
+%    & = \mathbf{A}_0 + \sum^{\infty}_{n=1}[\mathbf{A}_n cos(n\lambda) + \mathbf{B}_n sin(n\lambda)]
+%    \end{split}
+%\end{equation}
+%We leave the initial derivation steps to be explained in the source paper. Here we will print the relevant equations needed for the understanding of our analysis. Next is the expression for the zeroth-order A coefficient which depends on $\rho$, the surface albedo, $s$, the specular reflection ratio, as well as the facet $i$ normal vector $\mathbf{\hat{n}}_i$, the identity dyad $\mathbf{U}$, the thermal coefficient $a_2 = B(1-s)\rho + (1-\rho)B$ where $B$ is the Lambertian scattering coefficient assumed to be 2/3, and the illumination integrals $\mathbf{I}$ with bounds equal to the rise and set longitudes (defined in Scheeres'). We present the equation for $A_0$ and leave it to the reader to find the equivalent expressions for higher order terms and the B coefficient.   
+%\begin{equation}
+%     \begin{split}
+%     \mathbf{A}_{0,i} = &\frac{A_i}{2\pi} \Big[\Big\{\rho s (2\mathbf{\hat{n}}_i\mathbf{\hat{n}}_i - \mathbf{U}) +\mathbf{U}  \Big\}\cdot \mathbf{I}^2_{c0,i} \cdot \mathbf{\hat{n}}_i \\
+%     & + a_2 \mathbf{\hat{n}}_i \mathbf{\hat{n}}_i \cdot \mathbf{I}^1_{c0,i}\Big]
+%     \end{split}
+% \end{equation}
+% While $A_0, A_1$, and $B_1$ are the decomposed coefficients of the force expression, the moment coefficients follow the same relationship as force and moment themselves. Therefore we find $C_{n,i}$ and $D_{n,i}$ with the simple cross product. 
+% \begin{equation}
+%     \mathbf{C}_{n,i} = \mathbf{r}_i \times \mathbf{A}_{n,i}
+% \end{equation} 
+% \begin{equation}
+%     \mathbf{D}_{n,i} = \mathbf{r}_i \times \mathbf{B}_{n,i}
+% \end{equation}
+The equations of motion overall are the spin rate, spin acceleration, change in solar inclination, and change in solar longitude of the ascending node. These last two are substitutes for obliquity angle and right ascension of the pole direction. While solar inclination and longitude are parameterized in the body fixed frame, the obliquity and right ascension are properties of the orbit in the inertial frame. We continue with body-fixed parameters in order express our motion due to the local body-incident forces of YORP. As we've already reviewed spin rate dynamics in the previous chapter, we will reproduce the pole tilt equations of motion here for reference.
 
-The equations of motion are the spin rate, spin acceleration, change in solar inclination, and change in solar longitude of the ascending node. These last two are substitutes for obliquity angle and right ascension of the pole direction. While solar inclination and longitude are parameterized in the body fixed frame, the obliquity and right ascension are properties of the orbit in the inertial frame. We continue with body-fixed parameters in order express our motion due to the local body-incident forces of YORP.
-
-\begin{equation}
-    \dot{\phi} = \omega
-\end{equation}
-\begin{equation}
-    \dot{\omega} = \mathit{W}_B \:\bar{C}_{0,z}(i)
-\end{equation}
+% \begin{equation}
+%     \dot{\phi} = \omega
+% \end{equation}
+% \begin{equation}
+%     \dot{\omega} = \mathit{W}_B \:\bar{C}_{0,z}(i)
+% \end{equation}
 \begin{equation}
     \begin{split}
     \dot{i} = \:&\frac{\mathit{W}_B}{\omega}\Big[(\bar{C}_{1,x}(i)+\bar{D}_{1,y}(i))\: cos(\omega T_{lag}) \\
@@ -130,48 +129,48 @@ The equations of motion are the spin rate, spin acceleration, change in solar in
 \end{equation}
 The term $W_B$ stands for the fraction $G_1 \symbol{92} I_z a^2 \sqrt(1-e^2)$, and is substituted here to further highlight the emphasis on the YORP Fourier coefficients. 
 
-Thermal inertia is approximated in these equations of as a constant time lag, serving to delay the time of emitted energy by some fraction of the period. This ignores the variations in materials of the surface or inertia as a function of spin velocity or time of local day. However, it is useful in these twice averaged equations of motion and allows thermal lag to be isolated in trigonometric terms that scale the first-order YORP torque coefficients. In the next section we will discuss alternative approaches to thermal inertia considerations within these equations. 
+Thermal inertia is approximated in these equations of as a constant time lag, serving to delay the time of emitted energy by some fraction of the period, and in this work we will apply a time lag of 1/8th of the asteroid's currently measured rotation period. This constant time lag ignores the variations in materials of the surface or inertia as a function of spin velocity or time of local day. However, it is useful in these twice averaged equations of motion and allows thermal lag to be isolated in trigonometric terms that scale the first-order YORP torque coefficients. In the next section we will discuss alternative approaches to thermal inertia considerations within these equations. 
 
-\subsection{YORP Timescales and Spin Limits}
-The YORP timescale ($\tau_Y$) refers to the amount of time it takes for the angular velocity to double or halve as a result of YORP-induced acceleration, and it analytically defined as the current spin rate divided by the spin acceleration. 
-\begin{equation}
-    \frac{\omega}{\dot{\omega}} = \tau_Y = \frac{4\pi A^2\sqrt{1-E^2}}{3\Phi} \frac{\omega \rho R^2}{\mathit{C}}
-\end{equation}
-This is defined by Scheeres and Sanchez, and applies Scheeres notation for YORP spin acceleration \cite{Scheeres2014}\cite{Scheeres2007}. Mentioning these barriers to YORP dynamics is important because the original intention of defining the YORP effect was to explain how small meteroids are accelerated to the point of disruption \cite{Rubincam2000}. We extend it to small rubble-pile asteroids to explain the unmodeled accelerations observed in their dynamics.
-This delimiter of time is important for tracking how quickly YORP is changing the dynamics and it can tell us how often to expect the body to go through a complete "YORP cycle", or period of accelerating up to a breakdown speed and then rearranging until slower, stable angular velocity is achieved \cite{Scheeres2019}. This is the typical cycle for a body with positive YORP torques, but we can see a similar cycle with YORP spin-down and tumbling. These are idealized versions of the stochastic events that we predict for YORP evolution so we assume secular acceleration and non-dynamic surfaces when defining this behavior. We will show here the angular velocity requirements for disaggregation as well as for tumbling. Tumbling requires that there are non-periodic forces impacting the obliquity evolution term. %check this
+%\subsection{YORP Timescales and Spin Limits}
+%The YORP timescale ($\tau_Y$) refers to the amount of time it takes for the angular velocity to double or halve as a result of YORP-induced acceleration, and it analytically defined as the current spin rate divided by the spin acceleration. 
+%\begin{equation}
+%    \frac{\omega}{\dot{\omega}} = \tau_Y = \frac{4\pi A^2\sqrt{1-E^2}}{3\Phi} \frac{\omega \rho R^2}{\mathit{C}}
+%\end{equation}
+%This is defined by Scheeres and Sanchez, and applies Scheeres notation for YORP spin acceleration \cite{Scheeres2014}\cite{Scheeres2007}. Mentioning these barriers to YORP dynamics is important because the original intention of defining the YORP effect was to explain how small meteroids are accelerated to the point of disruption \cite{Rubincam2000}. We extend it to small rubble-pile asteroids to explain the unmodeled accelerations observed in their dynamics.
+%This delimiter of time is important for tracking how quickly YORP is changing the dynamics and it can tell us how often to expect the body to go through a complete "YORP cycle", or period of accelerating up to a breakdown speed and then rearranging until slower, stable angular velocity is achieved \cite{Scheeres2019}. This is the typical cycle for a body with positive YORP torques, but we can see a similar cycle with YORP spin-down and tumbling. These are idealized versions of the stochastic events that we predict for YORP evolution so we assume secular acceleration and non-dynamic surfaces when defining this behavior. We will show here the angular velocity requirements for disaggregation as well as for tumbling. Tumbling requires that there are non-periodic forces impacting the obliquity evolution term. %check this
 
-There are two velocities relevant for rotational fission. The first is the spin rate at which deformation begins, when the cohesive forces are overcome by the centrifugal forces at the surface. The second is the failure spin rate, where plastic deformation is induced. This goes beyond the cohesiveless spin rate $\omega_c$ \cite{Scheeres2018}\cite{Sanchez2014}.
-\begin{equation}
-    \omega_{c} = \sqrt{\frac{4\pi \mathit{G}\rho}{3}}
-\end{equation}
-\begin{equation}
-    \omega^2_F = \omega^2_c + \frac{2\sigma}{\rho \alpha^2} \frac{3 - sin \phi}{3 + sin \phi}
-\end{equation}
+%There are two velocities relevant for rotational fission. The first is the spin rate at which deformation begins, when the cohesive forces are overcome by the centrifugal forces at the surface. The second is the failure spin rate, where plastic deformation is induced. This goes beyond the cohesiveless spin rate $\omega_c$ \cite{Scheeres2018}\cite{Sanchez2014}.
+% \begin{equation}
+%     \omega_{c} = \sqrt{\frac{4\pi \mathit{G}\rho}{3}}
+% \end{equation}
+% \begin{equation}
+%     \omega^2_F = \omega^2_c + \frac{2\sigma}{\rho \alpha^2} \frac{3 - sin \phi}{3 + sin \phi}
+% \end{equation}
 %tumbling
 
-Below in table \ref{table:properties} are the physical constants used to determine the cohesive force barrier velocity and failure spin rates. %I need G, I don't think it's the constant that I think it is. the units don't work
+%Below in table \ref{table:properties} are the physical constants used to determine the cohesive force barrier velocity and failure spin rates. %I need G, I don't think it's the constant that I think it is. the units don't work
 
-\begin{table}[H]
-    \renewcommand{\arraystretch}{1.5}
+% \begin{table}[H]
+%     \renewcommand{\arraystretch}{1.5}
 
-    \resizebox{\textwidth}{!}{
-        \begin{tabular}{| c || c | c | c | c | c |}
-        \hline
-        \makegapedcells
-        \textbf{Body} & \textbf{Density}, $\rho$ & \textbf{Cohesive Strength}, $\sigma$ & \textbf{Longest Radius}, $\alpha$ & \textbf{Angle of Friction},$\phi$ \\
-        \hline 
-        \hline
-        \makegapedcells
-        Bennu & 1260 $kg/m^3 $ \cite{Chesley2014} & 1 Pa \cite{Walsh2022} & 282.37 m & $35^{\circ}$ \cite{Zhang2022} \\ 
-        \hline 
-        \makegapedcells 
-        Itokawa & 2000 $kg/m^3$ \cite{Sanchez2014} & 25 Pa \cite{Sanchez2014}  & 267.5 m & 40 \cite{Aoki2014}\\  
-        \hline   
-        \end{tabular}
-        }
-    \caption{Granular properties for asteroid disaggregation limits}
-    \label{table:properties}
-\end{table}
+%     \resizebox{\textwidth}{!}{
+%         \begin{tabular}{| c || c | c | c | c | c |}
+%         \hline
+%         \makegapedcells
+%         \textbf{Body} & \textbf{Density}, $\rho$ & \textbf{Cohesive Strength}, $\sigma$ & \textbf{Longest Radius}, $\alpha$ & \textbf{Angle of Friction},$\phi$ \\
+%         \hline 
+%         \hline
+%         \makegapedcells
+%         Bennu & 1260 $kg/m^3 $ \cite{Chesley2014} & 1 Pa \cite{Walsh2022} & 282.37 m & $35^{\circ}$ \cite{Zhang2022} \\ 
+%         \hline 
+%         \makegapedcells 
+%         Itokawa & 2000 $kg/m^3$ \cite{Sanchez2014} & 25 Pa \cite{Sanchez2014}  & 267.5 m & 40 \cite{Aoki2014}\\  
+%         \hline   
+%         \end{tabular}
+%         }
+%     \caption{Granular properties for asteroid disaggregation limits}
+%     \label{table:properties}
+% \end{table}
 
 %another plot of likeeeeeeeeee YORP timescales?
 %\subsection{Thermal Modeling}
@@ -306,7 +305,7 @@ Now comparing Fig. \ref{fig:all_size} and Fig. \ref{fig:size_onepercent}, we see
     \label{fig:size_onepercent}
 \end{figure}
 
-The next factor that was randomized during simulations was the dominant face orientation of the boulder model. Each boulder was modeled by a wedge prism with a $90^{\circ}$ angle, leaving one face to be the largest and projecting the dominant force for the shape. When binning boulders by their percent contribution to overall YORP, we see a trend arise with increasing YORP inclination change influence. The lightest color in Fig. \ref{fig:west_onepercent} is the population contributing less than $0.1\%$ to overall YORP. Each darker shade represents a 10x increase in the percentage bound. What is seen with this increase is a departure of boulders near $\pi/2$ and $3\pi/2$, which represents directly North and South facing dominant boulders. This is subtle and only represents a $5\%$ bias towards east and west facing boulders. There is a much larger bias when examining the difference in the angular acceleration terms. We would expect to see that west and east facing boulders influence obliquity at a higher percentage when obliquities are still low. 
+The next factor that was randomized during simulations was the dominant face orientation of the boulder model. Each boulder was modeled by a wedge prism with a $90^{\circ}$ angle, leaving one face to be the largest and projecting the dominant force for the shape. When binning boulders by their percent contribution to overall YORP, we see a trend arise with increasing YORP inclination change influence. The lightest color in Fig. \ref{fig:west_onepercent} is the population contributing less than $0.1\%$ to overall YORP. Each darker shade represents a 10x increase in the percentage bound. What is seen with this increase is a departure of boulders near $\pi/2$ and $3\pi/2$, which represents directly North and South facing dominant boulders. This is subtle and only represents a $5\%$ bias towards east and west facing boulders. There is a much larger bias when examining the difference in the angular acceleration terms. %We would expect to see that west and east facing boulders influence obliquity at a higher percentage when obliquities are still low. 
 
 \begin{figure}[H]
     \begin{subfigure}{0.49\textwidth}
@@ -357,7 +356,7 @@ These results tell us about the influential factors that make an asteroid overal
 %%%%%%%%%%%
 
 \subsection{Boulder Motion}
-We compare boulder YORP contributions at different locations to make inferences about the impact of boulder's moving on the body's surface. This behavior has been discussed previously and explains the presence of features such as infilled craters on asteroids. In Fig. \ref{fig:ob_motion_nodelta}, we sample boulders within $5^{\circ}$ of longitude and up to $9.43^{\circ}$ in latitude apart. Their obliquity rate contributions, shown as $\dot{i}_s$, follow a distinct linear relationship with latitude.
+We compare boulder YORP contributions at different locations to make inferences about the impact of boulder's moving on the body's surface. This behavior has been discussed previously and explains the presence of features such as infilled craters on asteroids \cite{Brack2019}. In Fig. \ref{fig:ob_motion_nodelta}, we sample boulders within $5^{\circ}$ of longitude and up to $9.43^{\circ}$ in latitude apart. Their obliquity rate contributions, shown as $\dot{i}_s$, follow a distinct linear relationship with latitude.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{fig/obliq_amt_boulder_motion_bennu.png}
@@ -365,11 +364,12 @@ We compare boulder YORP contributions at different locations to make inferences 
     \label{fig:ob_motion_nodelta}
 \end{figure}
 
-Comparing the differences between neighboring boulders gives a more random relationship. It is shown that a boulder at a higher latitude could have a lower or higher amount of torque changing the body's obliquity. The largest change in $\dot{i}_s$ is $7.06\times 10^{-6} rad/day^2$. If this change was applied to the largest obliquity changing boulder, in this case, a boulder exhibiting $1.05\times 10^{-5} rad/day^2$, then the variation in obliquity angle shifting due to just this single boulder could induce angular rates faster than the current spin rate within 4.9 million years. This assumes uniform spin is independent of obliquity angle change. These dynamics are naturally coupled and calculations here serve to highlight the magnitude of change due to moving boulders on the surface. In future work, it will be highlighted how necessary it will be to simulate boulders moving positions as the dynamics change due to YORP.
+Comparing the differences between neighboring boulders gives a more random relationship. It is shown that a boulder at a higher latitude could have a lower or higher amount of torque changing the body's obliquity. The largest change in $\dot{i}_s$ is $7.06\times 10^{-6} rad/day$. If we saw this increase in obliquity torque from the most influential boulder in this test case, the single boulder alone could cause a spin pole tilt rate exceeding even the asteroid spin rate within 5 million years. This is one way of describing tumbling behavior and these numbers show how boulders could be the cause of such instability.
+This assumes uniform spin is independent of obliquity angle change and we are only looking at dynamics due to a single boulder moving to a highly influential location. The calculations here serve to highlight the magnitude of change due to moving boulders on the surface. In future work, it will be highlighted how necessary it is to simulate boulders moving positions in time as the dynamics change due to YORP.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{fig/obliq_delta_boulder_motion_bennu.png}
-    \caption{The change in YORP obliquity acceleration from boulder motion with the latitude degree change shown on the x-axis}
+    \caption{The change in YORP obliquity rate from boulder motion with the latitude degree change shown on the x-axis}
     \label{fig:ob_motion_delta}
 \end{figure}
 
@@ -389,4 +389,4 @@ Comparing the differences between neighboring boulders gives a more random relat
 
 
 %what did I find. Did I address the thesis I put in the intro
-There are other ways of describing YORP. There are other features which induce interesting thermal effects such as self-shadowing and self-radiation (craters). The density distribution of the surface can change the inertia which varies these results wildly. Boulders move over time as the dynamics change which resets the problem. Regolith roughness can scatter the initial thermal energy and induce even more stochastics to the geometric analysis of YORP. This work has applied what we know about heavily assumed models and high-resolution asteroid surfaces to show variability in the YORP effect. Further observations of asteroid surfaces could further constrain how bouldered they get, what asymmetry is typically induced, and the thermal properties of boulders which may have been fractured, buried, or excavated as the dynamics evolve. We hope to see this continued with more advanced thermal models, the application of boulder motion based on the gravitational field variations, and rigorous ray-tracing in order to get refined YORP coefficients from the original geometries. 
+There are other ways of describing YORP. There are other features which induce interesting thermal effects such as self-shadowing and self-radiation (craters). Boulders move over time as the dynamics change which resets the problem. Regolith roughness can scatter the initial thermal energy and induce even more stochastics to the geometric analysis of YORP. This work has applied what we know about heavily assumed models and high-resolution asteroid surfaces to show variability in the YORP effect. Further observations of asteroid surfaces could further constrain how bouldered they get, what asymmetry is typically induced, and the thermal properties of boulders which may have been fractured, buried, or excavated as the dynamics evolve. We hope to see this continued with more advanced thermal models, the application of boulder motion based on the gravitational field variations, and rigorous ray-tracing in order to get refined YORP coefficients from the original geometries. 

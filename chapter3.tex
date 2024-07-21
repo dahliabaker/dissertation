@@ -17,6 +17,57 @@ The YORP effect was first named by Rubincam, however it had been recognized as a
 Statler has shown through simulation that the YORP effect is extremely sensitive to changes in the small-scale topography of a surface, whether Gaussian roughness, craters, or boulders. This work states that at most 50\% of the variance in YORP can be attributed to boulders larger than half the maximum size, which could be just one to five boulders in any given case due to steep power law size distributions \cite{Statler2009}.  Overall, many studies have concluded that YORP is sensitive to small features and that the geometric and thermal properties of these features must be taken into account for a fully representative YORP model \cite{Breiter2009}. 
 \\ \indent Different thermophysical models have been proposed to increase accuracy of YORP predictions for surfaces. These models can be one-dimensional or three-dimensional, and instantaneous or time delayed \cite{Rozitis2012}. In this work, we use a one-dimensional instantaneous thermal model which is dependent only on emission directions and assumes diffuse Lambertian re-radiation of photons, and a low surface reflectivity or albedo of 0.05, which represents the dark surfaces seen on rubble-pile bodies such as Bennu \cite{Golish2021}. This is to follow the approximations made by Scheeres for the polyhedral normal YORP model \cite{Scheeres2007}.
 \\ \indent Accounting for surface roughness can change predicted YORP torque depending on the magnitude at which it is modeled \cite{Davidsson2014} \cite{Davidsson2015}. One can go down to the microscopic level using the Hapke model for emission directions of regolith as was previously done in an examination of tumbling bodies experiencing YORP \cite{Breiter2011a}.  However, there is a range of roughness at the size regime of the diurnal thermal skin depth (1 cm) and greater that was ignored. This is addressed as thermal-infrared beaming emission modeling done by Rozitis and Green \cite{Rozitis2011}. Roughness was modeled as a combination of craters with varying depths and opening angles, as well as low- and high-resolution Gaussian random height models to represent surface variability at the range of 1 cm to several meters. Results from this modeling show that when directional thermal-infrared beaming is considered for a surface, the YORP torque can be dampened by up to half of its original magnitude for a zero-obliquity rotating body. This model also assumes similar surface geometry as the original smooth facet model, and is therefore not equivalent to modeling boulder features which include new normal directions which perturb the original surface geometry drastically. Modeling boulders, craters, and regolith roughness in tandem correlates a more accurate model for YORP and informs the bounds of variability with higher precision and confidence.  Other dynamical models address the nature of tumbling bodies, which is a possible end-state induced by long-term influence of YORP re-emission \cite{Cicalo2010} \cite{Breiter2015}.  In order to investigate the sensitivity of YORP to boulder parameters, we will continue with a uniform principal-axis rotator that is not near a dynamical end-state of spinning up to disaggregation or spinning down to a dissipative low-energy tumbling state. 
+\section{Coordinate Frames}\label{coord}
+
+The coordinate frames required to examine YORP obliquity evolution are the inertial frame, the body-fixed frame, and the heliocentric orbit frame. The variables of motion being used are expressed in the body and orbital contexts. The inertial frame is given by the unit vectors $\mathbf{\hat{X}}_i, \mathbf{\hat{Y}}_i,$ and $\mathbf{\hat{Z}}_i$. The heliocentric orbit frame is then defined by $\mathbf{\hat{X}}_H$, which is the unit vector pointing towards the argument of perihelion, $\mathbf{\hat{Z}}_H$, which aligns with the orbit angular momentum direction out of plane, and $\mathbf{\hat{Y}}_H$, the third vector which completes this right-handed frame definition and aligns with the velocity vector at perihelion passage.
+Applying classical orbit elements, we express our heliocentric orbit frame in the inertial frame as follows.
+\begin{equation}
+\begin{split}
+\mathbf{\hat{X}}_H = &[cos \: \bar{\omega} \:cos\:\Omega - sin \:\bar{\omega}\:sin\:\Omega cos \:i] \mathbf{\hat{X}}_E \\
+& + [cos\:\bar{\omega}\:sin\:\Omega + sin\:\bar{\omega}\:cos\:\Omega \:cos\: i] \mathbf{\hat{Y}}_E \\
+& + sin\: \bar{\omega} \:sin \:i \mathbf{\hat{Z}}_E
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+\mathbf{\hat{Y}}_H = &-[sin \: \bar{\omega} \:cos\:\Omega + cos \:\bar{\omega}\:sin\:\Omega cos \:i] \mathbf{\hat{X}}_E \\
+& + [-sin\:\bar{\omega}\:cos\:\Omega + cos\:\bar{\omega}\:cos\:\Omega \:cos\: i] \mathbf{\hat{Y}}_E \\
+& + cos\: \bar{\omega} \:sin \:i \mathbf{\hat{Z}}_E
+\end{split}
+\end{equation}
+\begin{equation}
+\begin{split}
+\mathbf{\hat{Z}}_H = sin \: \Omega \: sin\: i \mathbf{\hat{X}}_E - cos \: \Omega\: sin i \mathbf{\hat{Y}}_E + cos i \:\mathbf{\hat{Z}}_E
+\end{split}
+\end{equation}
+In these equations, $i$ is inclination of the orbit, $\Omega$ is the longitude of ascending node, and $\bar{\omega}$ is the longitude of ascending node as per Scheeres' 2007 notation. We will make use of the body frame notation in our equations of motion in order to describe the YORP accelerations experienced by the surface and how they are influencing the spin pole directly. These forces can be translated to the orbital or inertial frame by these frame definitions given here. The body frame is defined here with variable definitions to follow.
+
+\begin{equation}
+    \begin{split}
+    \mathbf{\hat{x}}_B = &[sin \: \alpha \: cos \: \phi \: + \: cos \: \alpha \: sin \: \phi \: sin \: \delta]\mathbf{\hat{X}}_E \\
+    + &[cos \: \alpha \: cos \: \phi \: - \: sin \: \alpha \: sin \: \phi \: sin \: \delta]\mathbf{\hat{Y}}_E \\
+    + &sin \: \phi \: cos \: \delta \mathbf{\hat{Z}}_E
+    \end{split}
+\end{equation}
+\begin{equation}
+    \begin{split}
+    \mathbf{\hat{y}}_B = &[sin \: \alpha \: sin \: \phi \: + \: cos \: \alpha \: cos \: \phi \: sin \: \delta]\mathbf{\hat{X}}_E \\
+    - &[cos \: \alpha \: sin \: \phi \: + \: sin \: \alpha \: cos \: \phi \: sin \: \delta]\mathbf{\hat{Y}}_E \\
+    + &cos \: \phi \: cos \: \delta \mathbf{\hat{Z}}_E
+    \end{split}
+\end{equation}
+\begin{equation}
+    \begin{split}
+    \mathbf{\hat{z}}_B = &cos \: \alpha \: cos\: \delta\mathbf{\hat{X}}_E \:+ \: sin \: \alpha \: cos \: \delta\mathbf{\hat{Y}}_E  + \: sin \: \delta \mathbf{\hat{Z}}_E
+    \end{split}
+\end{equation}
+In these unit vector definitions, $\alpha$ is the right ascension of the asteroid spin pole, $\delta$ is the declination, and $\phi$ is the instantaneous rotation angle that marks where the asteroid is oriented within it's spin period. With these unit vectors we go on to define the body frame solar inclination, $i_s$ which will be our proxy for spin pole obliquity. We will also define the angle $\Omega_s$, along with it's value at a defining epoch, $\Omega_{s,0}$, which is the longitude of the ascending node of the asteroid's orbit.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{fig/body_frame_w_obliq.jpg}
+    \caption{Body frame diagram which shows $\hat{u}$, the sun-pointing vector, $\hat{u}_{||xy}$, the projection of the sun-pointing vector into the body x-y plane, $\hat{u}_{\perp}$, the perpendicular vector to the sun-pointing vector, the body frame unit vectors $\hat{x}_B, \hat{y}_B$, and $\hat{z}_B$, as well as the solar inclination angle $i_s$, the longitude of the ascending node $\Omega_s$, and the spin pole obliquity angle $\eta$. }
+    \label{body_frame}
+\end{figure}
 
 \section{Fourier YORP Coefficient Modeling}
 We apply the YORP modeling techniques derived by Scheeres in the polyhedral YORP model. This is an analytical approach to solving for rotational dynamics under YORP perturbation and provides a solution based on discretized shape geometry. The assumptions required for this model are that the body is uniformly rotating on a primary axis, thermal inertia can be parameterized as a constant lag, $T_{lag}$, orbital elements are evolving secularly, and shadowing is considered as an occultation calculation between all facets. For a bulk shape, the force and torque can be decomposed into Fourier coefficients based on the dual periodicity of the asteroid day and year. These coefficients are then used as an approximation for discussing the explicit force and moment, which are related linearly to first-order coefficients through orbital and geometric properties. 
