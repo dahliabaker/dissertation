@@ -26,59 +26,59 @@ We continue to model the sizes, positions, and orientations of boulders and rand
 %The paper is organized as follows. We begin by describing the important frames of reference for our force model in Section \ref{coord}. Next we review the equations for YORP torque by summed facets in Section \ref{yorp}, and then describe the methods we apply to examine the spin and stability dynamics induced by boulders in Section \ref{spin}. After this description of the methods, we will present the results in Section \ref{results}, and finally the discussion and conclusion will be in Sections \ref{discussion} and \ref{conclusion}, respectively. 
 
 
-\section{Coordinate Frames}\label{coord}
+% \section{Coordinate Frames}\label{coord}
 
-The coordinate frames required to examine YORP obliquity evolution are the inertial frame, the body-fixed frame, and the heliocentric orbit frame. The variables of motion being used are expressed in the body and orbital contexts. The inertial frame is given by the unit vectors $\mathbf{\hat{X}}_i, \mathbf{\hat{Y}}_i,$ and $\mathbf{\hat{Z}}_i$. The heliocentric orbit frame is then defined by $\mathbf{\hat{X}}_H$, which is the unit vector pointing towards the argument of perihelion, $\mathbf{\hat{Z}}_H$, which aligns with the orbit angular momentum direction out of plane, and $\mathbf{\hat{Y}}_H$, the third vector which completes this right-handed frame definition and aligns with the velocity vector at perihelion passage.
-Applying classical orbit elements, we express our heliocentric orbit frame in the inertial frame as follows.
-\begin{equation}
-\begin{split}
-\mathbf{\hat{X}}_H = &[cos \: \bar{\omega} \:cos\:\Omega - sin \:\bar{\omega}\:sin\:\Omega cos \:i] \mathbf{\hat{X}}_E \\
-& + [cos\:\bar{\omega}\:sin\:\Omega + sin\:\bar{\omega}\:cos\:\Omega \:cos\: i] \mathbf{\hat{Y}}_E \\
-& + sin\: \bar{\omega} \:sin \:i \mathbf{\hat{Z}}_E
-\end{split}
-\end{equation}
-\begin{equation}
-\begin{split}
-\mathbf{\hat{Y}}_H = &-[sin \: \bar{\omega} \:cos\:\Omega + cos \:\bar{\omega}\:sin\:\Omega cos \:i] \mathbf{\hat{X}}_E \\
-& + [-sin\:\bar{\omega}\:cos\:\Omega + cos\:\bar{\omega}\:cos\:\Omega \:cos\: i] \mathbf{\hat{Y}}_E \\
-& + cos\: \bar{\omega} \:sin \:i \mathbf{\hat{Z}}_E
-\end{split}
-\end{equation}
-\begin{equation}
-\begin{split}
-\mathbf{\hat{Z}}_H = sin \: \Omega \: sin\: i \mathbf{\hat{X}}_E - cos \: \Omega\: sin i \mathbf{\hat{Y}}_E + cos i \:\mathbf{\hat{Z}}_E
-\end{split}
-\end{equation}
-In these equations, $i$ is inclination of the orbit, $\Omega$ is the longitude of ascending node, and $\bar{\omega}$ is the longitude of ascending node as per Scheeres' 2007 notation. We will make use of the body frame notation in our equations of motion in order to describe the YORP accelerations experienced by the surface and how they are influencing the spin pole directly. These forces can be translated to the orbital or inertial frame by these frame definitions given here. The body frame is defined here with variable definitions to follow.
+% The coordinate frames required to examine YORP obliquity evolution are the inertial frame, the body-fixed frame, and the heliocentric orbit frame. The variables of motion being used are expressed in the body and orbital contexts. The inertial frame is given by the unit vectors $\mathbf{\hat{X}}_i, \mathbf{\hat{Y}}_i,$ and $\mathbf{\hat{Z}}_i$. The heliocentric orbit frame is then defined by $\mathbf{\hat{X}}_H$, which is the unit vector pointing towards the argument of perihelion, $\mathbf{\hat{Z}}_H$, which aligns with the orbit angular momentum direction out of plane, and $\mathbf{\hat{Y}}_H$, the third vector which completes this right-handed frame definition and aligns with the velocity vector at perihelion passage.
+% Applying classical orbit elements, we express our heliocentric orbit frame in the inertial frame as follows.
+% \begin{equation}
+% \begin{split}
+% \mathbf{\hat{X}}_H = &[cos \: \bar{\omega} \:cos\:\Omega - sin \:\bar{\omega}\:sin\:\Omega cos \:i] \mathbf{\hat{X}}_E \\
+% & + [cos\:\bar{\omega}\:sin\:\Omega + sin\:\bar{\omega}\:cos\:\Omega \:cos\: i] \mathbf{\hat{Y}}_E \\
+% & + sin\: \bar{\omega} \:sin \:i \mathbf{\hat{Z}}_E
+% \end{split}
+% \end{equation}
+% \begin{equation}
+% \begin{split}
+% \mathbf{\hat{Y}}_H = &-[sin \: \bar{\omega} \:cos\:\Omega + cos \:\bar{\omega}\:sin\:\Omega cos \:i] \mathbf{\hat{X}}_E \\
+% & + [-sin\:\bar{\omega}\:cos\:\Omega + cos\:\bar{\omega}\:cos\:\Omega \:cos\: i] \mathbf{\hat{Y}}_E \\
+% & + cos\: \bar{\omega} \:sin \:i \mathbf{\hat{Z}}_E
+% \end{split}
+% \end{equation}
+% \begin{equation}
+% \begin{split}
+% \mathbf{\hat{Z}}_H = sin \: \Omega \: sin\: i \mathbf{\hat{X}}_E - cos \: \Omega\: sin i \mathbf{\hat{Y}}_E + cos i \:\mathbf{\hat{Z}}_E
+% \end{split}
+% \end{equation}
+% In these equations, $i$ is inclination of the orbit, $\Omega$ is the longitude of ascending node, and $\bar{\omega}$ is the longitude of ascending node as per Scheeres' 2007 notation. We will make use of the body frame notation in our equations of motion in order to describe the YORP accelerations experienced by the surface and how they are influencing the spin pole directly. These forces can be translated to the orbital or inertial frame by these frame definitions given here. The body frame is defined here with variable definitions to follow.
 
-\begin{equation}
-    \begin{split}
-    \mathbf{\hat{x}}_B = &[sin \: \alpha \: cos \: \phi \: + \: cos \: \alpha \: sin \: \phi \: sin \: \delta]\mathbf{\hat{X}}_E \\
-    + &[cos \: \alpha \: cos \: \phi \: - \: sin \: \alpha \: sin \: \phi \: sin \: \delta]\mathbf{\hat{Y}}_E \\
-    + &sin \: \phi \: cos \: \delta \mathbf{\hat{Z}}_E
-    \end{split}
-\end{equation}
-\begin{equation}
-    \begin{split}
-    \mathbf{\hat{y}}_B = &[sin \: \alpha \: sin \: \phi \: + \: cos \: \alpha \: cos \: \phi \: sin \: \delta]\mathbf{\hat{X}}_E \\
-    - &[cos \: \alpha \: sin \: \phi \: + \: sin \: \alpha \: cos \: \phi \: sin \: \delta]\mathbf{\hat{Y}}_E \\
-    + &cos \: \phi \: cos \: \delta \mathbf{\hat{Z}}_E
-    \end{split}
-\end{equation}
-\begin{equation}
-    \begin{split}
-    \mathbf{\hat{z}}_B = &cos \: \alpha \: cos\: \delta\mathbf{\hat{X}}_E \:+ \: sin \: \alpha \: cos \: \delta\mathbf{\hat{Y}}_E  + \: sin \: \delta \mathbf{\hat{Z}}_E
-    \end{split}
-\end{equation}
-In these unit vector definitions, $\alpha$ is the right ascension of the asteroid spin pole, $\delta$ is the declination, and $\phi$ is the instantaneous rotation angle that marks where the asteroid is oriented within it's spin period. With these unit vectors we go on to define the body frame solar inclination, $i_s$ which will be our proxy for spin pole obliquity. We will also define the angle $\Omega_s$, along with it's value at a defining epoch, $\Omega_{s,0}$, which is the longitude of the ascending node of the asteroid's orbit.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{fig/body_frame_w_obliq.jpg}
-    \caption{Body frame diagram which shows $\hat{u}$, the sun-pointing vector, $\hat{u}_{||xy}$, the projection of the sun-pointing vector into the body x-y plane, $\hat{u}_{\perp}$, the perpendicular vector to the sun-pointing vector, the body frame unit vectors $\hat{x}_B, \hat{y}_B$, and $\hat{z}_B$, as well as the solar inclination angle $i_s$, the longitude of the ascending node $\Omega_s$, and the spin pole obliquity angle $\eta$. }
-    \label{body_frame}
-\end{figure}
+% \begin{equation}
+%     \begin{split}
+%     \mathbf{\hat{x}}_B = &[sin \: \alpha \: cos \: \phi \: + \: cos \: \alpha \: sin \: \phi \: sin \: \delta]\mathbf{\hat{X}}_E \\
+%     + &[cos \: \alpha \: cos \: \phi \: - \: sin \: \alpha \: sin \: \phi \: sin \: \delta]\mathbf{\hat{Y}}_E \\
+%     + &sin \: \phi \: cos \: \delta \mathbf{\hat{Z}}_E
+%     \end{split}
+% \end{equation}
+% \begin{equation}
+%     \begin{split}
+%     \mathbf{\hat{y}}_B = &[sin \: \alpha \: sin \: \phi \: + \: cos \: \alpha \: cos \: \phi \: sin \: \delta]\mathbf{\hat{X}}_E \\
+%     - &[cos \: \alpha \: sin \: \phi \: + \: sin \: \alpha \: cos \: \phi \: sin \: \delta]\mathbf{\hat{Y}}_E \\
+%     + &cos \: \phi \: cos \: \delta \mathbf{\hat{Z}}_E
+%     \end{split}
+% \end{equation}
+% \begin{equation}
+%     \begin{split}
+%     \mathbf{\hat{z}}_B = &cos \: \alpha \: cos\: \delta\mathbf{\hat{X}}_E \:+ \: sin \: \alpha \: cos \: \delta\mathbf{\hat{Y}}_E  + \: sin \: \delta \mathbf{\hat{Z}}_E
+%     \end{split}
+% \end{equation}
+% In these unit vector definitions, $\alpha$ is the right ascension of the asteroid spin pole, $\delta$ is the declination, and $\phi$ is the instantaneous rotation angle that marks where the asteroid is oriented within it's spin period. With these unit vectors we go on to define the body frame solar inclination, $i_s$ which will be our proxy for spin pole obliquity. We will also define the angle $\Omega_s$, along with it's value at a defining epoch, $\Omega_{s,0}$, which is the longitude of the ascending node of the asteroid's orbit.
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.5\textwidth]{fig/body_frame_w_obliq.jpg}
+%     \caption{Body frame diagram which shows $\hat{u}$, the sun-pointing vector, $\hat{u}_{||xy}$, the projection of the sun-pointing vector into the body x-y plane, $\hat{u}_{\perp}$, the perpendicular vector to the sun-pointing vector, the body frame unit vectors $\hat{x}_B, \hat{y}_B$, and $\hat{z}_B$, as well as the solar inclination angle $i_s$, the longitude of the ascending node $\Omega_s$, and the spin pole obliquity angle $\eta$. }
+%     \label{body_frame}
+% \end{figure}
 
-\section{YORP Torques} \label{yorp}
+\section{YORP Torques for Obliquity} \label{yorp}
 
 %begin here with the basic equations for YORP dynamics like from Golubov Limiting Behavior of Asteroid Obliquity and Spin Using a Semi-analytic Thermal Model of the YORP Effect
 %just show how we are approaching the description of YORP torques, including reference to the normalized versions
