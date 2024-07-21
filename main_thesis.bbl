@@ -1,14 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Aoki2014}
-{\sc T.~Aoki, A.~Nakamura, and N.~Hirata}, {\em {Estimating the angle of
-  friction of blocks on rubble-pile asteroid Itokawa}}, in ACM 2014, 201.
-
-\bibitem{Baker2024}
-{\sc D.~Baker and J.~McMahon}, {\em {Boulder-Induced Spin Variability in the
-  YORP Effect Boulder-Induced Spin Variability in the YORP Effect}}, Icarus,
-  VSI: ACM 14 (2024).
-
 \bibitem{Bandyonadhyay2019}
 {\sc S.~Bandyonadhyay, I.~Nesnas, S.~Bhaskaran, B.~Hockman, and B.~Morrell},
   {\em {Silhouette-Based 3D Shape Reconstruction of a Small Body from a
@@ -61,6 +52,10 @@
   hulls of complex objects}}, Proceedings of the IEEE Computer Society
   Conference on Computer Vision and Pattern Recognition, 1 (2003).
 
+\bibitem{Brack2019}
+{\sc D.~N. Brack and J.~W. McMahon}, {\em {Modeling the coupled dynamics of an
+  asteroid with surface boulder motion}}, Icarus, 333 (2019), pp.~96--112.
+
 \bibitem{Breiter2009}
 {\sc S.~Breiter, P.~Bartczak, M.~Czekaj, B.~Oczujda, and
   D.~Vokrouhlick{\'{y}}}, {\em {The YORP effect on 25 143 Itokawa}}, Astronomy
@@ -76,13 +71,6 @@
   {Yarkovsky-O'Keefe-Radzievskii-Paddack effect with anisotropic radiation}},
   Monthly Notices of the Royal Astronomical Society, 410 (2011),
   pp.~2807--2816.
-
-\bibitem{Chesley2014}
-{\sc S.~R. Chesley, D.~Farnocchia, M.~C. Nolan, D.~Vokrouhlick{\'{y}}, P.~W.
-  Chodas, A.~Milani, F.~Spoto, B.~Rozitis, L.~A. Benner, W.~F. Bottke, M.~W.
-  Busch, J.~P. Emery, E.~S. Howell, D.~S. Lauretta, J.~L. Margot, and P.~A.
-  Taylor}, {\em {Orbit and bulk density of the OSIRIS-REx target Asteroid
-  (101955) Bennu}}, Icarus, 235 (2014), pp.~5--22.
 
 \bibitem{Christian2017}
 {\sc J.~A. Christian}, {\em {Accurate planetary limb localization for
@@ -279,6 +267,10 @@
   characterization in the hayabusa encounter with itokawa}}, in Collection of
   Technical Papers - AIAA/AAS Astrodynamics Specialist Conference, 2006,
   vol.~3, 2006, pp.~1541--1552.
+
+\bibitem{Gaskell2004}
+{\sc R.~W. Gaskell}, {\em {Optical Only Determination of Small Body Shape and
+  Topography}},  (2004), pp.~1--28.
 
 \bibitem{Gaskell2008}
 {\sc R.~W. Gaskell, O.~S. Barnouin-Jha, D.~J. Scheeres, A.~S. Konopliv,
@@ -581,11 +573,6 @@
 {\sc N.~Murdoch, P.~S{\'{a}}nchez, S.~R. Schwartz, and H.~Miyamoto}, {\em
   {Asteroid surface geophysics}}, Asteroids IV,  (2015), pp.~767--792.
 
-\bibitem{Nesvorny2008}
-{\sc D.~Nesvorny and D.~Vokrouhlicky}, {\em {Analytic theory for the
-  yarkovsky-O'Keefe-radzievski-paddack effect on obliquity}}, Astronomical
-  Journal, 136 (2008), pp.~291--299.
-
 \bibitem{Nolan2019}
 {\sc M.~C. Nolan, E.~S. Howell, D.~J. Scheeres, J.~W. McMahon, O.~Golubov,
   C.~W. Hergenrother, J.~P. Emery, K.~S. Noll, S.~R. Chesley, and D.~S.
@@ -627,12 +614,6 @@
   thermophysical model}}, Monthly Notices of the Royal Astronomical Society,
   415 (2011), pp.~2042--2062.
 
-\bibitem{Rozitis2011a}
-\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {Directional
-  characteristics of thermal-infrared beaming from atmosphereless planetary
-  surfaces - a new thermophysical model}}, Monthly Notices of the Royal
-  Astronomical Society, 415 (2011), pp.~2042--2062.
-
 \bibitem{Rozitis2012}
 \leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {The influence of
   rough surface thermal-infrared beaming on the Yarkovsky and YORP effects}},
@@ -669,22 +650,13 @@
   of asteroid 25143 Itokawa from Hayabusa}}, Science, 312 (2006),
   pp.~1341--1344.
 
-\bibitem{Sanchez2014}
-{\sc P.~S{\'{a}}nchez and D.~J. Scheeres}, {\em {The strength of regolith and
-  rubble pile asteroids}}, Meteoritics and Planetary Science, 49 (2014),
-  pp.~788--811.
-
 \bibitem{Scheeres2007}
 {\sc D.~J. Scheeres}, {\em {The dynamical evolution of uniformly rotating
   asteroids subject to YORP}}, Icarus, 188 (2007), pp.~430--450.
 
-\bibitem{Scheeres2014}
-{\sc D.~J. Scheeres}, {\em {Surface Stability of Rapidly Spinning Spheroids}},
-  (2014).
-
 \bibitem{Scheeres2015}
-{\sc D.~J. Scheeres}, {\em {Landslides and Mass shedding on spinning spheroidal
-  asteroids}}, Icarus, 247 (2015), pp.~1--17.
+\leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {Landslides and Mass
+  shedding on spinning spheroidal asteroids}}, Icarus, 247 (2015), pp.~1--17.
 
 \bibitem{Scheeres2018}
 \leavevmode\vrule height 2pt depth -1.6pt width 23pt, {\em {Disaggregation of
@@ -805,12 +777,6 @@
   shaking as a triggering mechanism for mass movements on Bennu}}, Icarus, 395
   (2023), p.~115463.
 
-\bibitem{Tang2024}
-{\sc Y.~Tang, D.~S. Lauretta, R.~L. Ballouz, D.~N. DellaGiustina, A.~T. Polit,
-  M.~M. Westermann, C.~A. Bennett, K.~J. Becker, K.~J. Walsh, and D.~R.
-  Golish}, {\em {Characterization and implications of a mass movement site in
-  Bennu's Bralgah Crater}}, Icarus, 415 (2024), p.~116056.
-
 \bibitem{Vokrouhlicky2000}
 {\sc D.~Vokrouhlick{\'{y}}, A.~Milani, and S.~R. Chesley}, {\em {Yarkovsky
   Effect on Small Near-Earth Asteroids: Mathematical Formulation and
@@ -819,16 +785,6 @@
 \bibitem{Walsh2018}
 {\sc K.~J. Walsh}, {\em {Rubble Pile Asteroids}}, Annual Review of Astronomy
   and Astrophysics, 56 (2018), pp.~593--624.
-
-\bibitem{Walsh2022}
-{\sc K.~J. Walsh, R.~L. Ballouz, E.~R. Jawin, C.~Avdellidou, O.~S. Barnouin,
-  C.~A. Bennett, E.~B. Bierhaus, B.~J. Bos, S.~Cambioni, H.~C. Connolly,
-  M.~Delbo, D.~N. DellaGiustina, J.~DeMartini, J.~P. Emery, D.~R. Golish, P.~C.
-  Haas, C.~W. Hergenrother, H.~Ma, P.~Michel, M.~C. Nolan, R.~Olds, B.~Rozitis,
-  D.~C. Richardson, B.~Rizk, A.~J. Ryan, P.~S{\'{a}}nchez, D.~J. Scheeres,
-  S.~R. Schwartz, S.~H. Selznick, Y.~Zhang, and D.~S. Lauretta}, {\em
-  {Near-zero cohesion and loose packing of Bennu's near subsurface revealed by
-  spacecraft contact}}, Science Advances, 8 (2022), pp.~1--9.
 
 \bibitem{Walsh2019}
 {\sc K.~J. Walsh, E.~R. Jawin, R.~L. Ballouz, O.~S. Barnouin, E.~B. Bierhaus,

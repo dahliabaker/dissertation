@@ -7,13 +7,9 @@ Repeated entry---line 2282 of file dissertation.bib
  : @article{Scheeres2018
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2296 of file dissertation.bib
- : @article{Walsh2022
+Repeated entry---line 2329 of file dissertation.bib
+ : @article{Brack2019
  :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2311 of file dissertation.bib
- : @article{Tang2024
- :                  ,
 I'm skipping whatever remains of this entry
 Database file #2: chapter2bib.bib
 Repeated entry---line 29 of file chapter2bib.bib
@@ -44,6 +40,10 @@ Repeated entry---line 257 of file chapter2bib.bib
  : @article{Boyer2003
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 270 of file chapter2bib.bib
+ : @article{Gaskell2004
+ :                     ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 280 of file chapter2bib.bib
  : @inproceedings{Liounis
  :                       ,
@@ -68,47 +68,48 @@ Repeated entry---line 526 of file chapter2bib.bib
  : @article{Christian2017
  :                       ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Manni2020"
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--empty journal in Scheeres2014
-You've used 91 entries,
+Warning--empty journal in Gaskell2004
+You've used 84 entries,
             2030 wiz_defined-function locations,
-            1070 strings with 61085 characters,
-and the built_in function-call counts, 110338 in all, are:
-= -- 8284
-> -- 13905
+            1034 strings with 59084 characters,
+and the built_in function-call counts, 106482 in all, are:
+= -- 7958
+> -- 13558
 < -- 0
-+ -- 5552
-- -- 5461
-* -- 12580
-:= -- 20012
-add.period$ -- 91
-call.type$ -- 91
-change.case$ -- 3007
++ -- 5414
+- -- 5330
+* -- 12208
+:= -- 19359
+add.period$ -- 84
+call.type$ -- 84
+change.case$ -- 2920
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 1517
-empty$ -- 2315
-format.name$ -- 5461
-if$ -- 19529
+cite$ -- 85
+duplicate$ -- 1400
+empty$ -- 2147
+format.name$ -- 5330
+if$ -- 18784
 int.to.chr$ -- 0
-int.to.str$ -- 91
-missing$ -- 92
-newline$ -- 276
-num.names$ -- 178
-pop$ -- 2899
+int.to.str$ -- 84
+missing$ -- 85
+newline$ -- 255
+num.names$ -- 164
+pop$ -- 2817
 preamble$ -- 1
-purify$ -- 2916
+purify$ -- 2836
 quote$ -- 0
-skip$ -- 1346
+skip$ -- 1246
 stack$ -- 0
-substring$ -- 2333
-swap$ -- 670
+substring$ -- 2193
+swap$ -- 620
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 362
+type$ -- 334
 warning$ -- 1
-while$ -- 378
-width$ -- 93
-write$ -- 805
+while$ -- 354
+width$ -- 86
+write$ -- 745
 (There were 16 error messages)
