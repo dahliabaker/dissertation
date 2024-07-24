@@ -3,7 +3,14 @@
 \usepackage{amssymb}		% to get all AMS symbols
 \usepackage{graphicx}		% to insert figures
 \usepackage{hyperref}		% PDF hyperreferences??
-
+\usepackage[backend=bibtex,style=authoryear,maxbibnames=3,natbib=true]{biblatex}
+%\bibliographystyle{authoryear}
+\addbibresource{dissertation}
+\addbibresource{chapter2bib}
+%\setcitestyle{open={(},author,year,close={)}} 
+%\bibliographystyle{authoryear}
+%\usepackage[backend=biber,style=authoryear,minnames=1,maxcitenames=4]{biblatex}
+%\setcitestyle{authoryear,open={(},close={)}} 
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{wrapfig}
@@ -98,10 +105,10 @@
 \input chapter6.tex
 
 %%%%%%%%%   then the Bibliography, if any   %%%%%%%%%
-\bibliographystyle{siam}	% or "siam", or "alpha", etc.
+%\bibliographystyle{alpha}	% or "siam", or "alpha", etc.
 %\nocite{*}		% list all refs in database, cited or not
-\bibliography{dissertation,chapter2bib}		% Bib database in "refs.bib"
-
+%\bibliography{dissertation,chapter2bib}		% Bib database in "refs.bib"
+\printbibliography
 %%%%%%%%%   then the Appendices, if any   %%%%%%%%%
 %\appendix
 %\input{appendix1.tex}

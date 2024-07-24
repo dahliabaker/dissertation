@@ -138,7 +138,6 @@ After the gradient is calculated over the image, the desired thresholding factor
 \end{figure}
 \begin{wrapfigure}[15]{l}{0.4\textwidth}
     \centering
-    \vspace{-10pt}
     \captionsetup{justification=centering}
     \includegraphics[width = 0.4\textwidth]{fig/overlay_canny_correctparameters.png}
     \caption{Four Edge Results Overlaid in Image Space}
@@ -158,7 +157,6 @@ After identifying the silhouette in the image frame and thus in the 3-D camera f
 \subsection{Terminator and Limb Discrimination}
 \begin{wrapfigure}[15]{r}{0.4\textwidth}
     \centering
-    \vspace{-25pt}
     \captionsetup{justification=centering}
     \includegraphics[width = 0.39\textwidth]{fig/limb_term_bennu_correct.jpeg}
     \caption{Limb and Terminator in Bennu Mission Image}
@@ -204,7 +202,6 @@ The rays are described using a line equation to characterize them in 3D body fra
 In the above equation, $l_{i,0}$ is the initial point of the ray, $\eta$ is the scale factor from 0 to 1 describing how far along the rays length it's been trimmed (between 0 and 100 percent), L is the length of the pretrimmed ray, and $\hat{r}$ is a generic unit view direction. For this investigation, the original ray length L is set to 2km, centered at the identified edge point and extended towards and away from the camera for limb points, with terminator points at a slight rotation proportional to the phase angle. The $\eta$ factor is calculated after finding all intersections between each limb plane and trimming each ray down to it's likely surface section, and this procedure will be described in later sections.
 \begin{wrapfigure}[14]{l}{0.5\textwidth}
     \centering
-    \vspace{-10pt}
     \captionsetup{justification=centering}
     \includegraphics[width = 0.5\textwidth]{fig/planes_intersect.png}
     \caption{Geometry of Two Intersecting Planes}
@@ -321,7 +318,7 @@ The reconstruction of Itokawa based on 21 simulated images is shown in Fig.\ref{
         \caption{Subsampled and Noise Reduced Point Cloud}
     \end{subfigure}
     \caption{Pre- and Post-Processed Point Cloud of Bennu Limb-Trimmed Shape}
-\end{figure*}
+\end{figure*} 
 
 The model shown here, developed using 11 images of Bennu along it's equator, is also a comparable shape result when measured against high-resolution models such as the 75cm surface model developed using observations made by OSIRIS-REx. The error found using the per-vertex geometric measuring approach is between -2.1 and 2.0 meters, with an average error of 0.5 centimeters. With the largest dimension of Bennu measuring at 565 meters, this represents a maximum mismodeling of 0.4 percent. This model has no predictable areas of under or over-estimation. The resulting shape is smooth, captures the size and general shape of the body, and could easily be used in any proximity navigation solutions. Using data from a relatively close range, we expected the same perspective errors as were found in the Itokawa model, however, the simple convex shape of Bennu was easily and accurately mapped using it's silhouette.  
 
@@ -374,7 +371,7 @@ Correlating two images based on pixel values has proven to have some promise, ho
     \label{fig:highest}
 \end{figure}
 
-We can see from these comparisons that the algorithm failed to account for rotations in the body orientation. The expected match and the actual match have correlation scores within 0.005 of each other, showing that the algorithm can still correlate similarities well. However, this cannot be claimed as a success for navigation purposes seeing that the error in the matched longitude is $168.66^{\circ}$. Further analysis shows that for all of the images in the library, the score of the correlation between the library image and a test image follows a symmetric pattern, shown in Fig.\ref{fig:heatmap}. If this method of localization was successful and we could match test images to their correct library equivalent, we would see the highest correlation scores following a $y=x$ trend across the score map. The observations made instead show that the highest correlation scores follow the symmetry of the body, and the most likely match in the images are when the asteroid is being viewed from the $0^{\circ}$ and $180^{\circ}$ orientations. This data could be improved with further centering of test images during pre-processing, testing flipped orientations of the library images, or possibly examining the silhouette only for localization. Another avenue of testing could be for lighting-condition invariance, where many phase angles are tested and machine learning is applied to match features despite different sun angles \cite{Manni2020}. 
+We can see from these comparisons that the algorithm failed to account for rotations in the body orientation. The expected match and the actual match have correlation scores within 0.005 of each other, showing that the algorithm can still correlate similarities well. However, this cannot be claimed as a success for navigation purposes seeing that the error in the matched longitude is $168.66^{\circ}$. Further analysis shows that for all of the images in the library, the score of the correlation between the library image and a test image follows a symmetric pattern, shown in Fig.\ref{fig:heatmap}. If this method of localization was successful and we could match test images to their correct library equivalent, we would see the highest correlation scores following a $y=x$ trend across the score map. The observations made instead show that the highest correlation scores follow the symmetry of the body, and the most likely match in the images are when the asteroid is being viewed from the $0^{\circ}$ and $180^{\circ}$ orientations. This data could be improved with further centering of test images during pre-processing, testing flipped orientations of the library images, or possibly examining the silhouette only for localization. Another avenue of testing could be for lighting-condition invariance, where many phase angles are tested and machine learning is applied to match features despite different sun angles \citep{Manni2020}. 
 
 \begin{figure}[H]
     \centering
@@ -385,7 +382,7 @@ We can see from these comparisons that the algorithm failed to account for rotat
 
 \section{Analysis}
 \subsection{Error Evaluation}
-The models generated with the limb-trimming method have been compared to mission-derived truth models of the same bodies. The 101955 Bennu shape model used for comparison is sourced from data during the approach phase of the OSIRIS-REx mission, and was made available publicly in November 2018{}. This model has a resolution of 6m over the surface. The 25143 Itokawa shape model used for comparison is the Gaskell shape model produced with Hayabusa with a resolution of 49,152 facets \cite{Gaskell2004}. A surface comparison between two shape models is performed using a Distance from Reference Mesh function, which calculates the closest distance from the reference mesh, or truth model, to the measured mesh, which is the model produced via limb trimming. The distance is left signed to appropriately characterize under- or over-estimated volumes. 
+The models generated with the limb-trimming method have been compared to mission-derived truth models of the same bodies. The 101955 Bennu shape model used for comparison is sourced from data during the approach phase of the OSIRIS-REx mission, and was made available publicly in November 2018{}. This model has a resolution of 6m over the surface. The 25143 Itokawa shape model used for comparison is the Gaskell shape model produced with Hayabusa with a resolution of 49,152 facets \citep{Gaskell2004}. A surface comparison between two shape models is performed using a Distance from Reference Mesh function, which calculates the closest distance from the reference mesh, or truth model, to the measured mesh, which is the model produced via limb trimming. The distance is left signed to appropriately characterize under- or over-estimated volumes. 
 
 
 % \begin{table*}[h!]
@@ -413,6 +410,6 @@ The models generated with the limb-trimming method have been compared to mission
 With the error ranges seen here, we can expect to model boulders to at least 33 meter accuracy as the worst resolution bounds. Areas with higher accuracy modeling on these shapes can resolve boulders down to 2 meters in diameter. As we have shown in YORP modeling, highly effective radiating boulders (with flat faces) need to be at least 1 meter in diameter to contribute significantly to the global YORP torque. With more realistic shapes such as rounded wedges, this can increase to the tens of meters range.
 One major takeaway from previous chapters is that for bodies of the rough diameter of Bennu and Itokawa, the boulders that matter for modeling YORP are 1m in diameter and above, with more emphasis placed on large boulders up to the maximum size of 55m in diameter. In this modeling procedure, we can expect to capture the absolute largest boulder on the surface (in the tens of meters range) which will give a small glimpse as to the boulder-induced YORP torque that could be measured by surface modeling. Higher fidelity surface modeling is the driver of better YORP torque models. As we've examined the boundaries of significance, we show that a well-made shape model is necessary for calculating the accurate YORP torques.
 
-We conclude that we are capable of building a shape model for an irregular as well as a convex body given low phase angle imagery. This shape model was comparable in size and shape to the target body and with improvements, could serve as a reliable data product for navigation in a scenario without reliable surface feature identification methods. This work also tests a preliminary, matching-focused localization method that we would like to integrate into a full navigation scheme with further testing. It has been shown that limbs can serve as reference data for a spacecraft navigating about a body, but that irregularities in the shape can cause major error between the predicted limb locations and the observed limb locations \cite{Liounis}. We would also like to challenge many of our assumptions, such as the low phase angle on approach, perfect knowledge of range and attitude, as well as our fine tuning of the Canny edge detection thresholds. We hope to find ways to iteratively update our model, ingesting new observations after the surface has been constructed, and allowing a transition between low and high resolution mapping methods as a spacecraft finds that better data is available.
+We conclude that we are capable of building a shape model for an irregular as well as a convex body given low phase angle imagery. This shape model was comparable in size and shape to the target body and with improvements, could serve as a reliable data product for navigation in a scenario without reliable surface feature identification methods. This work also tests a preliminary, matching-focused localization method that we would like to integrate into a full navigation scheme with further testing. It has been shown that limbs can serve as reference data for a spacecraft navigating about a body, but that irregularities in the shape can cause major error between the predicted limb locations and the observed limb locations \citep{Liounis}. We would also like to challenge many of our assumptions, such as the low phase angle on approach, perfect knowledge of range and attitude, as well as our fine tuning of the Canny edge detection thresholds. We hope to find ways to iteratively update our model, ingesting new observations after the surface has been constructed, and allowing a transition between low and high resolution mapping methods as a spacecraft finds that better data is available.
 
 

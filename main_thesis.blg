@@ -1,8 +1,27 @@
 This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main_thesis.aux
-The style file: siam.bst
-Database file #1: dissertation.bib
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 17040 items from 5000.
+Database file #1: main_thesis-blx.bib
+Database file #2: dissertation.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Repeated entry---line 2282 of file dissertation.bib
  : @article{Scheeres2018
  :                      ,
@@ -11,7 +30,7 @@ Repeated entry---line 2329 of file dissertation.bib
  : @article{Brack2019
  :                   ,
 I'm skipping whatever remains of this entry
-Database file #2: chapter2bib.bib
+Database file #3: chapter2bib.bib
 Repeated entry---line 29 of file chapter2bib.bib
  : @article{Lauretta2019
  :                      ,
@@ -68,48 +87,72 @@ Repeated entry---line 526 of file chapter2bib.bib
  : @article{Christian2017
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Manni2020"
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--empty journal in Gaskell2004
-You've used 84 entries,
-            2030 wiz_defined-function locations,
-            1034 strings with 59084 characters,
-and the built_in function-call counts, 106482 in all, are:
-= -- 7958
-> -- 13558
-< -- 0
-+ -- 5414
-- -- 5330
-* -- 12208
-:= -- 19359
-add.period$ -- 84
-call.type$ -- 84
-change.case$ -- 2920
-chr.to.int$ -- 0
-cite$ -- 85
-duplicate$ -- 1400
-empty$ -- 2147
-format.name$ -- 5330
-if$ -- 18784
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Warning--you've exceeded 500, the entry-string-size, for entry Scheeres2019
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Hergenrother2019
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry DellaGiustina2019
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Lauretta2019
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Scheeres2019
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Lauretta2019
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry Hergenrother2019
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry DellaGiustina2019
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 86 entries,
+            6399 wiz_defined-function locations,
+            2097 strings with 179786 characters,
+and the built_in function-call counts, 5592338 in all, are:
+= -- 568524
+> -- 28423
+< -- 2353
++ -- 219582
+- -- 15978
+* -- 417198
+:= -- 797459
+add.period$ -- 0
+call.type$ -- 86
+change.case$ -- 1288
+chr.to.int$ -- 42
+cite$ -- 170
+duplicate$ -- 582104
+empty$ -- 421517
+format.name$ -- 32726
+if$ -- 1029260
 int.to.chr$ -- 0
-int.to.str$ -- 84
-missing$ -- 85
-newline$ -- 255
-num.names$ -- 164
-pop$ -- 2817
+int.to.str$ -- 208
+missing$ -- 0
+newline$ -- 18692
+num.names$ -- 3946
+pop$ -- 79473
 preamble$ -- 1
-purify$ -- 2836
+purify$ -- 6651
 quote$ -- 0
-skip$ -- 1246
+skip$ -- 27368
 stack$ -- 0
-substring$ -- 2193
-swap$ -- 620
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 334
-warning$ -- 1
-while$ -- 354
-width$ -- 86
-write$ -- 745
+substring$ -- 1164686
+swap$ -- 50365
+text.length$ -- 4630
+text.prefix$ -- 109
+top$ -- 1
+type$ -- 2907
+warning$ -- 0
+while$ -- 97984
+width$ -- 0
+write$ -- 18607
 (There were 16 error messages)

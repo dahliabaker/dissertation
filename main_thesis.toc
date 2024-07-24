@@ -6,72 +6,73 @@
 \contentsline {section}{\numberline {\th@SectionStyle 1.4}\normalsize \normalfont Thesis Statement}{7}{section.1.4}%
 \contentsline {section}{\numberline {\th@SectionStyle 1.5}\normalsize \normalfont Thesis Overview}{7}{section.1.5}%
 \contentsline {subsection}{\numberline {\th@SubSectionStyle 1.5.1}\normalsize \normalfont Contributions}{7}{subsection.1.5.1}%
-\contentsline {chapter}{\numberline {\th@ChapterStyle 2}\normalsize \normalfont Boulder-induced YORP Altering Spin Acceleration}{8}{chapter.2}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.1}\normalsize \normalfont Surface Interactions causing YORP}{8}{section.2.1}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.2}\normalsize \normalfont Coordinate Frames}{10}{section.2.2}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.3}\normalsize \normalfont Fourier YORP Coefficient Modeling}{12}{section.2.3}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.4}\normalsize \normalfont Boulder Simulation Design}{14}{section.2.4}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.4.1}\normalsize \normalfont Boulder Shape}{15}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.4.2}\normalsize \normalfont Bennu and Itokawa Surfaces}{17}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.4.3}\normalsize \normalfont Boulder Population Studies on Bennu and Itokawa}{19}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.4.4}\normalsize \normalfont Applying a Simplified Thermal Model}{21}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.4.5}\normalsize \normalfont Polyhedral Facet YORP Evaluation}{21}{subsection.2.4.5}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.5}\normalsize \normalfont Analysis of boulder impact on YORP spin torque}{23}{section.2.5}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.1}\normalsize \normalfont Power Law Distribution of Boulder Size}{23}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.2}\normalsize \normalfont Uniform Distribution of Boulder Location}{25}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.3}\normalsize \normalfont Uniform Distribution of Boulder Orientation}{26}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.4}\normalsize \normalfont Overall Uncertainty Distribution}{28}{subsection.2.5.4}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.6}\normalsize \normalfont Bennu Results}{30}{section.2.6}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.6.1}\normalsize \normalfont Total Boulder Impact}{30}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.6.2}\normalsize \normalfont Large Influence Boulder Parameters}{31}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.6.2.1}\normalsize \normalfont Size Comparison}{31}{subsubsection.2.6.2.1}%
-\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.6.2.2}\normalsize \normalfont Location: Equatorial Trend}{32}{subsubsection.2.6.2.2}%
-\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.6.2.3}\normalsize \normalfont Orientation Bias: West or East}{32}{subsubsection.2.6.2.3}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.7}\normalsize \normalfont Itokawa Results}{33}{section.2.7}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.7.1}\normalsize \normalfont Total Boulder Impact}{33}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.7.2}\normalsize \normalfont Large Influence Boulder Parameters}{34}{subsection.2.7.2}%
-\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.7.2.1}\normalsize \normalfont Size Comparison}{34}{subsubsection.2.7.2.1}%
-\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.7.2.2}\normalsize \normalfont Location: Sub-30 Degree Latitude Preference}{34}{subsubsection.2.7.2.2}%
-\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.7.2.3}\normalsize \normalfont Orientation Bias: No Pattern}{35}{subsubsection.2.7.2.3}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.8}\normalsize \normalfont Sensitivity Analysis}{36}{section.2.8}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.8.1}\normalsize \normalfont Size Thresholding}{36}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.8.2}\normalsize \normalfont Orientation Biases: West Preference}{39}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.8.3}\normalsize \normalfont Location Bias: Polar Migration}{40}{subsection.2.8.3}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.9}\normalsize \normalfont Total YORP Discussion}{42}{section.2.9}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.9.1}\normalsize \normalfont Crater YORP}{42}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.9.2}\normalsize \normalfont Tangential YORP}{44}{subsection.2.9.2}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.9.3}\normalsize \normalfont Overall YORP Comparison}{45}{subsection.2.9.3}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.10}\normalsize \normalfont Application to YORP Estimates}{48}{section.2.10}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.11}\normalsize \normalfont Boulder Motion}{48}{section.2.11}%
-\contentsline {section}{\numberline {\th@SectionStyle 2.12}\normalsize \normalfont Summary of Spin Evolution Findings}{50}{section.2.12}%
-\contentsline {chapter}{\numberline {\th@ChapterStyle 3}\normalsize \normalfont Obliquity Evolution under Boulder-Induced YORP Torques}{53}{chapter.3}%
-\contentsline {section}{\numberline {\th@SectionStyle 3.1}\normalsize \normalfont YORP Torques for Obliquity}{53}{section.3.1}%
-\contentsline {section}{\numberline {\th@SectionStyle 3.2}\normalsize \normalfont Results}{54}{section.3.2}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 3.2.1}\normalsize \normalfont Boulder Distribution Effects on Solar Inclination Change Rates}{54}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 3.2.2}\normalsize \normalfont Sensitivity}{55}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 3.2.3}\normalsize \normalfont Boulder Motion}{59}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {\th@ChapterStyle 4}\normalsize \normalfont Shape-from-Silhouette Modeling of Small Bodies}{61}{chapter.4}%
-\contentsline {section}{\numberline {\th@SectionStyle 4.1}\normalsize \normalfont Introduction}{61}{section.4.1}%
-\contentsline {section}{\numberline {\th@SectionStyle 4.2}\normalsize \normalfont 2D to 3D Mapping of Images to Shapes}{62}{section.4.2}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.1}\normalsize \normalfont Assumptions}{62}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.2}\normalsize \normalfont Simulated Image Procedure}{62}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.3}\normalsize \normalfont Mission Data}{62}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.4}\normalsize \normalfont Identification of the Silhouette}{63}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.5}\normalsize \normalfont Terminator and Limb Discrimination}{67}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.6}\normalsize \normalfont Ray Generation and Trimming}{68}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.7}\normalsize \normalfont Outlier Rejection Scheme}{72}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.8}\normalsize \normalfont Surface Reconstruction with Ball-pivoting}{72}{subsection.4.2.8}%
-\contentsline {section}{\numberline {\th@SectionStyle 4.3}\normalsize \normalfont Shape Results}{73}{section.4.3}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.3.1}\normalsize \normalfont Simulated Data}{73}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.3.2}\normalsize \normalfont Shape Modeling from Mission Data}{76}{subsection.4.3.2}%
-\contentsline {section}{\numberline {\th@SectionStyle 4.4}\normalsize \normalfont Matching Localization with Normalized Cross-Correlation}{78}{section.4.4}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.4.1}\normalsize \normalfont Methods}{78}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.4.2}\normalsize \normalfont Results}{79}{subsection.4.4.2}%
-\contentsline {section}{\numberline {\th@SectionStyle 4.5}\normalsize \normalfont Analysis}{82}{section.4.5}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.5.1}\normalsize \normalfont Error Evaluation}{82}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.5.2}\normalsize \normalfont Boulder Resolution}{83}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {\th@ChapterStyle 5}\normalsize \normalfont Conclusion and Future Work}{85}{chapter.5}%
-\contentsline {section}{\numberline {\th@SectionStyle 5.1}\normalsize \normalfont Summary}{85}{section.5.1}%
-\contentsline {section}{\numberline {\th@SectionStyle 5.2}\normalsize \normalfont Applications of Boulder YORP Modeling}{86}{section.5.2}%
-\contentsline {section}{\numberline {\th@SectionStyle 5.3}\normalsize \normalfont Further Investigations}{86}{section.5.3}%
-\contentsline {part}{ \normalsize \normalfont \bfseries Bibliography\normalfont }{88}{chapter*.58}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 2}\normalsize \normalfont Boulder-induced YORP Altering Spin Acceleration}{9}{chapter.2}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.1}\normalsize \normalfont Surface Interactions causing YORP}{9}{section.2.1}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.2}\normalsize \normalfont Coordinate Frames}{11}{section.2.2}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.3}\normalsize \normalfont Fourier YORP Coefficient Modeling}{13}{section.2.3}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.4}\normalsize \normalfont Comments on Orbit Averaging}{15}{section.2.4}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.5}\normalsize \normalfont Boulder Simulation Design}{15}{section.2.5}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.1}\normalsize \normalfont Boulder Shape}{16}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.2}\normalsize \normalfont Bennu and Itokawa Surfaces}{18}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.3}\normalsize \normalfont Boulder Population Studies on Bennu and Itokawa}{21}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.4}\normalsize \normalfont Applying a Simplified Thermal Model}{22}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.5.5}\normalsize \normalfont Polyhedral Facet YORP Evaluation}{23}{subsection.2.5.5}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.6}\normalsize \normalfont Analysis of boulder impact on YORP spin torque}{24}{section.2.6}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.6.1}\normalsize \normalfont Power Law Distribution of Boulder Size}{25}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.6.2}\normalsize \normalfont Uniform Distribution of Boulder Location}{27}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.6.3}\normalsize \normalfont Uniform Distribution of Boulder Orientation}{27}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.6.4}\normalsize \normalfont Overall Uncertainty Distribution}{30}{subsection.2.6.4}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.7}\normalsize \normalfont Bennu Results}{31}{section.2.7}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.7.1}\normalsize \normalfont Total Boulder Impact}{31}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.7.2}\normalsize \normalfont Large Influence Boulder Parameters}{33}{subsection.2.7.2}%
+\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.7.2.1}\normalsize \normalfont Size Comparison}{33}{subsubsection.2.7.2.1}%
+\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.7.2.2}\normalsize \normalfont Location: Equatorial Trend}{34}{subsubsection.2.7.2.2}%
+\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.7.2.3}\normalsize \normalfont Orientation Bias: West or East}{34}{subsubsection.2.7.2.3}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.8}\normalsize \normalfont Itokawa Results}{35}{section.2.8}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.8.1}\normalsize \normalfont Total Boulder Impact}{35}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.8.2}\normalsize \normalfont Large Influence Boulder Parameters}{36}{subsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.8.2.1}\normalsize \normalfont Size Comparison}{36}{subsubsection.2.8.2.1}%
+\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.8.2.2}\normalsize \normalfont Location: Sub-30 Degree Latitude Preference}{36}{subsubsection.2.8.2.2}%
+\contentsline {subsubsection}{\numberline {\th@OtherSecHeadStyles 2.8.2.3}\normalsize \normalfont Orientation Bias: No Pattern}{37}{subsubsection.2.8.2.3}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.9}\normalsize \normalfont Sensitivity Analysis}{38}{section.2.9}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.9.1}\normalsize \normalfont Size Thresholding}{38}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.9.2}\normalsize \normalfont Orientation Biases: West Preference}{41}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.9.3}\normalsize \normalfont Location Bias: Polar Migration}{42}{subsection.2.9.3}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.10}\normalsize \normalfont Efficiency of Boulder Shape}{44}{section.2.10}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.11}\normalsize \normalfont Total YORP Discussion}{44}{section.2.11}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.11.1}\normalsize \normalfont Crater YORP}{44}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.11.2}\normalsize \normalfont Tangential YORP}{46}{subsection.2.11.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 2.11.3}\normalsize \normalfont Overall YORP Comparison}{48}{subsection.2.11.3}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.12}\normalsize \normalfont Application to YORP Estimates}{50}{section.2.12}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.13}\normalsize \normalfont Boulder Motion}{51}{section.2.13}%
+\contentsline {section}{\numberline {\th@SectionStyle 2.14}\normalsize \normalfont Summary of Spin Evolution Findings}{53}{section.2.14}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 3}\normalsize \normalfont Obliquity Evolution under Boulder-Induced YORP Torques}{56}{chapter.3}%
+\contentsline {section}{\numberline {\th@SectionStyle 3.1}\normalsize \normalfont YORP Torques for Obliquity}{56}{section.3.1}%
+\contentsline {section}{\numberline {\th@SectionStyle 3.2}\normalsize \normalfont Results}{57}{section.3.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 3.2.1}\normalsize \normalfont Boulder Distribution Effects on Solar Inclination Change Rates}{57}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 3.2.2}\normalsize \normalfont Sensitivity}{58}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 3.2.3}\normalsize \normalfont Boulder Motion}{62}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 4}\normalsize \normalfont Shape-from-Silhouette Modeling of Small Bodies}{64}{chapter.4}%
+\contentsline {section}{\numberline {\th@SectionStyle 4.1}\normalsize \normalfont Introduction}{64}{section.4.1}%
+\contentsline {section}{\numberline {\th@SectionStyle 4.2}\normalsize \normalfont 2D to 3D Mapping of Images to Shapes}{65}{section.4.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.1}\normalsize \normalfont Assumptions}{65}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.2}\normalsize \normalfont Simulated Image Procedure}{65}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.3}\normalsize \normalfont Mission Data}{65}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.4}\normalsize \normalfont Identification of the Silhouette}{66}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.5}\normalsize \normalfont Terminator and Limb Discrimination}{70}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.6}\normalsize \normalfont Ray Generation and Trimming}{71}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.7}\normalsize \normalfont Outlier Rejection Scheme}{75}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.2.8}\normalsize \normalfont Surface Reconstruction with Ball-pivoting}{75}{subsection.4.2.8}%
+\contentsline {section}{\numberline {\th@SectionStyle 4.3}\normalsize \normalfont Shape Results}{76}{section.4.3}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.3.1}\normalsize \normalfont Simulated Data}{76}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.3.2}\normalsize \normalfont Shape Modeling from Mission Data}{79}{subsection.4.3.2}%
+\contentsline {section}{\numberline {\th@SectionStyle 4.4}\normalsize \normalfont Matching Localization with Normalized Cross-Correlation}{81}{section.4.4}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.4.1}\normalsize \normalfont Methods}{81}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.4.2}\normalsize \normalfont Results}{82}{subsection.4.4.2}%
+\contentsline {section}{\numberline {\th@SectionStyle 4.5}\normalsize \normalfont Analysis}{85}{section.4.5}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.5.1}\normalsize \normalfont Error Evaluation}{85}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {\th@SubSectionStyle 4.5.2}\normalsize \normalfont Boulder Resolution}{86}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {\th@ChapterStyle 5}\normalsize \normalfont Conclusion and Future Work}{88}{chapter.5}%
+\contentsline {section}{\numberline {\th@SectionStyle 5.1}\normalsize \normalfont Summary}{88}{section.5.1}%
+\contentsline {section}{\numberline {\th@SectionStyle 5.2}\normalsize \normalfont Applications of Boulder YORP Modeling}{89}{section.5.2}%
+\contentsline {section}{\numberline {\th@SectionStyle 5.3}\normalsize \normalfont Further Investigations}{89}{section.5.3}%
