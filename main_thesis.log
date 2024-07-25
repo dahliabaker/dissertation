@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  24 JUL 2024 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.20)  25 JUL 2024 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1289,7 +1289,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: fig/overlay_canny_correctparameters.png Graphic file (type png)
 <use fig/overlay_canny_correctparameters.png>
 Package pdftex.def Info: fig/overlay_canny_correctparameters.png  used on input
- line 143.
+ line 142.
 (pdftex.def)             Requested size: 187.89912pt x 174.86397pt.
 [68 <./fig/overlay_canny_correctparameters.png (PNG copy)>] [69 <./fig/tiled_ca
 nny_test.png>]
@@ -1297,44 +1297,44 @@ nny_test.png>]
 File: fig/limb_term_bennu_correct.jpeg Graphic file (type jpg)
 <use fig/limb_term_bennu_correct.jpeg>
 Package pdftex.def Info: fig/limb_term_bennu_correct.jpeg  used on input line 1
-63.
+61.
 (pdftex.def)             Requested size: 183.20415pt x 170.49832pt.
  [70 <./fig/limb_term_bennu_correct.jpeg>]
 <fig/planes_intersect.png, id=1248, 416.55624pt x 321.2pt>
 File: fig/planes_intersect.png Graphic file (type png)
 <use fig/planes_intersect.png>
-Package pdftex.def Info: fig/planes_intersect.png  used on input line 209.
+Package pdftex.def Info: fig/planes_intersect.png  used on input line 206.
 (pdftex.def)             Requested size: 234.87749pt x 181.11075pt.
  [71 <./fig/planes_intersect.png>]
 <fig/twoplanes.png, id=1257, 478.78876pt x 386.44376pt>
 File: fig/twoplanes.png Graphic file (type png)
 <use fig/twoplanes.png>
-Package pdftex.def Info: fig/twoplanes.png  used on input line 234.
+Package pdftex.def Info: fig/twoplanes.png  used on input line 231.
 (pdftex.def)             Requested size: 230.18251pt x 185.78572pt.
 <fig/intersecting_planes.png, id=1258, 455.7025pt x 380.42125pt>
 File: fig/intersecting_planes.png Graphic file (type png)
 <use fig/intersecting_planes.png>
-Package pdftex.def Info: fig/intersecting_planes.png  used on input line 239.
+Package pdftex.def Info: fig/intersecting_planes.png  used on input line 236.
 (pdftex.def)             Requested size: 230.18251pt x 192.16054pt.
 <fig/line_pts_norms.png, id=1259, 709.65125pt x 136.51pt>
 File: fig/line_pts_norms.png Graphic file (type png)
 <use fig/line_pts_norms.png>
-Package pdftex.def Info: fig/line_pts_norms.png  used on input line 254.
+Package pdftex.def Info: fig/line_pts_norms.png  used on input line 251.
 (pdftex.def)             Requested size: 234.87749pt x 45.18175pt.
  [72] [73 <./fig/twoplanes.png> <./fig/intersecting_planes.png>]
 [74 <./fig/line_pts_norms.png>]
 <fig/itokawa_recon.png, id=1277, 1124.2pt x 843.15pt>
 File: fig/itokawa_recon.png Graphic file (type png)
 <use fig/itokawa_recon.png>
-Package pdftex.def Info: fig/itokawa_recon.png  used on input line 270.
+Package pdftex.def Info: fig/itokawa_recon.png  used on input line 267.
 (pdftex.def)             Requested size: 234.87749pt x 176.15327pt.
 <fig/bennu_recon.png, id=1278, 1124.2pt x 843.15pt>
 File: fig/bennu_recon.png Graphic file (type png)
 <use fig/bennu_recon.png>
-Package pdftex.def Info: fig/bennu_recon.png  used on input line 276.
+Package pdftex.def Info: fig/bennu_recon.png  used on input line 273.
 (pdftex.def)             Requested size: 234.87749pt x 176.15327pt.
 
-Overfull \hbox (4.84322pt too wide) in paragraph at lines 268--279
+Overfull \hbox (4.84322pt too wide) in paragraph at lines 265--276
  [][]  [] 
  []
 
@@ -1342,53 +1342,53 @@ Overfull \hbox (4.84322pt too wide) in paragraph at lines 268--279
 <fig/dense_itokawa.png, id=1283, 1124.2pt x 843.15pt>
 File: fig/dense_itokawa.png Graphic file (type png)
 <use fig/dense_itokawa.png>
-Package pdftex.def Info: fig/dense_itokawa.png  used on input line 289.
+Package pdftex.def Info: fig/dense_itokawa.png  used on input line 286.
 (pdftex.def)             Requested size: 187.89912pt x 140.9149pt.
 <fig/sparse_itokawa.png, id=1284, 1124.2pt x 843.15pt>
 File: fig/sparse_itokawa.png Graphic file (type png)
 <use fig/sparse_itokawa.png>
-Package pdftex.def Info: fig/sparse_itokawa.png  used on input line 294.
+Package pdftex.def Info: fig/sparse_itokawa.png  used on input line 291.
 (pdftex.def)             Requested size: 187.89912pt x 140.9149pt.
  [76 <./fig/itokawa_recon.png (PNG copy)> <./fig/bennu_recon.png (PNG copy)>] [
 77 <./fig/dense_itokawa.png (PNG copy)> <./fig/sparse_itokawa.png (PNG copy)>]
 <fig/itokawa_sim.png, id=1295, 968.61874pt x 687.56876pt>
 File: fig/itokawa_sim.png Graphic file (type png)
 <use fig/itokawa_sim.png>
-Package pdftex.def Info: fig/itokawa_sim.png  used on input line 305.
+Package pdftex.def Info: fig/itokawa_sim.png  used on input line 302.
 (pdftex.def)             Requested size: 328.82706pt x 233.41357pt.
 <fig/dense_bennu.png, id=1296, 562.1pt x 421.575pt>
 File: fig/dense_bennu.png Graphic file (type png)
 <use fig/dense_bennu.png>
-Package pdftex.def Info: fig/dense_bennu.png  used on input line 315.
+Package pdftex.def Info: fig/dense_bennu.png  used on input line 312.
 (pdftex.def)             Requested size: 234.87749pt x 176.15327pt.
 <fig/sparse_bennu.png, id=1297, 562.1pt x 421.575pt>
 File: fig/sparse_bennu.png Graphic file (type png)
 <use fig/sparse_bennu.png>
-Package pdftex.def Info: fig/sparse_bennu.png  used on input line 320.
+Package pdftex.def Info: fig/sparse_bennu.png  used on input line 317.
 (pdftex.def)             Requested size: 234.87749pt x 176.15327pt.
  [78 <./fig/itokawa_sim.png> <./fig/dense_bennu.png (PNG copy)> <./fig/sparse_b
 ennu.png (PNG copy)>]
 <fig/bennu_sim.png, id=1303, 966.61125pt x 688.5725pt>
 File: fig/bennu_sim.png Graphic file (type png)
 <use fig/bennu_sim.png>
-Package pdftex.def Info: fig/bennu_sim.png  used on input line 331.
+Package pdftex.def Info: fig/bennu_sim.png  used on input line 328.
 (pdftex.def)             Requested size: 352.31624pt x 250.97488pt.
  [79 <./fig/bennu_sim.png>]
 <fig/bennu_real.png, id=1309, 964.60374pt x 685.56125pt>
 File: fig/bennu_real.png Graphic file (type png)
 <use fig/bennu_real.png>
-Package pdftex.def Info: fig/bennu_real.png  used on input line 344.
+Package pdftex.def Info: fig/bennu_real.png  used on input line 341.
 (pdftex.def)             Requested size: 375.80542pt x 267.08536pt.
  [80] [81 <./fig/bennu_real.png>] [82]
 <fig/expected_match.png, id=1327, 1124.2pt x 843.15pt>
 File: fig/expected_match.png Graphic file (type png)
 <use fig/expected_match.png>
-Package pdftex.def Info: fig/expected_match.png  used on input line 366.
+Package pdftex.def Info: fig/expected_match.png  used on input line 363.
 (pdftex.def)             Requested size: 377.05963pt x 282.78787pt.
 <fig/highest_score.png, id=1328, 1124.2pt x 843.15pt>
 File: fig/highest_score.png Graphic file (type png)
 <use fig/highest_score.png>
-Package pdftex.def Info: fig/highest_score.png  used on input line 372.
+Package pdftex.def Info: fig/highest_score.png  used on input line 369.
 (pdftex.def)             Requested size: 377.05963pt x 282.78787pt.
 
 
@@ -1398,10 +1398,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <fig/all_scores.png, id=1336, 1124.2pt x 843.15pt>
 File: fig/all_scores.png Graphic file (type png)
 <use fig/all_scores.png>
-Package pdftex.def Info: fig/all_scores.png  used on input line 381.
+Package pdftex.def Info: fig/all_scores.png  used on input line 378.
 (pdftex.def)             Requested size: 516.73335pt x 387.54494pt.
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 381--382
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 378--379
  [][] 
  []
 
@@ -1442,29 +1442,22 @@ l.115
 ? 
 [99] (./main_thesis.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main_thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D7706277AC83C8816E0CFA8E092FC6C9;13811.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main_thesis.run.xml'.
 \openout1 = `main_thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25557 strings out of 476025
- 510337 string characters out of 5790016
+ 25755 strings out of 476025
+ 512615 string characters out of 5790016
  1868388 words of memory out of 5000000
- 45260 multiletter control sequences out of 15000+600000
+ 45458 multiletter control sequences out of 15000+600000
  537114 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,76p,2204b,1954s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,76p,2204b,1956s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1482,7 +1475,7 @@ e/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/
 23/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023
 /texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/t
 exmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on main_thesis.pdf (113 pages, 24671447 bytes).
+Output written on main_thesis.pdf (113 pages, 24671444 bytes).
 PDF statistics:
  1689 PDF objects out of 1728 (max. 8388607)
  1404 compressed objects within 15 object streams
