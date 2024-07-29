@@ -15,7 +15,7 @@ Simulated images were necessary to test the robustness of our modeling method. T
 
 
 \subsection{Mission Data}
-\begin{wrapfigure}[21]{R}{0.5\textwidth}
+\begin{wrapfigure}[18]{R}{0.5\textwidth}
     \centering
     \captionsetup{justification=centering}
      \begin{subfigure}{0.23\textwidth}
@@ -136,7 +136,7 @@ After the gradient is calculated over the image, the desired thresholding factor
     \caption{25 Examples of Canny Parameters and Impact on Edge Detection}
     \label{fig:tiled_canny}
 \end{figure}
-\begin{wrapfigure}[15]{l}{0.4\textwidth}
+\begin{wrapfigure}[11]{l}{0.4\textwidth}
     \centering
     \captionsetup{justification=centering}
     \includegraphics[width = 0.4\textwidth]{fig/overlay_canny_correctparameters.png}
@@ -155,7 +155,7 @@ to show that differing parameters still provide similar results. The difference 
 
 After identifying the silhouette in the image frame and thus in the 3-D camera frame with the addition of the range dimension, the points must be translated into the 3-D body frame which is predefined and known prior to processing. This is an assumption made based on the expected capability to obtain lightcurve information both on the ground and early in the flight plan which will inform about the spin pole and allow for a definition of the body frame to be made. However, for the purposes of this work, the body frame is accessed via SPICE and from scientific convention {Fujiwara2006}{Scheeres2006}.This transformation allows each image to be considered in the body frame against one another, which is what enables the ray trimming process. The points are extended towards and away from the camera direction with the center of the ray corresponding to the originally identified edge point. %include figure of points-> 3d points in body frame -> rays in body frame (use two images for 3d ability)
 \subsection{Terminator and Limb Discrimination}
-\begin{wrapfigure}[15]{r}{0.4\textwidth}
+\begin{wrapfigure}[10]{r}{0.4\textwidth}
     \centering
     \captionsetup{justification=centering}
     \includegraphics[width = 0.39\textwidth]{fig/limb_term_bennu_correct.jpeg}
@@ -200,7 +200,7 @@ The rays are described using a line equation to characterize them in 3D body fra
 
 
 In the above equation, $l_{i,0}$ is the initial point of the ray, $\eta$ is the scale factor from 0 to 1 describing how far along the rays length it's been trimmed (between 0 and 100 percent), L is the length of the pretrimmed ray, and $\hat{r}$ is a generic unit view direction. For this investigation, the original ray length L is set to 2km, centered at the identified edge point and extended towards and away from the camera for limb points, with terminator points at a slight rotation proportional to the phase angle. The $\eta$ factor is calculated after finding all intersections between each limb plane and trimming each ray down to it's likely surface section, and this procedure will be described in later sections.
-\begin{wrapfigure}[14]{l}{0.5\textwidth}
+\begin{wrapfigure}[12]{l}{0.5\textwidth}
     \centering
     \captionsetup{justification=centering}
     \includegraphics[width = 0.5\textwidth]{fig/planes_intersect.png}
