@@ -23,42 +23,42 @@ The coordinate frames required to examine YORP obliquity evolution are the inert
 Applying classical orbit elements, we express our heliocentric orbit frame in the inertial frame as follows.
 \begin{equation}
 \begin{split}
-\mathbf{\hat{X}}_H = &[cos \: \bar{\omega} \:cos\:\Omega - sin \:\bar{\omega}\:sin\:\Omega cos \:i] \mathbf{\hat{X}}_E \\
-& + [cos\:\bar{\omega}\:sin\:\Omega + sin\:\bar{\omega}\:cos\:\Omega \:cos\: i] \mathbf{\hat{Y}}_E \\
-& + sin\: \bar{\omega} \:sin \:i \mathbf{\hat{Z}}_E
+\mathbf{\hat{X}}_H = &[\cos \: \bar{\omega} \:\cos\:\Omega - \sin \:\bar{\omega}\:\sin\:\Omega \cos \:i] \mathbf{\hat{X}}_E \\
+& + [\cos\:\bar{\omega}\:\sin\:\Omega + \sin\:\bar{\omega}\:\cos\:\Omega \:\cos\: i] \mathbf{\hat{Y}}_E \\
+& + \sin\: \bar{\omega} \:\sin \:i \mathbf{\hat{Z}}_E
 \end{split}
 \end{equation}
 \begin{equation}
 \begin{split}
-\mathbf{\hat{Y}}_H = &-[sin \: \bar{\omega} \:cos\:\Omega + cos \:\bar{\omega}\:sin\:\Omega cos \:i] \mathbf{\hat{X}}_E \\
-& + [-sin\:\bar{\omega}\:cos\:\Omega + cos\:\bar{\omega}\:cos\:\Omega \:cos\: i] \mathbf{\hat{Y}}_E \\
-& + cos\: \bar{\omega} \:sin \:i \mathbf{\hat{Z}}_E
+\mathbf{\hat{Y}}_H = &-[\sin \: \bar{\omega} \:\cos\:\Omega + \cos \:\bar{\omega}\:\sin\:\Omega \cos \:i] \mathbf{\hat{X}}_E \\
+& + [-\sin\:\bar{\omega}\:\cos\:\Omega + \cos\:\bar{\omega}\:\cos\:\Omega \:\cos\: i] \mathbf{\hat{Y}}_E \\
+& + \cos\: \bar{\omega} \:\sin \:i \mathbf{\hat{Z}}_E
 \end{split}
 \end{equation}
 \begin{equation}
 \begin{split}
-\mathbf{\hat{Z}}_H = sin \: \Omega \: sin\: i \mathbf{\hat{X}}_E - cos \: \Omega\: sin i \mathbf{\hat{Y}}_E + cos i \:\mathbf{\hat{Z}}_E
+\mathbf{\hat{Z}}_H = \sin \: \Omega \: \sin\: i \mathbf{\hat{X}}_E - \cos \: \Omega\: \sin i \mathbf{\hat{Y}}_E + \cos i \:\mathbf{\hat{Z}}_E
 \end{split}
 \end{equation}
 In these equations, $i$ is inclination of the orbit, $\Omega$ is the longitude of ascending node, and $\bar{\omega}$ is the longitude of ascending node as per Scheeres' 2007 notation. We will make use of the body frame notation in our equations of motion in order to describe the YORP accelerations experienced by the surface and how they are influencing the spin pole directly. These forces can be translated to the orbital or inertial frame by these frame definitions given here. The body frame is defined here with variable definitions to follow.
 
 \begin{equation}
     \begin{split}
-    \mathbf{\hat{x}}_B = &[sin \: \alpha \: cos \: \phi \: + \: cos \: \alpha \: sin \: \phi \: sin \: \delta]\mathbf{\hat{X}}_E \\
-    + &[cos \: \alpha \: cos \: \phi \: - \: sin \: \alpha \: sin \: \phi \: sin \: \delta]\mathbf{\hat{Y}}_E \\
-    + &sin \: \phi \: cos \: \delta \mathbf{\hat{Z}}_E
+    \mathbf{\hat{x}}_B = &[\sin \: \alpha \: \cos \: \phi \: + \: \cos \: \alpha \: \sin \: \phi \: \sin \: \delta]\mathbf{\hat{X}}_E \\
+    + &[\cos \: \alpha \: \cos \: \phi \: - \: \sin \: \alpha \: \sin \: \phi \: \sin \: \delta]\mathbf{\hat{Y}}_E \\
+    + &\sin \: \phi \: \cos \: \delta \mathbf{\hat{Z}}_E
     \end{split}
 \end{equation}
 \begin{equation}
     \begin{split}
-    \mathbf{\hat{y}}_B = &[sin \: \alpha \: sin \: \phi \: + \: cos \: \alpha \: cos \: \phi \: sin \: \delta]\mathbf{\hat{X}}_E \\
-    - &[cos \: \alpha \: sin \: \phi \: + \: sin \: \alpha \: cos \: \phi \: sin \: \delta]\mathbf{\hat{Y}}_E \\
-    + &cos \: \phi \: cos \: \delta \mathbf{\hat{Z}}_E
+    \mathbf{\hat{y}}_B = &[\sin \: \alpha \: \sin \: \phi \: + \: \cos \: \alpha \: \cos \: \phi \: \sin \: \delta]\mathbf{\hat{X}}_E \\
+    - &[\cos \: \alpha \: \sin \: \phi \: + \: \sin \: \alpha \: \cos \: \phi \: \sin \: \delta]\mathbf{\hat{Y}}_E \\
+    + &\cos \: \phi \: \cos \: \delta \mathbf{\hat{Z}}_E
     \end{split}
 \end{equation}
 \begin{equation}
     \begin{split}
-    \mathbf{\hat{z}}_B = &cos \: \alpha \: cos\: \delta\mathbf{\hat{X}}_E \:+ \: sin \: \alpha \: cos \: \delta\mathbf{\hat{Y}}_E  + \: sin \: \delta \mathbf{\hat{Z}}_E
+    \mathbf{\hat{z}}_B = &\cos \: \alpha \: \cos\: \delta\mathbf{\hat{X}}_E \:+ \: \sin \: \alpha \: \cos \: \delta\mathbf{\hat{Y}}_E  + \: \sin \: \delta \mathbf{\hat{Z}}_E
     \end{split}
 \end{equation}
 In these unit vector definitions, $\alpha$ is the right ascension of the asteroid spin pole, $\delta$ is the declination, and $\phi$ is the instantaneous rotation angle that marks where the asteroid is oriented within it's spin period. With these unit vectors we go on to define the body frame solar inclination, $i_s$ which will be our proxy for spin pole obliquity. We will also define the angle $\Omega_s$, along with it's value at a defining epoch, $\Omega_{s,0}$, which is the longitude of the ascending node of the asteroid's orbit.
@@ -561,8 +561,8 @@ Tangential YORP is known to impart positive rotational acceleration in most case
 In comparing all the current models for YORP torque, we apply the obliquity-dependent TYORP equations from Ševeček which is also expanded upon in further works \citep{Sevecek2016} \citep{Golubov2019}. We use the expression in Eq.\ref{eq:tyorp} which considers obliquity ($\epsilon$), number of boulders ($n_0$), the sign of angular velocity ($sgn(\omega)$), and a boulder size power index of 3. 
 \begin{equation}\label{eq:tyorp}
     \begin{split}
-    {T_{z,}}_{TYORP} & = 4.5 \frac{\Phi R^3}{c}n_0 \mu \exp \Bigg( -\frac{(ln(\theta)-ln(\theta_0))^2}{\nu^2}\Bigg)\\
-    & \times (1+cos^2\epsilon)sgn(\omega)
+    {T_{z,}}_{TYORP} & = 4.5 \frac{\Phi R^3}{c}n_0 \mu \exp \Bigg( -\frac{(\ln(\theta)-\ln(\theta_0))^2}{\nu^2}\Bigg)\\
+    & \times (1+\cos^2\epsilon)sgn(\omega)
     \end{split}
 \end{equation}
 
