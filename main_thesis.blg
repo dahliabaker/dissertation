@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 17320 items from 5000.
+Reallocated field_info (elt_size=4) to 17040 items from 5000.
 Database file #1: main_thesis-blx.bib
 Database file #2: dissertation.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
@@ -79,16 +79,14 @@ Repeated entry---line 388 of file chapter2bib.bib
  : @article{Li2013
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 479 of file chapter2bib.bib
+Repeated entry---line 478 of file chapter2bib.bib
  : @inproceedings{Owen2011
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 526 of file chapter2bib.bib
+Repeated entry---line 525 of file chapter2bib.bib
  : @article{Christian2017
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Golubov"
-Warning--I didn't find a database entry for "2017"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Warning--you've exceeded 500, the entry-string-size, for entry Scheeres2019
@@ -118,7 +116,7 @@ while executing--line 2727 of file biblatex.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 86 entries,
             6399 wiz_defined-function locations,
-            2099 strings with 179800 characters,
+            2096 strings with 179762 characters,
 and the built_in function-call counts, 5592338 in all, are:
 = -- 568524
 > -- 28423
